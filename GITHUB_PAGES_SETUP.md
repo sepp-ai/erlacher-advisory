@@ -8,7 +8,7 @@ This guide will walk you through setting up your AI Strategy Advisor website on 
 
 1. Go to [GitHub.com](https://github.com) and sign in
 2. Click the **"+"** button in the top right → **"New repository"**
-3. Name your repository: `ai-strategy-advisor-website`
+3. Name your repository: `erlacher-advisory`
 4. Make it **Public** (required for free GitHub Pages)
 5. **Don't** initialize with README (we already have one)
 6. Click **"Create repository"**
@@ -39,8 +39,8 @@ git add .
 # Commit changes
 git commit -m "Initial website upload"
 
-# Add remote repository (replace YOUR_USERNAME with your GitHub username)
-git remote add origin https://github.com/YOUR_USERNAME/ai-strategy-advisor-website.git
+# Add remote repository
+git remote add origin https://github.com/romanerlacher/erlacher-advisory.git
 
 # Push to GitHub
 git branch -M main
@@ -60,7 +60,7 @@ git push -u origin main
 
 - GitHub Actions will automatically build and deploy your site
 - Check the **"Actions"** tab to see deployment progress
-- Your site will be available at: `https://YOUR_USERNAME.github.io/ai-strategy-advisor-website`
+- Your site will be available at: `https://romanerlacher.github.io/erlacher-advisory`
 
 ## 🔧 Custom Domain Setup (Optional)
 
@@ -113,11 +113,11 @@ Before deploying, update these files with your actual information:
 ### 2. Repository Information (`package.json`)
 ```json
 {
-  "author": "Your Actual Name",
+  "author": "Roman Erlacher",
   "repository": {
-    "url": "https://github.com/YOUR_USERNAME/ai-strategy-advisor-website.git"
+    "url": "https://github.com/romanerlacher/erlacher-advisory.git"
   },
-  "homepage": "https://YOUR_USERNAME.github.io/ai-strategy-advisor-website"
+  "homepage": "https://romanerlacher.github.io/erlacher-advisory"
 }
 ```
 
@@ -207,7 +207,7 @@ Add this to `index.html` before `</head>`:
 ## 🎉 Success!
 
 Your website will be live at:
-- **GitHub Pages URL**: `https://YOUR_USERNAME.github.io/ai-strategy-advisor-website`
+- **GitHub Pages URL**: `https://romanerlacher.github.io/erlacher-advisory`
 - **Custom Domain** (if configured): `https://yourdomain.com`
 
 The site will automatically update whenever you push changes to the `main` branch!

@@ -25,27 +25,27 @@ A professional, responsive website for Data & AI Strategy Advisory services. Bui
 
 ## 🚀 Quick Deployment
 
-### Option 1: Netlify (Recommended - Free)
+### Option 1: GitHub Pages (Recommended - Free)
+
+1. **Create a repository** on GitHub named `erlacher-advisory`
+2. **Upload your files** to the repository
+3. **Go to Settings** → Pages → Source → Deploy from branch
+4. **Select gh-pages branch** and save
+5. **Custom domain**: Add in repository settings
+
+### Option 2: Netlify (Free)
 
 1. **Sign up** for a free Netlify account at [netlify.com](https://netlify.com)
 2. **Drag and drop** your website folder to Netlify's deploy area
 3. **Custom domain**: Go to Site Settings → Domain Management → Add custom domain
 4. **SSL certificate** is automatically provided
 
-### Option 2: Vercel (Free)
+### Option 3: Vercel (Free)
 
 1. **Sign up** for a free Vercel account at [vercel.com](https://vercel.com)
 2. **Install Vercel CLI**: `npm i -g vercel`
 3. **Deploy**: Run `vercel` in your project directory
 4. **Custom domain**: Add in Vercel dashboard
-
-### Option 3: GitHub Pages (Free)
-
-1. **Create a repository** on GitHub
-2. **Upload your files** to the repository
-3. **Go to Settings** → Pages → Source → Deploy from branch
-4. **Select main branch** and save
-5. **Custom domain**: Add in repository settings
 
 ### Option 4: Cloudflare Pages (Free)
 

@@ -1,5 +1,5 @@
 {
-  "name": "ai-strategy-advisor-website",
+  "name": "erlacher-advisory",
   "version": "1.0.0",
   "description": "Professional website for Data & AI Strategy Advisory services",
   "main": "index.html",
@@ -15,13 +15,13 @@
     "data-strategy",
     "professional-website"
   ],
-  "author": "Your Name",
+  "author": "Roman Erlacher",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/ai-strategy-advisor-website.git"
+    "url": "https://github.com/romanerlacher/erlacher-advisory.git"
   },
-  "homepage": "https://yourusername.github.io/ai-strategy-advisor-website",
+  "homepage": "https://romanerlacher.github.io/erlacher-advisory",
   "devDependencies": {},
   "dependencies": {}
 } 
