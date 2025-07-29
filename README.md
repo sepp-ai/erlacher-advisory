@@ -25,6 +25,29 @@ A professional, responsive website for Data & AI Strategy Advisory services. Bui
 
 ## 🚀 Quick Deployment
 
+### Automated Deployment (Recommended)
+
+We've created an automated deployment script that handles the proper Git workflow for GitHub Pages:
+
+```bash
+# Make sure you're on the main branch with all changes committed
+git add .
+git commit -m "Your commit message"
+
+# Run the deployment script
+./deploy.sh
+```
+
+The script will:
+1. ✅ Check for uncommitted changes
+2. ✅ Push main branch to remote
+3. ✅ Switch to gh-pages branch
+4. ✅ Merge main into gh-pages
+5. ✅ Push gh-pages branch (triggers deployment)
+6. ✅ Switch back to main branch
+
+### Manual Deployment
+
 ### Option 1: GitHub Pages (Recommended - Free)
 
 1. **Create a repository** on GitHub named `erlacher-advisory`
