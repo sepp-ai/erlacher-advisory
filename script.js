@@ -1,3 +1,6 @@
+// Initialize content manager
+let contentManager;
+
 // Mobile Navigation Toggle
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
@@ -89,18 +92,14 @@ if (contactForm) {
             // Open email client
             window.open(mailtoLink);
             
-            // Show success message in current language
-            const successMessage = window.currentLanguage === 'de' 
-                ? 'E-Mail-Client geöffnet! Bitte senden Sie die E-Mail, um Ihre Anfrage abzuschließen.'
-                : 'Email client opened! Please send the email to complete your inquiry.';
+            // Show success message using content manager
+            const successMessage = contentManager ? contentManager.getNotificationMessage('success') : 'Email client opened! Please send the email to complete your inquiry.';
             showNotification(successMessage, 'success');
             contactForm.reset();
             
         } catch (error) {
-            // Show error message in current language
-            const errorMessage = window.currentLanguage === 'de'
-                ? 'Entschuldigung, es gab einen Fehler. Bitte senden Sie eine E-Mail direkt an roman@erlacher-advisory.com'
-                : 'Sorry, there was an error. Please email directly to roman@erlacher-advisory.com';
+            // Show error message using content manager
+            const errorMessage = contentManager ? contentManager.getNotificationMessage('error') : 'Sorry, there was an error. Please email directly to roman@erlacher-advisory.com';
             showNotification(errorMessage, 'error');
         } finally {
             // Reset button state
@@ -404,90 +403,25 @@ function initTooltips() {
     });
 }
 
-// Language switching functionality
-let currentLanguage = 'de'; // Default to German
-
-function switchLanguage(lang) {
-    currentLanguage = lang;
+// Initialize content manager and other functionality
+document.addEventListener('DOMContentLoaded', async () => {
+    console.log('🚀 DOM loaded, initializing application...');
     
-    // Update language buttons
-    document.querySelectorAll('.lang-btn').forEach(btn => {
-        btn.classList.remove('active');
-        if (btn.dataset.lang === lang) {
-            btn.classList.add('active');
-        }
-    });
-    
-    // Update all elements with language data
-    document.querySelectorAll('[data-de][data-en]').forEach(element => {
-        const germanText = element.dataset.de;
-        const englishText = element.dataset.en;
+    try {
+        // Initialize content manager
+        console.log('🔧 Creating Content Manager...');
+        contentManager = new ContentManager();
+        console.log('🔧 Initializing Content Manager...');
+        await contentManager.init();
         
-        if (lang === 'de') {
-            element.textContent = germanText;
-        } else {
-            element.textContent = englishText;
-        }
-    });
-    
-    // Update form placeholders and labels
-    const formLabels = {
-        de: {
-            name: 'Name',
-            email: 'E-Mail',
-            company: 'Unternehmen',
-            message: 'Nachricht',
-            submit: 'Nachricht senden'
-        },
-        en: {
-            name: 'Name',
-            email: 'Email',
-            company: 'Company',
-            message: 'Message',
-            submit: 'Send Message'
-        }
-    };
-    
-    // Update form labels
-    document.querySelectorAll('label[for="name"]').forEach(label => {
-        label.textContent = formLabels[lang].name;
-    });
-    document.querySelectorAll('label[for="email"]').forEach(label => {
-        label.textContent = formLabels[lang].email;
-    });
-    document.querySelectorAll('label[for="company"]').forEach(label => {
-        label.textContent = formLabels[lang].company;
-    });
-    document.querySelectorAll('label[for="message"]').forEach(label => {
-        label.textContent = formLabels[lang].message;
-    });
-    
-    // Update submit button
-    const submitBtn = document.querySelector('#contactForm button[type="submit"]');
-    if (submitBtn) {
-        submitBtn.textContent = formLabels[lang].submit;
+        // Store current language for other scripts
+        window.currentLanguage = contentManager.getCurrentLanguage();
+        console.log('🌍 Current language set to:', window.currentLanguage);
+        
+        // Initialize tooltips
+        initTooltips();
+        console.log('✅ Application initialization complete!');
+    } catch (error) {
+        console.error('❌ Application initialization failed:', error);
     }
-    
-    // Update form submission message
-    const formSubmissionMessages = {
-        de: 'E-Mail-Client geöffnet! Bitte senden Sie die E-Mail, um Ihre Anfrage abzuschließen.',
-        en: 'Email client opened! Please send the email to complete your inquiry.'
-    };
-    
-    // Store current language for form submission
-    window.currentLanguage = lang;
-}
-
-// Add event listeners for language buttons
-document.addEventListener('DOMContentLoaded', () => {
-    const langButtons = document.querySelectorAll('.lang-btn');
-    langButtons.forEach(btn => {
-        btn.addEventListener('click', () => {
-            const lang = btn.dataset.lang;
-            switchLanguage(lang);
-        });
-    });
-    
-    // Initialize tooltips
-    initTooltips();
 }); 

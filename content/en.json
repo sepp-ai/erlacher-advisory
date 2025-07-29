@@ -1,0 +1,292 @@
+{
+  "meta": {
+    "title": "Data & AI Strategy Advisor - Enterprise AI Solutions",
+    "description": "Helping C-level leaders define and execute enterprise AI strategies that deliver measurable business value. Expert AI strategy advisory, use case prioritization, and value realization.",
+    "keywords": "AI strategy, enterprise AI, data strategy, C-level advisory, AI consulting, digital transformation",
+    "ogTitle": "Data & AI Strategy Advisor",
+    "ogDescription": "Helping C-level leaders define and execute enterprise AI strategies that deliver measurable business value.",
+    "twitterTitle": "Data & AI Strategy Advisor",
+    "twitterDescription": "Helping C-level leaders define and execute enterprise AI strategies that deliver measurable business value."
+  },
+  "navigation": {
+    "logo": "🧠 AI Strategy",
+    "advisory": "Advisory",
+    "assessment": "Is it Right?",
+    "about": "About",
+    "contact": "Contact",
+    "bookCall": "Book Call"
+  },
+  "hero": {
+    "title": {
+      "highlight": "Data & AI Strategy",
+      "subtitle": "Advisory Services"
+    },
+    "subtitle": "Helping C-level leaders define and execute enterprise AI strategies that deliver measurable business value.",
+    "cta": {
+      "primary": "Book Discovery Call",
+      "secondary": "View Services"
+    },
+    "card": {
+      "title": "Enterprise AI Strategy",
+      "description": "Transform your business with AI"
+    }
+  },
+  "services": {
+    "title": "Strategic Advisory",
+    "subtitle": "Tailored AI strategies for leaders across all company sizes",
+    "items": [
+      {
+        "icon": "🎯",
+        "title": "AI Strategy Development",
+        "description": "Development of a comprehensive AI strategy aligned with your business objectives and market positioning.",
+        "outcomes": {
+          "title": "Outcomes",
+          "items": [
+            "Clear AI vision and roadmap",
+            "Prioritized use cases with ROI projections",
+            "Governance and operating model",
+            "Board approval presentation"
+          ]
+        }
+      },
+      {
+        "icon": "📊",
+        "title": "Use Case Prioritization",
+        "description": "Systematic identification and evaluation of AI use cases for maximum business impact.",
+        "outcomes": {
+          "title": "Outcomes",
+          "items": [
+            "Evaluated use case portfolio",
+            "Prioritization matrix",
+            "Implementation roadmap",
+            "Business cases for top priorities"
+          ]
+        }
+      },
+      {
+        "icon": "🔍",
+        "title": "AI Performance Audit",
+        "description": "Independent assessment of your existing AI initiatives and optimization of value creation.",
+        "outcomes": {
+          "title": "Outcomes",
+          "items": [
+            "Performance assessment",
+            "Value leakage identification",
+            "Optimization recommendations",
+            "Governance improvements"
+          ]
+        }
+      },
+      {
+        "icon": "👑",
+        "title": "C-Level Advisory",
+        "description": "Ongoing strategic counsel for executives focused on AI transformation and digital innovation.",
+        "featured": true,
+        "outcomes": {
+          "title": "Outcomes",
+          "items": [
+            "Strategy sessions",
+            "Steering committee participation",
+            "On-demand counsel",
+            "Industry insights"
+          ]
+        }
+      }
+    ]
+  },
+  "assessment": {
+    "title": "🎯 Is My Advisory Right for You?",
+    "subtitle": "Identify your challenges and discover if we're the right partner for your AI strategy.",
+    "challenges": [
+      {
+        "icon": "🎯",
+        "title": "Aligning Tech with Business Outcomes",
+        "situation": {
+          "title": "Situation",
+          "text": "You know data and AI can drive value — but the connection to revenue, cost, or differentiation isn't always clear."
+        },
+        "complication": {
+          "title": "Complication",
+          "text": "Without a clear link to business goals, efforts become siloed, unfocused, or purely experimental — resulting in low ROI."
+        },
+        "solution": {
+          "title": "Solution",
+          "text": "I bridge the strategy-execution gap by aligning AI initiatives to tangible business outcomes, creating a focused, value-driven roadmap."
+        }
+      },
+      {
+        "icon": "⏰",
+        "title": "Navigating Time Pressure and Complexity",
+        "situation": {
+          "title": "Situation",
+          "text": "You operate under intense time pressure with multiple competing priorities."
+        },
+        "complication": {
+          "title": "Complication",
+          "text": "AI and data decisions are complex, technical, and easy to delay — or get wrong — without the right insight."
+        },
+        "solution": {
+          "title": "Solution",
+          "text": "I provide concise, executive-ready guidance that accelerates smart decision-making while simplifying complex landscapes."
+        }
+      },
+      {
+        "icon": "🔍",
+        "title": "Cutting Through Hype and Noise",
+        "situation": {
+          "title": "Situation",
+          "text": "The market is flooded with AI promises, tools, and platforms."
+        },
+        "complication": {
+          "title": "Complication",
+          "text": "Leaders struggle to discern what's genuinely valuable from what's just buzz — risking paralysis or misinvestment."
+        },
+        "solution": {
+          "title": "Solution",
+          "text": "I serve as a trusted filter — vetting trends, technologies, and vendors to focus efforts on what's mature, meaningful, and aligned with business needs."
+        }
+      },
+      {
+        "icon": "💎",
+        "title": "Unlocking Value from Data",
+        "situation": {
+          "title": "Situation",
+          "text": "Every business collects data — but most aren't fully using it to drive insight or automation."
+        },
+        "complication": {
+          "title": "Complication",
+          "text": "Poor data quality, silos, or unclear ownership often block progress, making AI efforts slow or ineffective."
+        },
+        "solution": {
+          "title": "Solution",
+          "text": "I help assess data readiness, build foundational capabilities, and prioritize use cases that unlock immediate and long-term value."
+        }
+      },
+      {
+        "icon": "🚀",
+        "title": "Competing and Growing with AI",
+        "situation": {
+          "title": "Situation",
+          "text": "You want to use AI to grow revenue, improve margins, or differentiate from competitors."
+        },
+        "complication": {
+          "title": "Complication",
+          "text": "You often don't know where to start, or lack internal capability to move beyond pilots."
+        },
+        "solution": {
+          "title": "Solution",
+          "text": "I identify quick wins and scalable strategies that help businesses use AI for meaningful, measurable advantage."
+        }
+      },
+      {
+        "icon": "🛡️",
+        "title": "Managing Risk and Governance",
+        "situation": {
+          "title": "Situation",
+          "text": "Data and AI create value — but also expose companies to regulatory, ethical, and reputational risks."
+        },
+        "complication": {
+          "title": "Complication",
+          "text": "Without a strategy for responsible AI use, companies risk non-compliance, biased outcomes, or public backlash."
+        },
+        "solution": {
+          "title": "Solution",
+          "text": "I bring proven governance frameworks and ethical design principles to ensure AI is deployed safely, responsibly, and in line with emerging regulation."
+        }
+      }
+    ],
+    "cta": {
+      "title": "Do you recognize yourself in these challenges?",
+      "subtitle": "Let's discuss how I can help you in a free 15-minute call.",
+      "button": "Book Discovery Call Now"
+    }
+  },
+  "about": {
+    "title": "👤 About Me",
+    "description": "Senior expert in Data & AI Strategy with 12+ years of experience leading global initiatives. Trusted by CDOs and CIOs to align technology with business value, de-risk AI investments, and drive strategic transformation.",
+    "expertise": [
+      "AI Strategy Development",
+      "C-Suite Alignment",
+      "Digital Transformation",
+      "Risk Management"
+    ],
+    "stats": [
+      {
+        "number": "12+",
+        "label": "Years Experience"
+      },
+      {
+        "number": "50+",
+        "label": "Enterprise Clients"
+      },
+      {
+        "number": "€100M+",
+        "label": "Value Delivered"
+      }
+    ]
+  },
+  "cta": {
+    "title": "📅 Book a 15-Minute Discovery Call",
+    "subtitle": "A quick, no-obligation call to explore if I'm the right partner for your AI journey.",
+    "buttons": {
+      "primary": "Book a Call",
+      "secondary": "Get in Touch"
+    }
+  },
+  "contact": {
+    "title": "📬 Contact",
+    "subtitle": "For speaking, advisory, or partnership inquiries",
+    "info": [
+      {
+        "icon": "fas fa-envelope",
+        "title": "Email",
+        "link": "roman@erlacher-advisory.com",
+        "href": "mailto:roman@erlacher-advisory.com"
+      },
+      {
+        "icon": "fab fa-linkedin",
+        "title": "LinkedIn",
+        "link": "Connect on LinkedIn",
+        "href": "https://www.linkedin.com/in/romanerlacher/"
+      },
+      {
+        "icon": "fas fa-calendar",
+        "title": "Calendly",
+        "link": "Schedule a Meeting",
+        "href": "https://calendly.com/roman-erlacher/discovery-call"
+      }
+    ],
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "company": "Company",
+      "message": "Message",
+      "submit": "Send Message"
+    }
+  },
+  "footer": {
+    "brand": {
+      "logo": "🧠 AI Strategy",
+      "description": "Enterprise AI Strategy Advisory"
+    },
+    "links": [
+      {
+        "text": "Services",
+        "href": "#services"
+      },
+      {
+        "text": "About",
+        "href": "#about"
+      },
+      {
+        "text": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "copyright": "© 2024 Data & AI Strategy Advisor. All rights reserved."
+  },
+  "notifications": {
+    "success": "Email client opened! Please send the email to complete your inquiry.",
+    "error": "Sorry, there was an error. Please email directly to roman@erlacher-advisory.com"
+  }
+} 

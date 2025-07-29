@@ -1,0 +1,114 @@
+{
+  "languageSettings": {
+    "defaultLanguage": "de",
+    "availableLanguages": ["de", "en"],
+    "fallbackLanguage": "en"
+  },
+  "contentControl": {
+    "sharedExpressions": {
+      "enabled": true,
+      "expressions": [
+        "logo",
+        "email",
+        "calendly_link",
+        "linkedin_link",
+        "copyright_year"
+      ]
+    },
+    "languageSpecificExpressions": {
+      "enabled": true,
+      "expressions": [
+        "navigation",
+        "hero_content",
+        "services",
+        "assessment",
+        "about",
+        "contact_form",
+        "notifications"
+      ]
+    },
+    "conditionalExpressions": {
+      "enabled": true,
+      "rules": [
+        {
+          "expression": "stats_numbers",
+          "condition": "use_same_numbers",
+          "value": true,
+          "description": "Statistics numbers remain the same across languages"
+        },
+        {
+          "expression": "contact_links",
+          "condition": "use_same_links",
+          "value": true,
+          "description": "Contact links remain the same across languages"
+        },
+        {
+          "expression": "meta_tags",
+          "condition": "translate_meta",
+          "value": true,
+          "description": "Meta tags should be translated for SEO"
+        }
+      ]
+    }
+  },
+  "contentValidation": {
+    "requiredSections": [
+      "meta",
+      "navigation",
+      "hero",
+      "services",
+      "assessment",
+      "about",
+      "cta",
+      "contact",
+      "footer",
+      "notifications"
+    ],
+    "requiredFields": {
+      "meta": ["title", "description"],
+      "navigation": ["logo", "advisory", "assessment", "about", "contact", "bookCall"],
+      "hero": ["title", "subtitle", "cta"],
+      "services": ["title", "subtitle", "items"],
+      "assessment": ["title", "subtitle", "challenges", "cta"],
+      "about": ["title", "description", "expertise", "stats"],
+      "cta": ["title", "subtitle", "buttons"],
+      "contact": ["title", "subtitle", "info", "form"],
+      "footer": ["brand", "links", "copyright"],
+      "notifications": ["success", "error"]
+    }
+  },
+  "contentManagement": {
+    "autoSync": true,
+    "backupBeforeUpdate": true,
+    "validationOnLoad": true,
+    "errorHandling": {
+      "missingContent": "fallback",
+      "invalidStructure": "warn",
+      "translationMismatch": "warn"
+    }
+  },
+  "expressionControl": {
+    "explicitExpressions": {
+      "business_terms": {
+        "de": ["KI-Strategie", "Enterprise AI", "C-Level", "Use Cases"],
+        "en": ["AI Strategy", "Enterprise AI", "C-Level", "Use Cases"],
+        "description": "Business terminology that should be consistent"
+      },
+      "technical_terms": {
+        "de": ["ROI", "Governance", "Roadmap", "Audit"],
+        "en": ["ROI", "Governance", "Roadmap", "Audit"],
+        "description": "Technical terms that should remain consistent"
+      },
+      "brand_terms": {
+        "de": ["Data & AI Strategie", "Erlacher Advisory"],
+        "en": ["Data & AI Strategy", "Erlacher Advisory"],
+        "description": "Brand-specific terms that should be consistent"
+      }
+    },
+    "conditionalTranslations": {
+      "use_german_terms_in_english": false,
+      "use_english_terms_in_german": false,
+      "prefer_native_terms": true
+    }
+  }
+} 

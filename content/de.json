@@ -1,0 +1,292 @@
+{
+  "meta": {
+    "title": "Data & AI Strategie Berater - Enterprise KI Lösungen",
+    "description": "Unterstützung von C-Level Führungskräften bei der Definition und Umsetzung von Enterprise AI-Strategien, die messbaren Geschäftswert liefern. Experten-KI-Strategieberatung, Use Case-Priorisierung und Wertrealisierung.",
+    "keywords": "KI-Strategie, Enterprise KI, Datenstrategie, C-Level Beratung, KI-Consulting, digitale Transformation",
+    "ogTitle": "Data & AI Strategie Berater",
+    "ogDescription": "Unterstützung von C-Level Führungskräften bei der Definition und Umsetzung von Enterprise AI-Strategien, die messbaren Geschäftswert liefern.",
+    "twitterTitle": "Data & AI Strategie Berater",
+    "twitterDescription": "Unterstützung von C-Level Führungskräften bei der Definition und Umsetzung von Enterprise AI-Strategien, die messbaren Geschäftswert liefern."
+  },
+  "navigation": {
+    "logo": "🧠 AI Strategie",
+    "advisory": "Beratung",
+    "assessment": "Ist es das Richtige?",
+    "about": "Über mich",
+    "contact": "Kontakt",
+    "bookCall": "Termin buchen"
+  },
+  "hero": {
+    "title": {
+      "highlight": "Data & AI Strategie",
+      "subtitle": "Beratung"
+    },
+    "subtitle": "Unterstützung von C-Level Führungskräften bei der Definition und Umsetzung von Enterprise AI-Strategien, die messbaren Geschäftswert liefern.",
+    "cta": {
+      "primary": "Kostenloses Beratungsgespräch",
+      "secondary": "Dienstleistungen ansehen"
+    },
+    "card": {
+      "title": "Enterprise AI Strategie",
+      "description": "Transformieren Sie Ihr Unternehmen mit KI"
+    }
+  },
+  "services": {
+    "title": "Strategische Beratung",
+    "subtitle": "Maßgeschneiderte KI-Strategien für Führungskräfte aller Unternehmensgrößen",
+    "items": [
+      {
+        "icon": "🎯",
+        "title": "KI-Strategie Entwicklung",
+        "description": "Entwicklung einer umfassenden KI-Strategie, die mit Ihren Geschäftszielen und Marktpositionierung abgestimmt ist.",
+        "outcomes": {
+          "title": "Ergebnisse",
+          "items": [
+            "Klare KI-Vision und Roadmap",
+            "Priorisierte Use Cases mit ROI-Projektionen",
+            "Governance- und Betriebsmodell",
+            "Board-Approval Präsentation"
+          ]
+        }
+      },
+      {
+        "icon": "📊",
+        "title": "Use Case Priorisierung",
+        "description": "Systematische Identifizierung und Bewertung von KI-Anwendungsfällen für maximale Geschäftswirkung.",
+        "outcomes": {
+          "title": "Ergebnisse",
+          "items": [
+            "Bewertete Use Case Portfolio",
+            "Priorisierungs-Matrix",
+            "Implementierungs-Roadmap",
+            "Business Cases für Top-Prioritäten"
+          ]
+        }
+      },
+      {
+        "icon": "🔍",
+        "title": "KI-Performance Audit",
+        "description": "Unabhängige Bewertung Ihrer bestehenden KI-Initiativen und Optimierung der Wertschöpfung.",
+        "outcomes": {
+          "title": "Ergebnisse",
+          "items": [
+            "Performance-Bewertung",
+            "Wertverlust-Identifikation",
+            "Optimierungsempfehlungen",
+            "Governance-Verbesserungen"
+          ]
+        }
+      },
+      {
+        "icon": "👑",
+        "title": "C-Level Advisory",
+        "description": "Laufende strategische Beratung für Führungskräfte mit Fokus auf KI-Transformation und digitale Innovation.",
+        "featured": true,
+        "outcomes": {
+          "title": "Ergebnisse",
+          "items": [
+            "Strategie-Sessions",
+            "Steering Committee Teilnahme",
+            "On-Demand Beratung",
+            "Branchen-Insights"
+          ]
+        }
+      }
+    ]
+  },
+  "assessment": {
+    "title": "🎯 Ist meine Beratung das Richtige für Sie?",
+    "subtitle": "Identifizieren Sie Ihre Herausforderungen und finden Sie heraus, ob wir der richtige Partner für Ihre KI-Strategie sind.",
+    "challenges": [
+      {
+        "icon": "🎯",
+        "title": "Technologie mit Geschäftsergebnissen verbinden",
+        "situation": {
+          "title": "Situation",
+          "text": "Sie wissen, dass Daten und KI Wert schaffen können — aber die Verbindung zu Umsatz, Kosten oder Differenzierung ist nicht immer klar."
+        },
+        "complication": {
+          "title": "Komplikation",
+          "text": "Ohne klare Verbindung zu Geschäftszielen werden Bemühungen isoliert, unkonzentriert oder rein experimentell — mit niedrigem ROI."
+        },
+        "solution": {
+          "title": "Lösung",
+          "text": "Ich überbrücke die Strategie-Umsetzungs-Lücke, indem ich KI-Initiativen mit greifbaren Geschäftsergebnissen verbinde und eine fokussierte, wertgetriebene Roadmap erstelle."
+        }
+      },
+      {
+        "icon": "⏰",
+        "title": "Zeitdruck und Komplexität bewältigen",
+        "situation": {
+          "title": "Situation",
+          "text": "Sie arbeiten unter intensivem Zeitdruck mit mehreren konkurrierenden Prioritäten."
+        },
+        "complication": {
+          "title": "Komplikation",
+          "text": "KI- und Datenentscheidungen sind komplex, technisch und leicht zu verzögern — oder falsch zu treffen — ohne die richtigen Einblicke."
+        },
+        "solution": {
+          "title": "Lösung",
+          "text": "Ich biete prägnante, executive-ready Beratung, die intelligente Entscheidungsfindung beschleunigt und komplexe Landschaften vereinfacht."
+        }
+      },
+      {
+        "icon": "🔍",
+        "title": "Hype und Lärm durchschauen",
+        "situation": {
+          "title": "Situation",
+          "text": "Der Markt ist überschwemmt mit KI-Versprechen, Tools und Plattformen."
+        },
+        "complication": {
+          "title": "Komplikation",
+          "text": "Führungskräfte kämpfen darum, zu unterscheiden, was wirklich wertvoll ist von dem, was nur Buzz ist — mit Risiko von Lähmung oder Fehlinvestitionen."
+        },
+        "solution": {
+          "title": "Lösung",
+          "text": "Ich diene als vertrauenswürdiger Filter — prüfe Trends, Technologien und Anbieter, um Bemühungen auf das zu konzentrieren, was reif, bedeutsam und mit Geschäftsanforderungen abgestimmt ist."
+        }
+      },
+      {
+        "icon": "💎",
+        "title": "Wert aus Daten freisetzen",
+        "situation": {
+          "title": "Situation",
+          "text": "Jedes Unternehmen sammelt Daten — aber die meisten nutzen sie nicht vollständig, um Erkenntnisse oder Automatisierung zu fördern."
+        },
+        "complication": {
+          "title": "Komplikation",
+          "text": "Schlechte Datenqualität, Silos oder unklare Eigentümerschaft blockieren oft den Fortschritt und machen KI-Bemühungen langsam oder ineffektiv."
+        },
+        "solution": {
+          "title": "Lösung",
+          "text": "Ich helfe bei der Bewertung der Datenbereitschaft, dem Aufbau grundlegender Fähigkeiten und der Priorisierung von Use Cases, die unmittelbaren und langfristigen Wert freisetzen."
+        }
+      },
+      {
+        "icon": "🚀",
+        "title": "Mit KI wachsen und konkurrieren",
+        "situation": {
+          "title": "Situation",
+          "text": "Sie möchten KI nutzen, um Umsatz zu steigern, Margen zu verbessern oder sich von Wettbewerbern abzuheben."
+        },
+        "complication": {
+          "title": "Komplikation",
+          "text": "Sie wissen oft nicht, wo Sie anfangen sollen, oder es fehlt an internen Fähigkeiten, um über Pilotprojekte hinauszugehen."
+        },
+        "solution": {
+          "title": "Lösung",
+          "text": "Ich identifiziere Quick Wins und skalierbare Strategien, die Unternehmen helfen, KI für bedeutungsvollen, messbaren Vorteil zu nutzen."
+        }
+      },
+      {
+        "icon": "🛡️",
+        "title": "Risiko und Governance verwalten",
+        "situation": {
+          "title": "Situation",
+          "text": "Daten und KI schaffen Wert — aber setzen Unternehmen auch regulatorischen, ethischen und reputationsbezogenen Risiken aus."
+        },
+        "complication": {
+          "title": "Komplikation",
+          "text": "Ohne Strategie für verantwortungsvolle KI-Nutzung riskieren Unternehmen Nichteinhaltung, voreingenommene Ergebnisse oder öffentliche Gegenreaktionen."
+        },
+        "solution": {
+          "title": "Lösung",
+          "text": "Ich bringe bewährte Governance-Frameworks und ethische Designprinzipien ein, um sicherzustellen, dass KI sicher, verantwortungsvoll und im Einklang mit aufkommenden Vorschriften eingesetzt wird."
+        }
+      }
+    ],
+    "cta": {
+      "title": "Erkennen Sie sich in diesen Herausforderungen wieder?",
+      "subtitle": "Lassen Sie uns in einem kostenlosen 15-Minuten-Gespräch besprechen, wie ich Ihnen helfen kann.",
+      "button": "Jetzt Beratungsgespräch buchen"
+    }
+  },
+  "about": {
+    "title": "👤 Über mich",
+    "description": "Senior Experte für Data & AI Strategie mit über 12 Jahren Erfahrung in der Leitung globaler Initiativen. Vertraut von CDOs und CIOs, um Technologie mit Geschäftswert in Einklang zu bringen, KI-Investitionen abzusichern und strategische Transformation voranzutreiben.",
+    "expertise": [
+      "KI Strategie Entwicklung",
+      "C-Suite Ausrichtung",
+      "Digitale Transformation",
+      "Risikomanagement"
+    ],
+    "stats": [
+      {
+        "number": "12+",
+        "label": "Jahre Erfahrung"
+      },
+      {
+        "number": "50+",
+        "label": "Unternehmenskunden"
+      },
+      {
+        "number": "€100M+",
+        "label": "Gelieferter Wert"
+      }
+    ]
+  },
+  "cta": {
+    "title": "📅 Kostenloses 15-Minuten Beratungsgespräch",
+    "subtitle": "Ein kurzes, unverbindliches Gespräch, um zu erkunden, ob ich der richtige Partner für Ihre KI-Reise bin.",
+    "buttons": {
+      "primary": "Termin buchen",
+      "secondary": "Kontakt aufnehmen"
+    }
+  },
+  "contact": {
+    "title": "📬 Kontakt",
+    "subtitle": "Für Vorträge, Beratung oder Partnerschaftsanfragen",
+    "info": [
+      {
+        "icon": "fas fa-envelope",
+        "title": "Email",
+        "link": "roman@erlacher-advisory.com",
+        "href": "mailto:roman@erlacher-advisory.com"
+      },
+      {
+        "icon": "fab fa-linkedin",
+        "title": "LinkedIn",
+        "link": "Connect on LinkedIn",
+        "href": "https://www.linkedin.com/in/romanerlacher/"
+      },
+      {
+        "icon": "fas fa-calendar",
+        "title": "Calendly",
+        "link": "Schedule a Meeting",
+        "href": "https://calendly.com/roman-erlacher/discovery-call"
+      }
+    ],
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "company": "Unternehmen",
+      "message": "Nachricht",
+      "submit": "Nachricht senden"
+    }
+  },
+  "footer": {
+    "brand": {
+      "logo": "🧠 AI Strategy",
+      "description": "Enterprise KI Strategie Beratung"
+    },
+    "links": [
+      {
+        "text": "Dienstleistungen",
+        "href": "#services"
+      },
+      {
+        "text": "Über mich",
+        "href": "#about"
+      },
+      {
+        "text": "Kontakt",
+        "href": "#contact"
+      }
+    ],
+    "copyright": "© 2024 Data & AI Strategy Advisor. All rights reserved."
+  },
+  "notifications": {
+    "success": "E-Mail-Client geöffnet! Bitte senden Sie die E-Mail, um Ihre Anfrage abzuschließen.",
+    "error": "Entschuldigung, es gab einen Fehler. Bitte senden Sie eine E-Mail direkt an roman@erlacher-advisory.com"
+  }
+} 
