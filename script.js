@@ -77,16 +77,25 @@ if (contactForm) {
         const data = Object.fromEntries(formData);
         
         try {
-            // Simulate form submission (replace with actual endpoint)
-            await new Promise(resolve => setTimeout(resolve, 2000));
+            // Send email using mailto link as fallback
+            const formData = new FormData(contactForm);
+            const data = Object.fromEntries(formData);
+            
+            // Create mailto link with form data
+            const subject = encodeURIComponent('AI Strategy Advisory Inquiry');
+            const body = encodeURIComponent(`Name: ${data.name}\nEmail: ${data.email}\nCompany: ${data.company}\n\nMessage:\n${data.message}`);
+            const mailtoLink = `mailto:roman@erlacher-advisory.com?subject=${subject}&body=${body}`;
+            
+            // Open email client
+            window.open(mailtoLink);
             
             // Show success message
-            showNotification('Message sent successfully! I\'ll get back to you soon.', 'success');
+            showNotification('Email client opened! Please send the email to complete your inquiry.', 'success');
             contactForm.reset();
             
         } catch (error) {
             // Show error message
-            showNotification('Sorry, there was an error sending your message. Please try again.', 'error');
+            showNotification('Sorry, there was an error. Please email directly to roman@erlacher-advisory.com', 'error');
         } finally {
             // Reset button state
             submitButton.textContent = originalText;
