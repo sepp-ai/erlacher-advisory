@@ -381,7 +381,16 @@ class ContentManager {
                 const title = item.querySelector('h4');
                 const link = item.querySelector('a');
                 if (title) title.textContent = contactInfo.title;
-                if (link) link.textContent = contactInfo.link;
+                if (link) {
+                    link.textContent = contactInfo.link;
+                    link.href = contactInfo.href;
+                    
+                    // Handle protected email links
+                    if (contactInfo.protected) {
+                        link.setAttribute('data-email-protected', 'true');
+                        link.href = '#';
+                    }
+                }
             }
         });
 

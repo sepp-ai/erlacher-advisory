@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "Data & AI Strategie Berater - Enterprise KI Lösungen",
-    "description": "Unterstützung von C-Level Führungskräften bei der Definition und Umsetzung von Enterprise AI-Strategien, die messbaren Geschäftswert liefern. Experten-KI-Strategieberatung, Use Case-Priorisierung und Wertrealisierung.",
-    "keywords": "KI-Strategie, Enterprise KI, Datenstrategie, C-Level Beratung, KI-Consulting, digitale Transformation"
+    "title": "Data & AI Strategie Berater - Enterprise Lösungen",
+    "description": "Unterstützung von C-Level Führungskräften bei der Definition und Umsetzung von Data & AI Strategien, die messbaren Geschäftswert liefern. Experten-Strategieberatung, Use Case-Priorisierung und Wertrealisierung.",
+    "keywords": "Data & AI Strategie, Enterprise Lösungen, Datenstrategie, C-Level Beratung, Strategie-Consulting, digitale Transformation"
   },
   "navigation": {
-    "logo": "🧠 AI Strategie",
+    "logo": "🧠 Data & AI Strategie",
     "advisory": "Beratung",
     "assessment": "Ist es das Richtige?",
     "about": "Über mich",
@@ -17,88 +17,60 @@
       "highlight": "Data & AI Strategie",
       "subtitle": "Beratung"
     },
-    "subtitle": "Global Data & AI Strategy Manager mit nachgewiesenen Erfolgen bei Fortune 500 Unternehmen. Entwicklung von KI-Strategien, die Millionen von Euro EBIT-Beitrag generieren.",
+    "subtitle": "Global Data & AI Strategy Manager bei NovaTaste, strategischer Berater für C-Level Führungskräfte und Entwickler von AI-Lösungen. Drei Säulen der Expertise: Praktiker, Advisor und Solution Builder.",
     "cta": {
       "primary": "Kostenloses Beratungsgespräch",
-      "secondary": "Dienstleistungen ansehen"
+      "secondary": "Drei Säulen entdecken"
     },
     "card": {
-      "title": "Enterprise AI Strategie",
-      "description": "Bewährte Erfolge bei NovaTaste, HOFER & ALDI SÜD"
+      "title": "Drei Säulen der Expertise",
+      "description": "Praktiker • Advisor • Solution Builder"
     }
   },
   "services": {
-    "title": "Strategische Beratung",
-    "subtitle": "Bewährte KI-Strategien basierend auf realen Erfolgen bei Fortune 500 Unternehmen",
+    "title": "Drei Säulen der Expertise",
+    "subtitle": "Meine einzigartige Kombination aus praktischer Erfahrung, strategischer Beratung und AI-Lösungsentwicklung",
     "items": [
       {
-        "icon": "🎯",
-        "title": "KI-Strategie & Portfolio Management",
-        "description": "Entwicklung globaler Data & AI Strategien mit messbarem EBIT-Impact, basierend auf Erfahrungen bei NovaTaste und ALDI SÜD.",
-        "outcomes": {
-          "title": "Ergebnisse",
-          "items": [
-            "Globale KI-Strategie mit C-Suite Alignment",
-            "Priorisiertes AI Use Case Portfolio",
-            "Business Cases mit ROI-Projektionen",
-            "Data Governance Framework"
-          ]
-        }
-      },
-      {
-        "icon": "📊",
-        "title": "AI Product & Use Case Development",
-        "description": "Entwicklung und Management von AI-Produkten mit Millionen-Euro EBIT-Beitrag, basierend auf HOFER Promotion-Optimierung.",
-        "outcomes": {
-          "title": "Ergebnisse",
-          "items": [
-            "AI Product Roadmap & Strategy",
-            "Cross-Functional Team Setup",
-            "Customer-Facing AI Applications",
-            "Performance Monitoring & Optimization"
-          ]
-        }
-      },
-      {
         "icon": "🏢",
-        "title": "Data Science CoE Aufbau",
-        "description": "Aufbau von Data Science Centers of Excellence von Grund auf, inklusive Team-Recruiting und Community Building.",
+        "title": "Praktiker - Global Data & AI Strategy Manager",
+        "description": "Aktuell in Festanstellung bei NovaTaste als Global Data & AI Strategy Manager. Beratung der C-Suite und direkte Berichterstattung an den Global CIO. Entwicklung von AI Use Case Portfolios mit strategischer Ausrichtung.",
         "outcomes": {
-          "title": "Ergebnisse",
+          "title": "Aktuelle Rolle",
           "items": [
-            "Data Science CoE Strategy",
-            "Team Structure & Governance",
-            "Global Community Building",
-            "Use Case Portfolio Development"
-          ]
-        }
-      },
-      {
-        "icon": "🤖",
-        "title": "Multi AI Agent Systems",
-        "description": "Entwicklung und Implementierung von Multi-Agent-Systemen mit crewAI für komplexe Automatisierungsaufgaben.",
-        "outcomes": {
-          "title": "Ergebnisse",
-          "items": [
-            "Multi-Agent System Architecture",
-            "AI Automation Workflows",
-            "Advanced Use Case Implementation",
-            "Performance Optimization"
+            "Global Data & AI Strategy Manager bei NovaTaste",
+            "C-Suite Beratung und Stakeholder Management",
+            "AI Use Case Portfolio Entwicklung",
+            "Strategische Ausrichtung und Governance"
           ]
         }
       },
       {
         "icon": "👑",
-        "title": "C-Suite Advisory & Transformation",
-        "description": "Strategische Beratung für Führungskräfte mit Fokus auf Data & AI Transformation und Change Management.",
+        "title": "Advisor - Strategische C-Level Beratung",
+        "description": "Strategische Beratung für C-Level Führungskräfte mit Fokus auf Data & AI Transformation. Über 13 Jahre Erfahrung bei Fortune 500 Unternehmen mit nachgewiesenen Erfolgen.",
+        "outcomes": {
+          "title": "Beratungsleistungen",
+          "items": [
+            "C-Suite Data & AI Strategy Sessions",
+            "Change Management & Transformation Roadmap",
+            "Stakeholder Engagement & Governance",
+            "ROI-Optimierung & Value Realization"
+          ]
+        }
+      },
+      {
+        "icon": "🚀",
+        "title": "Solution Builder - AI-Lösungsentwicklung",
+        "description": "Entwicklung und Management von AI-Produkten mit Millionen-Euro EBIT-Beitrag. Erfahrung in Multi-Agent-Systemen, AI-Automatisierung und skalierbaren Lösungen.",
         "featured": true,
         "outcomes": {
-          "title": "Ergebnisse",
+          "title": "Lösungsentwicklung",
           "items": [
-            "Executive AI Strategy Sessions",
-            "Change Management Roadmap",
-            "Stakeholder Engagement Plan",
-            "Transformation Governance"
+            "AI Product Development & Management",
+            "Multi-Agent Systems & Automation",
+            "Scalable AI Solutions",
+            "Performance Monitoring & Optimization"
           ]
         }
       }
@@ -106,7 +78,7 @@
   },
   "assessment": {
     "title": "🎯 Ist meine Beratung das Richtige für Sie?",
-    "subtitle": "Identifizieren Sie Ihre Herausforderungen und finden Sie heraus, ob wir der richtige Partner für Ihre KI-Strategie sind.",
+    "subtitle": "Identifizieren Sie Ihre Herausforderungen und finden Sie heraus, ob meine drei Säulen der Expertise der richtige Ansatz für Ihre Data & AI Strategie sind.",
     "challenges": [
       {
         "icon": "🎯",
@@ -121,7 +93,7 @@
         },
         "solution": {
           "title": "Lösung",
-          "text": "Ich überbrücke die Strategie-Umsetzungs-Lücke, indem ich KI-Initiativen mit greifbaren Geschäftsergebnissen verbinde und eine fokussierte, wertgetriebene Roadmap erstelle."
+          "text": "Als Praktiker, Advisor und Solution Builder überbrücke ich die Strategie-Umsetzungs-Lücke, indem ich Data & AI Initiativen mit greifbaren Geschäftsergebnissen verbinde und eine fokussierte, wertgetriebene Roadmap erstelle."
         }
       },
       {
@@ -133,11 +105,11 @@
         },
         "complication": {
           "title": "Komplikation",
-          "text": "KI- und Datenentscheidungen sind komplex, technisch und leicht zu verzögern — oder falsch zu treffen — ohne die richtigen Einblicke."
+          "text": "Data & AI Entscheidungen sind komplex, technisch und leicht zu verzögern — oder falsch zu treffen — ohne die richtigen Einblicke."
         },
         "solution": {
           "title": "Lösung",
-          "text": "Ich biete prägnante, executive-ready Beratung, die intelligente Entscheidungsfindung beschleunigt und komplexe Landschaften vereinfacht."
+          "text": "Meine dreifache Expertise ermöglicht prägnante, executive-ready Beratung, die intelligente Entscheidungsfindung beschleunigt und komplexe Landschaften vereinfacht."
         }
       },
       {
@@ -145,7 +117,7 @@
         "title": "Hype und Lärm durchschauen",
         "situation": {
           "title": "Situation",
-          "text": "Der Markt ist überschwemmt mit KI-Versprechen, Tools und Plattformen."
+          "text": "Der Markt ist überschwemmt mit Data & AI Versprechen, Tools und Plattformen."
         },
         "complication": {
           "title": "Komplikation",
@@ -153,7 +125,7 @@
         },
         "solution": {
           "title": "Lösung",
-          "text": "Ich diene als vertrauenswürdiger Filter — prüfe Trends, Technologien und Anbieter, um Bemühungen auf das zu konzentrieren, was reif, bedeutsam und mit Geschäftsanforderungen abgestimmt ist."
+          "text": "Als aktiver Praktiker und Solution Builder diene ich als vertrauenswürdiger Filter — prüfe Trends, Technologien und Anbieter, um Bemühungen auf das zu konzentrieren, was reif, bedeutsam und mit Geschäftsanforderungen abgestimmt ist."
         }
       },
       {
@@ -165,19 +137,19 @@
         },
         "complication": {
           "title": "Komplikation",
-          "text": "Schlechte Datenqualität, Silos oder unklare Eigentümerschaft blockieren oft den Fortschritt und machen KI-Bemühungen langsam oder ineffektiv."
+          "text": "Schlechte Datenqualität, Silos oder unklare Eigentümerschaft blockieren oft den Fortschritt und machen Data & AI Bemühungen langsam oder ineffektiv."
         },
         "solution": {
           "title": "Lösung",
-          "text": "Ich helfe bei der Bewertung der Datenbereitschaft, dem Aufbau grundlegender Fähigkeiten und der Priorisierung von Use Cases, die unmittelbaren und langfristigen Wert freisetzen."
+          "text": "Meine praktische Erfahrung als Solution Builder hilft bei der Bewertung der Datenbereitschaft, dem Aufbau grundlegender Fähigkeiten und der Priorisierung von Use Cases, die unmittelbaren und langfristigen Wert freisetzen."
         }
       },
       {
         "icon": "🚀",
-        "title": "Mit KI wachsen und konkurrieren",
+        "title": "Mit Data & AI wachsen und konkurrieren",
         "situation": {
           "title": "Situation",
-          "text": "Sie möchten KI nutzen, um Umsatz zu steigern, Margen zu verbessern oder sich von Wettbewerbern abzuheben."
+          "text": "Sie möchten Data & AI nutzen, um Umsatz zu steigern, Margen zu verbessern oder sich von Wettbewerbern abzuheben."
         },
         "complication": {
           "title": "Komplikation",
@@ -185,7 +157,7 @@
         },
         "solution": {
           "title": "Lösung",
-          "text": "Ich identifiziere Quick Wins und skalierbare Strategien, die Unternehmen helfen, KI für bedeutungsvollen, messbaren Vorteil zu nutzen."
+          "text": "Als Advisor und Solution Builder identifiziere ich Quick Wins und skalierbare Strategien, die Unternehmen helfen, Data & AI für bedeutungsvollen, messbaren Vorteil zu nutzen."
         }
       },
       {
@@ -197,59 +169,51 @@
         },
         "complication": {
           "title": "Komplikation",
-          "text": "Ohne Strategie für verantwortungsvolle KI-Nutzung riskieren Unternehmen Nichteinhaltung, voreingenommene Ergebnisse oder öffentliche Gegenreaktionen."
+          "text": "Ohne Strategie für verantwortungsvolle Data & AI Nutzung riskieren Unternehmen Nichteinhaltung, voreingenommene Ergebnisse oder öffentliche Gegenreaktionen."
         },
         "solution": {
           "title": "Lösung",
-          "text": "Ich bringe bewährte Governance-Frameworks und ethische Designprinzipien ein, um sicherzustellen, dass KI sicher, verantwortungsvoll und im Einklang mit aufkommenden Vorschriften eingesetzt wird."
+          "text": "Meine praktische Erfahrung als Praktiker und strategische Expertise als Advisor bringen bewährte Governance-Frameworks und ethische Designprinzipien ein, um sicherzustellen, dass Data & AI sicher, verantwortungsvoll und im Einklang mit aufkommenden Vorschriften eingesetzt wird."
         }
       }
     ],
     "cta": {
       "title": "Erkennen Sie sich in diesen Herausforderungen wieder?",
-      "subtitle": "Lassen Sie uns in einem kostenlosen 15-Minuten-Gespräch besprechen, wie ich Ihnen helfen kann.",
+      "subtitle": "Lassen Sie uns in einem kostenlosen 15-Minuten-Gespräch besprechen, wie meine drei Säulen der Expertise Ihnen helfen können.",
       "button": "Jetzt Beratungsgespräch buchen"
     }
   },
   "about": {
-    "title": "👤 Über mich",
-    "description": "Senior Data & AI Strategy Manager mit über 13 Jahren Erfahrung in der Leitung globaler Initiativen bei Fortune 500 Unternehmen. Aktuell berate ich als Global Data & AI Strategy Manager bei NovaTaste die C-Suite und berichte direkt an den Global CIO. Zertifiziert von DeepLearning.AI, UC Berkeley, Harvard Business School und Duke University. Meine Expertise umfasst die Entwicklung von KI-Strategien, die Millionen von Euro an EBIT-Beitrag generieren.",
+    "title": "👤 Über mich - Drei Säulen der Expertise",
+    "description": "Senior Data & AI Strategy Manager mit über 13 Jahren Erfahrung in der Leitung globaler Initiativen bei Fortune 500 Unternehmen. Meine einzigartige Position basiert auf drei Säulen: Praktiker (aktuelle Festanstellung bei NovaTaste), strategischer Advisor und Solution Builder.",
     "experience": {
       "title": "Karriere-Highlights",
       "items": [
         {
-          "role": "Global Data & AI Strategy Manager",
-          "company": "NovaTaste",
+          "role": "Praktiker - Global Data & AI Strategy Manager",
+          "company": "NovaTaste (Festanstellung)",
           "period": "2024 - Heute",
-          "achievement": "Beratung der C-Suite bei globaler Data & AI Strategie, Entwicklung von AI Use Case Portfolios mit strategischer Ausrichtung"
+          "achievement": "Aktuelle Rolle: Beratung der C-Suite bei globaler Data & AI Strategie, Entwicklung von AI Use Case Portfolios mit strategischer Ausrichtung"
         },
         {
-          "role": "AI Product Manager",
+          "role": "Solution Builder - AI Product Manager",
           "company": "HOFER Österreich",
           "period": "2023 - 2024",
           "achievement": "Management des größten globalen AI-Produkts für Promotion-Optimierung mit Millionen-Euro EBIT-Beitrag"
         },
         {
-          "role": "AI Portfolio Manager",
+          "role": "Advisor & Builder - AI Portfolio Manager",
           "company": "ALDI SÜD (ALDI DX)",
           "period": "2022 - 2023",
-          "achievement": "Aufbau des globalen Data & Analytics Departments, Leitung von 5 Data Scientists"
-        },
-        {
-          "role": "Head of Data Science CoE",
-          "company": "ALDI SÜD HOLDING",
-          "period": "2021 - 2022",
-          "achievement": "Aufbau eines Data Science Centers of Excellence von Grund auf, Leitung eines 100+ Experten Community"
+          "achievement": "Aufbau des globalen Data & Analytics Departments, Leitung von 5 Data Scientists, strategische Beratung"
         }
       ]
     },
     "expertise": [
-      "KI Strategie Entwicklung & Portfolio Management",
-      "C-Suite Beratung & Stakeholder Management",
-      "Data Governance & Ethical AI",
-      "Multi AI Agent Systems & Automation",
-      "Cross-Functional Team Leadership",
-      "Design Thinking & Product Innovation"
+      "Praktiker: Aktuelle Festanstellung bei NovaTaste",
+      "Advisor: C-Suite Beratung & Stakeholder Management",
+      "Solution Builder: AI Product Development & Multi-Agent Systems",
+      "Drei-Säulen-Ansatz für maximale Wertschöpfung"
     ],
     "stats": [
       {
@@ -257,34 +221,22 @@
         "label": "Jahre Erfahrung"
       },
       {
-        "number": "100+",
-        "label": "Data Science Experten geleitet"
+        "number": "3",
+        "label": "Säulen der Expertise"
       },
       {
         "number": "€Millionen+",
-        "label": "EBIT-Beitrag durch AI"
+        "label": "EBIT-Beitrag durch Data & AI"
       }
     ],
     "certifications": {
       "title": "Zertifizierungen & Weiterbildung",
       "items": [
         {
-          "name": "Practical Multi AI Agents and Advanced Use Cases with crewAI",
-          "issuer": "DeepLearning.AI",
-          "date": "Feb 2025",
-          "category": "AI & Automation"
-        },
-        {
           "name": "Data Strategy: Leveraging Data as a Competitive Advantage",
           "issuer": "UC Berkeley Haas School of Business",
           "date": "Okt 2024",
           "category": "Data Strategy"
-        },
-        {
-          "name": "Multi AI Agent Systems with crewAI",
-          "issuer": "DeepLearning.AI",
-          "date": "Jun 2024",
-          "category": "AI & Automation"
         },
         {
           "name": "Design Thinking and Innovation",
@@ -299,30 +251,6 @@
           "category": "AI Product Management"
         },
         {
-          "name": "Agile Leadership",
-          "issuer": "University of Colorado",
-          "date": "Jan 2024",
-          "category": "Leadership"
-        },
-        {
-          "name": "Customer Analytics",
-          "issuer": "University of Pennsylvania",
-          "date": "Nov 2023",
-          "category": "Analytics"
-        },
-        {
-          "name": "Retail Fundamentals",
-          "issuer": "Dartmouth College",
-          "date": "Sep 2023",
-          "category": "Retail"
-        },
-        {
-          "name": "Product Owner",
-          "issuer": "borisgloger",
-          "date": "Aug 2023",
-          "category": "Product Management"
-        },
-        {
           "name": "Certified Corporate Treasurer VDT",
           "issuer": "Frankfurt School of Finance & Management",
           "date": "Jun 2019",
@@ -333,7 +261,7 @@
   },
   "cta": {
     "title": "📅 Kostenloses 15-Minuten Beratungsgespräch",
-    "subtitle": "Ein kurzes, unverbindliches Gespräch, um zu erkunden, ob ich der richtige Partner für Ihre KI-Reise bin.",
+    "subtitle": "Ein kurzes, unverbindliches Gespräch, um zu erkunden, ob meine drei Säulen der Expertise der richtige Ansatz für Ihre Data & AI Reise sind.",
     "buttons": {
       "primary": "Termin buchen",
       "secondary": "Kontakt aufnehmen"
@@ -346,8 +274,9 @@
       {
         "icon": "fas fa-envelope",
         "title": "Email",
-            "link": "roman.erlacher@gmail.com",
-    "href": "mailto:roman.erlacher@gmail.com"
+        "link": "E-Mail anzeigen",
+        "href": "#",
+        "protected": true
       },
       {
         "icon": "fab fa-linkedin",
@@ -372,12 +301,12 @@
   },
   "footer": {
     "brand": {
-      "logo": "🧠 AI Strategy",
-      "description": "Enterprise KI Strategie Beratung"
+      "logo": "🧠 Data & AI Strategie",
+      "description": "Data & AI Strategie Beratung - Drei Säulen der Expertise"
     },
     "links": [
       {
-        "text": "Dienstleistungen",
+        "text": "Drei Säulen",
         "href": "#services"
       },
       {
@@ -398,6 +327,6 @@
   },
   "notifications": {
     "success": "E-Mail-Client geöffnet! Bitte senden Sie die E-Mail, um Ihre Anfrage abzuschließen.",
-          "error": "Entschuldigung, es gab einen Fehler. Bitte senden Sie eine E-Mail direkt an roman.erlacher@gmail.com"
+    "error": "Entschuldigung, es gab einen Fehler. Bitte verwenden Sie das Kontaktformular."
   }
 } 
