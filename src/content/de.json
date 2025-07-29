@@ -17,74 +17,88 @@
       "highlight": "Data & AI Strategie",
       "subtitle": "Beratung"
     },
-    "subtitle": "Unterstützung von C-Level Führungskräften bei der Definition und Umsetzung von Enterprise AI-Strategien, die messbaren Geschäftswert liefern.",
+    "subtitle": "Global Data & AI Strategy Manager mit nachgewiesenen Erfolgen bei Fortune 500 Unternehmen. Entwicklung von KI-Strategien, die Millionen von Euro EBIT-Beitrag generieren.",
     "cta": {
       "primary": "Kostenloses Beratungsgespräch",
       "secondary": "Dienstleistungen ansehen"
     },
     "card": {
       "title": "Enterprise AI Strategie",
-      "description": "Transformieren Sie Ihr Unternehmen mit KI"
+      "description": "Bewährte Erfolge bei NovaTaste, HOFER & ALDI SÜD"
     }
   },
   "services": {
     "title": "Strategische Beratung",
-    "subtitle": "Maßgeschneiderte KI-Strategien für Führungskräfte aller Unternehmensgrößen",
+    "subtitle": "Bewährte KI-Strategien basierend auf realen Erfolgen bei Fortune 500 Unternehmen",
     "items": [
       {
         "icon": "🎯",
-        "title": "KI-Strategie Entwicklung",
-        "description": "Entwicklung einer umfassenden KI-Strategie, die mit Ihren Geschäftszielen und Marktpositionierung abgestimmt ist.",
+        "title": "KI-Strategie & Portfolio Management",
+        "description": "Entwicklung globaler Data & AI Strategien mit messbarem EBIT-Impact, basierend auf Erfahrungen bei NovaTaste und ALDI SÜD.",
         "outcomes": {
           "title": "Ergebnisse",
           "items": [
-            "Klare KI-Vision und Roadmap",
-            "Priorisierte Use Cases mit ROI-Projektionen",
-            "Governance- und Betriebsmodell",
-            "Board-Approval Präsentation"
+            "Globale KI-Strategie mit C-Suite Alignment",
+            "Priorisiertes AI Use Case Portfolio",
+            "Business Cases mit ROI-Projektionen",
+            "Data Governance Framework"
           ]
         }
       },
       {
         "icon": "📊",
-        "title": "Use Case Priorisierung",
-        "description": "Systematische Identifizierung und Bewertung von KI-Anwendungsfällen für maximale Geschäftswirkung.",
+        "title": "AI Product & Use Case Development",
+        "description": "Entwicklung und Management von AI-Produkten mit Millionen-Euro EBIT-Beitrag, basierend auf HOFER Promotion-Optimierung.",
         "outcomes": {
           "title": "Ergebnisse",
           "items": [
-            "Bewertete Use Case Portfolio",
-            "Priorisierungs-Matrix",
-            "Implementierungs-Roadmap",
-            "Business Cases für Top-Prioritäten"
+            "AI Product Roadmap & Strategy",
+            "Cross-Functional Team Setup",
+            "Customer-Facing AI Applications",
+            "Performance Monitoring & Optimization"
           ]
         }
       },
       {
-        "icon": "🔍",
-        "title": "KI-Performance Audit",
-        "description": "Unabhängige Bewertung Ihrer bestehenden KI-Initiativen und Optimierung der Wertschöpfung.",
+        "icon": "🏢",
+        "title": "Data Science CoE Aufbau",
+        "description": "Aufbau von Data Science Centers of Excellence von Grund auf, inklusive Team-Recruiting und Community Building.",
         "outcomes": {
           "title": "Ergebnisse",
           "items": [
-            "Performance-Bewertung",
-            "Wertverlust-Identifikation",
-            "Optimierungsempfehlungen",
-            "Governance-Verbesserungen"
+            "Data Science CoE Strategy",
+            "Team Structure & Governance",
+            "Global Community Building",
+            "Use Case Portfolio Development"
+          ]
+        }
+      },
+      {
+        "icon": "🤖",
+        "title": "Multi AI Agent Systems",
+        "description": "Entwicklung und Implementierung von Multi-Agent-Systemen mit crewAI für komplexe Automatisierungsaufgaben.",
+        "outcomes": {
+          "title": "Ergebnisse",
+          "items": [
+            "Multi-Agent System Architecture",
+            "AI Automation Workflows",
+            "Advanced Use Case Implementation",
+            "Performance Optimization"
           ]
         }
       },
       {
         "icon": "👑",
-        "title": "C-Level Advisory",
-        "description": "Laufende strategische Beratung für Führungskräfte mit Fokus auf KI-Transformation und digitale Innovation.",
+        "title": "C-Suite Advisory & Transformation",
+        "description": "Strategische Beratung für Führungskräfte mit Fokus auf Data & AI Transformation und Change Management.",
         "featured": true,
         "outcomes": {
           "title": "Ergebnisse",
           "items": [
-            "Strategie-Sessions",
-            "Steering Committee Teilnahme",
-            "On-Demand Beratung",
-            "Branchen-Insights"
+            "Executive AI Strategy Sessions",
+            "Change Management Roadmap",
+            "Stakeholder Engagement Plan",
+            "Transformation Governance"
           ]
         }
       }
@@ -199,27 +213,123 @@
   },
   "about": {
     "title": "👤 Über mich",
-    "description": "Senior Experte für Data & AI Strategie mit über 12 Jahren Erfahrung in der Leitung globaler Initiativen. Vertraut von CDOs und CIOs, um Technologie mit Geschäftswert in Einklang zu bringen, KI-Investitionen abzusichern und strategische Transformation voranzutreiben.",
+    "description": "Senior Data & AI Strategy Manager mit über 13 Jahren Erfahrung in der Leitung globaler Initiativen bei Fortune 500 Unternehmen. Aktuell berate ich als Global Data & AI Strategy Manager bei NovaTaste die C-Suite und berichte direkt an den Global CIO. Zertifiziert von DeepLearning.AI, UC Berkeley, Harvard Business School und Duke University. Meine Expertise umfasst die Entwicklung von KI-Strategien, die Millionen von Euro an EBIT-Beitrag generieren.",
+    "experience": {
+      "title": "Karriere-Highlights",
+      "items": [
+        {
+          "role": "Global Data & AI Strategy Manager",
+          "company": "NovaTaste",
+          "period": "2024 - Heute",
+          "achievement": "Beratung der C-Suite bei globaler Data & AI Strategie, Entwicklung von AI Use Case Portfolios mit strategischer Ausrichtung"
+        },
+        {
+          "role": "AI Product Manager",
+          "company": "HOFER Österreich",
+          "period": "2023 - 2024",
+          "achievement": "Management des größten globalen AI-Produkts für Promotion-Optimierung mit Millionen-Euro EBIT-Beitrag"
+        },
+        {
+          "role": "AI Portfolio Manager",
+          "company": "ALDI SÜD (ALDI DX)",
+          "period": "2022 - 2023",
+          "achievement": "Aufbau des globalen Data & Analytics Departments, Leitung von 5 Data Scientists"
+        },
+        {
+          "role": "Head of Data Science CoE",
+          "company": "ALDI SÜD HOLDING",
+          "period": "2021 - 2022",
+          "achievement": "Aufbau eines Data Science Centers of Excellence von Grund auf, Leitung eines 100+ Experten Community"
+        }
+      ]
+    },
     "expertise": [
-      "KI Strategie Entwicklung",
-      "C-Suite Ausrichtung",
-      "Digitale Transformation",
-      "Risikomanagement"
+      "KI Strategie Entwicklung & Portfolio Management",
+      "C-Suite Beratung & Stakeholder Management",
+      "Data Governance & Ethical AI",
+      "Multi AI Agent Systems & Automation",
+      "Cross-Functional Team Leadership",
+      "Design Thinking & Product Innovation"
     ],
     "stats": [
       {
-        "number": "12+",
+        "number": "13+",
         "label": "Jahre Erfahrung"
       },
       {
-        "number": "50+",
-        "label": "Unternehmenskunden"
+        "number": "100+",
+        "label": "Data Science Experten geleitet"
       },
       {
-        "number": "€100M+",
-        "label": "Gelieferter Wert"
+        "number": "€Millionen+",
+        "label": "EBIT-Beitrag durch AI"
       }
-    ]
+    ],
+    "certifications": {
+      "title": "Zertifizierungen & Weiterbildung",
+      "items": [
+        {
+          "name": "Practical Multi AI Agents and Advanced Use Cases with crewAI",
+          "issuer": "DeepLearning.AI",
+          "date": "Feb 2025",
+          "category": "AI & Automation"
+        },
+        {
+          "name": "Data Strategy: Leveraging Data as a Competitive Advantage",
+          "issuer": "UC Berkeley Haas School of Business",
+          "date": "Okt 2024",
+          "category": "Data Strategy"
+        },
+        {
+          "name": "Multi AI Agent Systems with crewAI",
+          "issuer": "DeepLearning.AI",
+          "date": "Jun 2024",
+          "category": "AI & Automation"
+        },
+        {
+          "name": "Design Thinking and Innovation",
+          "issuer": "Harvard Business School Online",
+          "date": "Mai 2024",
+          "category": "Innovation"
+        },
+        {
+          "name": "AI Product Management",
+          "issuer": "Duke University",
+          "date": "Apr 2024",
+          "category": "AI Product Management"
+        },
+        {
+          "name": "Agile Leadership",
+          "issuer": "University of Colorado",
+          "date": "Jan 2024",
+          "category": "Leadership"
+        },
+        {
+          "name": "Customer Analytics",
+          "issuer": "University of Pennsylvania",
+          "date": "Nov 2023",
+          "category": "Analytics"
+        },
+        {
+          "name": "Retail Fundamentals",
+          "issuer": "Dartmouth College",
+          "date": "Sep 2023",
+          "category": "Retail"
+        },
+        {
+          "name": "Product Owner",
+          "issuer": "borisgloger",
+          "date": "Aug 2023",
+          "category": "Product Management"
+        },
+        {
+          "name": "Certified Corporate Treasurer VDT",
+          "issuer": "Frankfurt School of Finance & Management",
+          "date": "Jun 2019",
+          "category": "Finance"
+        }
+      ]
+    }
   },
   "cta": {
     "title": "📅 Kostenloses 15-Minuten Beratungsgespräch",
@@ -236,8 +346,8 @@
       {
         "icon": "fas fa-envelope",
         "title": "Email",
-        "link": "roman@erlacher-advisory.com",
-        "href": "mailto:roman@erlacher-advisory.com"
+            "link": "roman.erlacher@gmail.com",
+    "href": "mailto:roman.erlacher@gmail.com"
       },
       {
         "icon": "fab fa-linkedin",
@@ -288,6 +398,6 @@
   },
   "notifications": {
     "success": "E-Mail-Client geöffnet! Bitte senden Sie die E-Mail, um Ihre Anfrage abzuschließen.",
-    "error": "Entschuldigung, es gab einen Fehler. Bitte senden Sie eine E-Mail direkt an roman@erlacher-advisory.com"
+          "error": "Entschuldigung, es gab einen Fehler. Bitte senden Sie eine E-Mail direkt an roman.erlacher@gmail.com"
   }
 } 
