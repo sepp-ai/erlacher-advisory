@@ -227,7 +227,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 **Support**
 
 For support or questions:
-- **Email**: roman.erlacher@gmail.com
+- **Email**: [Protected - Use contact form]
 - **Website**: https://www.erlacher-advisory.com
 - **Documentation**: See `docs/` folder
 

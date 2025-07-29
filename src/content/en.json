@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "Data & AI Strategy Advisor - Enterprise AI Solutions",
-    "description": "Helping C-level leaders define and execute enterprise AI strategies that deliver measurable business value. Expert AI strategy advisory, use case prioritization, and value realization.",
-    "keywords": "AI strategy, enterprise AI, data strategy, C-level advisory, AI consulting, digital transformation"
+    "title": "Data & AI Strategy Advisor - Enterprise Solutions",
+    "description": "Helping C-level leaders define and execute Data & AI strategies that deliver measurable business value. Expert strategy advisory, use case prioritization, and value realization.",
+    "keywords": "Data & AI strategy, enterprise solutions, data strategy, C-level advisory, strategy consulting, digital transformation"
   },
   "navigation": {
-    "logo": "🧠 AI Strategy",
+    "logo": "🧠 Data & AI Strategy",
     "advisory": "Advisory",
     "assessment": "Is it Right for You?",
     "about": "About",
@@ -17,88 +17,60 @@
       "highlight": "Data & AI Strategy",
       "subtitle": "Advisory"
     },
-    "subtitle": "Global Data & AI Strategy Manager with proven success at Fortune 500 companies. Developing AI strategies that generate millions in EBIT contribution.",
+    "subtitle": "Global Data & AI Strategy Manager at NovaTaste, strategic advisor for C-level executives, and AI solution builder. Three pillars of expertise: Practitioner, Advisor, and Solution Builder.",
     "cta": {
       "primary": "Free Consultation Call",
-      "secondary": "View Services"
+      "secondary": "Discover Three Pillars"
     },
     "card": {
-      "title": "Enterprise AI Strategy",
-      "description": "Proven success at NovaTaste, HOFER & ALDI SÜD"
+      "title": "Three Pillars of Expertise",
+      "description": "Practitioner • Advisor • Solution Builder"
     }
   },
   "services": {
-    "title": "Strategic Advisory",
-    "subtitle": "Proven AI strategies based on real successes at Fortune 500 companies",
+    "title": "Three Pillars of Expertise",
+    "subtitle": "My unique combination of practical experience, strategic advisory, and AI solution development",
     "items": [
       {
-        "icon": "🎯",
-        "title": "AI Strategy & Portfolio Management",
-        "description": "Development of global Data & AI strategies with measurable EBIT impact, based on experience at NovaTaste and ALDI SÜD.",
-        "outcomes": {
-          "title": "Deliverables",
-          "items": [
-            "Global AI strategy with C-suite alignment",
-            "Prioritized AI use case portfolio",
-            "Business cases with ROI projections",
-            "Data governance framework"
-          ]
-        }
-      },
-      {
-        "icon": "📊",
-        "title": "AI Product & Use Case Development",
-        "description": "Development and management of AI products with millions in EBIT contribution, based on HOFER promotion optimization experience.",
-        "outcomes": {
-          "title": "Deliverables",
-          "items": [
-            "AI product roadmap & strategy",
-            "Cross-functional team setup",
-            "Customer-facing AI applications",
-            "Performance monitoring & optimization"
-          ]
-        }
-      },
-      {
         "icon": "🏢",
-        "title": "Data Science CoE Building",
-        "description": "Building Data Science Centers of Excellence from scratch, including team recruiting and community building.",
+        "title": "Practitioner - Global Data & AI Strategy Manager",
+        "description": "Currently employed full-time at NovaTaste as Global Data & AI Strategy Manager. Advising the C-Suite and reporting directly to the Global CIO. Developing AI use case portfolios with strategic alignment.",
         "outcomes": {
-          "title": "Deliverables",
+          "title": "Current Role",
           "items": [
-            "Data Science CoE strategy",
-            "Team structure & governance",
-            "Global community building",
-            "Use case portfolio development"
-          ]
-        }
-      },
-      {
-        "icon": "🤖",
-        "title": "Multi AI Agent Systems",
-        "description": "Development and implementation of multi-agent systems with crewAI for complex automation tasks.",
-        "outcomes": {
-          "title": "Deliverables",
-          "items": [
-            "Multi-agent system architecture",
-            "AI automation workflows",
-            "Advanced use case implementation",
-            "Performance optimization"
+            "Global Data & AI Strategy Manager at NovaTaste",
+            "C-Suite Advisory and Stakeholder Management",
+            "AI Use Case Portfolio Development",
+            "Strategic Alignment and Governance"
           ]
         }
       },
       {
         "icon": "👑",
-        "title": "C-Suite Advisory & Transformation",
-        "description": "Strategic advisory for leaders focused on Data & AI transformation and change management.",
+        "title": "Advisor - Strategic C-Level Advisory",
+        "description": "Strategic advisory for C-level executives focused on Data & AI transformation. Over 13 years of experience at Fortune 500 companies with proven success.",
+        "outcomes": {
+          "title": "Advisory Services",
+          "items": [
+            "C-Suite Data & AI Strategy Sessions",
+            "Change Management & Transformation Roadmap",
+            "Stakeholder Engagement & Governance",
+            "ROI Optimization & Value Realization"
+          ]
+        }
+      },
+      {
+        "icon": "🚀",
+        "title": "Solution Builder - AI Solution Development",
+        "description": "Development and management of AI products with millions in EBIT contribution. Experience in multi-agent systems, AI automation, and scalable solutions.",
         "featured": true,
         "outcomes": {
-          "title": "Deliverables",
+          "title": "Solution Development",
           "items": [
-            "Executive AI strategy sessions",
-            "Change management roadmap",
-            "Stakeholder engagement plan",
-            "Transformation governance"
+            "AI Product Development & Management",
+            "Multi-Agent Systems & Automation",
+            "Scalable AI Solutions",
+            "Performance Monitoring & Optimization"
           ]
         }
       }
@@ -106,14 +78,14 @@
   },
   "assessment": {
     "title": "🎯 Is my advisory right for you?",
-    "subtitle": "Identify your challenges and find out if we're the right partner for your AI strategy.",
+    "subtitle": "Identify your challenges and find out if my three pillars of expertise are the right approach for your Data & AI strategy.",
     "challenges": [
       {
         "icon": "🎯",
         "title": "Connecting technology with business outcomes",
         "situation": {
           "title": "Situation",
-          "text": "You know that data and AI can create value — but the connection to revenue, costs, or differentiation isn't always clear."
+          "text": "You know data and AI can create value — but the connection to revenue, costs, or differentiation isn't always clear."
         },
         "complication": {
           "title": "Complication",
@@ -121,7 +93,7 @@
         },
         "solution": {
           "title": "Solution",
-          "text": "I bridge the strategy-implementation gap by connecting AI initiatives with tangible business outcomes and creating a focused, value-driven roadmap."
+          "text": "As a Practitioner, Advisor, and Solution Builder, I bridge the strategy-execution gap by connecting Data & AI initiatives with tangible business outcomes and creating a focused, value-driven roadmap."
         }
       },
       {
@@ -133,11 +105,11 @@
         },
         "complication": {
           "title": "Complication",
-          "text": "AI and data decisions are complex, technical, and easily delayed — or made incorrectly — without the right insights."
+          "text": "Data & AI decisions are complex, technical, and easy to delay — or get wrong — without the right insights."
         },
         "solution": {
           "title": "Solution",
-          "text": "I provide concise, executive-ready advisory that accelerates intelligent decision-making and simplifies complex landscapes."
+          "text": "My triple expertise enables concise, executive-ready advisory that accelerates intelligent decision-making and simplifies complex landscapes."
         }
       },
       {
@@ -145,7 +117,7 @@
         "title": "Cutting through hype and noise",
         "situation": {
           "title": "Situation",
-          "text": "The market is flooded with AI promises, tools, and platforms."
+          "text": "The market is flooded with Data & AI promises, tools, and platforms."
         },
         "complication": {
           "title": "Complication",
@@ -153,7 +125,7 @@
         },
         "solution": {
           "title": "Solution",
-          "text": "I serve as a trusted filter — evaluating trends, technologies, and vendors to focus efforts on what's mature, meaningful, and aligned with business requirements."
+          "text": "As an active Practitioner and Solution Builder, I serve as a trusted filter — evaluating trends, technologies, and vendors to focus efforts on what's mature, meaningful, and aligned with business requirements."
         }
       },
       {
@@ -165,19 +137,19 @@
         },
         "complication": {
           "title": "Complication",
-          "text": "Poor data quality, silos, or unclear ownership often block progress and make AI efforts slow or ineffective."
+          "text": "Poor data quality, silos, or unclear ownership often block progress and make Data & AI efforts slow or ineffective."
         },
         "solution": {
           "title": "Solution",
-          "text": "I help assess data readiness, build foundational capabilities, and prioritize use cases that unlock immediate and long-term value."
+          "text": "My practical experience as a Solution Builder helps assess data readiness, build foundational capabilities, and prioritize use cases that unlock immediate and long-term value."
         }
       },
       {
         "icon": "🚀",
-        "title": "Growing and competing with AI",
+        "title": "Growing and competing with Data & AI",
         "situation": {
           "title": "Situation",
-          "text": "You want to use AI to increase revenue, improve margins, or differentiate from competitors."
+          "text": "You want to use Data & AI to increase revenue, improve margins, or differentiate from competitors."
         },
         "complication": {
           "title": "Complication",
@@ -185,7 +157,7 @@
         },
         "solution": {
           "title": "Solution",
-          "text": "I identify quick wins and scalable strategies that help companies use AI for meaningful, measurable advantage."
+          "text": "As an Advisor and Solution Builder, I identify quick wins and scalable strategies that help companies use Data & AI for meaningful, measurable advantage."
         }
       },
       {
@@ -197,59 +169,51 @@
         },
         "complication": {
           "title": "Complication",
-          "text": "Without strategy for responsible AI use, companies risk non-compliance, biased outcomes, or public backlash."
+          "text": "Without strategy for responsible Data & AI use, companies risk non-compliance, biased outcomes, or public backlash."
         },
         "solution": {
           "title": "Solution",
-          "text": "I bring proven governance frameworks and ethical design principles to ensure AI is deployed safely, responsibly, and in compliance with emerging regulations."
+          "text": "My practical experience as a Practitioner and strategic expertise as an Advisor bring proven governance frameworks and ethical design principles to ensure Data & AI is deployed safely, responsibly, and in alignment with emerging regulations."
         }
       }
     ],
     "cta": {
       "title": "Do you recognize yourself in these challenges?",
-      "subtitle": "Let's discuss in a free 15-minute call how I can help you.",
-      "button": "Book Consultation Call Now"
+      "subtitle": "Let's discuss in a free 15-minute call how my three pillars of expertise can help you.",
+      "button": "Book consultation call now"
     }
   },
   "about": {
-    "title": "👤 About Me",
-    "description": "Senior Data & AI Strategy Manager with over 13 years of experience leading global initiatives at Fortune 500 companies. Currently advising the C-suite as Global Data & AI Strategy Manager at NovaTaste, reporting directly to the Global CIO. Certified by DeepLearning.AI, UC Berkeley, Harvard Business School, and Duke University. My expertise includes developing AI strategies that generate millions in EBIT contribution.",
+    "title": "👤 About me - Three Pillars of Expertise",
+    "description": "Senior Data & AI Strategy Manager with over 13 years of experience leading global initiatives at Fortune 500 companies. My unique position is based on three pillars: Practitioner (current employment at NovaTaste), strategic Advisor, and Solution Builder.",
     "experience": {
       "title": "Career Highlights",
       "items": [
         {
-          "role": "Global Data & AI Strategy Manager",
-          "company": "NovaTaste",
-          "period": "2024 - Present",
-          "achievement": "Advising C-suite on global Data & AI strategy, developing AI use case portfolios with strategic alignment"
+          "role": "Practitioner - Global Data & AI Strategy Manager",
+          "company": "NovaTaste (Full-time Employment)",
+          "period": "2024 - Today",
+          "achievement": "Current role: Advising the C-Suite on global Data & AI strategy, developing AI use case portfolios with strategic alignment"
         },
         {
-          "role": "AI Product Manager",
+          "role": "Solution Builder - AI Product Manager",
           "company": "HOFER Austria",
           "period": "2023 - 2024",
-          "achievement": "Managed largest global AI product for promotion optimization with millions in EBIT contribution"
+          "achievement": "Managing the largest global AI product for promotion optimization with millions in EBIT contribution"
         },
         {
-          "role": "AI Portfolio Manager",
+          "role": "Advisor & Builder - AI Portfolio Manager",
           "company": "ALDI SÜD (ALDI DX)",
           "period": "2022 - 2023",
-          "achievement": "Built global Data & Analytics department, led team of 5 Data Scientists"
-        },
-        {
-          "role": "Head of Data Science CoE",
-          "company": "ALDI SÜD HOLDING",
-          "period": "2021 - 2022",
-          "achievement": "Built Data Science Center of Excellence from scratch, led 100+ expert community"
+          "achievement": "Building the global Data & Analytics department, leading 5 Data Scientists, strategic advisory"
         }
       ]
     },
     "expertise": [
-      "AI Strategy Development & Portfolio Management",
-      "C-Suite Advisory & Stakeholder Management",
-      "Data Governance & Ethical AI",
-      "Multi AI Agent Systems & Automation",
-      "Cross-Functional Team Leadership",
-      "Design Thinking & Product Innovation"
+      "Practitioner: Current full-time employment at NovaTaste",
+      "Advisor: C-Suite Advisory & Stakeholder Management",
+      "Solution Builder: AI Product Development & Multi-Agent Systems",
+      "Three-pillar approach for maximum value creation"
     ],
     "stats": [
       {
@@ -257,34 +221,22 @@
         "label": "Years Experience"
       },
       {
-        "number": "100+",
-        "label": "Data Science Experts Led"
+        "number": "3",
+        "label": "Pillars of Expertise"
       },
       {
         "number": "€Millions+",
-        "label": "EBIT Contribution through AI"
+        "label": "EBIT Contribution through Data & AI"
       }
     ],
     "certifications": {
       "title": "Certifications & Education",
       "items": [
         {
-          "name": "Practical Multi AI Agents and Advanced Use Cases with crewAI",
-          "issuer": "DeepLearning.AI",
-          "date": "Feb 2025",
-          "category": "AI & Automation"
-        },
-        {
           "name": "Data Strategy: Leveraging Data as a Competitive Advantage",
           "issuer": "UC Berkeley Haas School of Business",
           "date": "Oct 2024",
           "category": "Data Strategy"
-        },
-        {
-          "name": "Multi AI Agent Systems with crewAI",
-          "issuer": "DeepLearning.AI",
-          "date": "Jun 2024",
-          "category": "AI & Automation"
         },
         {
           "name": "Design Thinking and Innovation",
@@ -299,30 +251,6 @@
           "category": "AI Product Management"
         },
         {
-          "name": "Agile Leadership",
-          "issuer": "University of Colorado",
-          "date": "Jan 2024",
-          "category": "Leadership"
-        },
-        {
-          "name": "Customer Analytics",
-          "issuer": "University of Pennsylvania",
-          "date": "Nov 2023",
-          "category": "Analytics"
-        },
-        {
-          "name": "Retail Fundamentals",
-          "issuer": "Dartmouth College",
-          "date": "Sep 2023",
-          "category": "Retail"
-        },
-        {
-          "name": "Product Owner",
-          "issuer": "borisgloger",
-          "date": "Aug 2023",
-          "category": "Product Management"
-        },
-        {
           "name": "Certified Corporate Treasurer VDT",
           "issuer": "Frankfurt School of Finance & Management",
           "date": "Jun 2019",
@@ -333,7 +261,7 @@
   },
   "cta": {
     "title": "📅 Free 15-Minute Consultation Call",
-    "subtitle": "A brief, no-obligation call to explore whether I'm the right partner for your AI journey.",
+    "subtitle": "A brief, no-obligation conversation to explore if my three pillars of expertise are the right approach for your Data & AI journey.",
     "buttons": {
       "primary": "Book Call",
       "secondary": "Get in Touch"
@@ -341,13 +269,14 @@
   },
   "contact": {
     "title": "📬 Contact",
-    "subtitle": "For speaking, advisory, or partnership inquiries",
+    "subtitle": "For speaking, consulting, or partnership inquiries",
     "info": [
       {
         "icon": "fas fa-envelope",
         "title": "Email",
-            "link": "roman.erlacher@gmail.com",
-    "href": "mailto:roman.erlacher@gmail.com"
+        "link": "Show Email",
+        "href": "#",
+        "protected": true
       },
       {
         "icon": "fab fa-linkedin",
@@ -372,12 +301,12 @@
   },
   "footer": {
     "brand": {
-      "logo": "🧠 AI Strategy",
-      "description": "Enterprise AI Strategy Advisory"
+      "logo": "🧠 Data & AI Strategy",
+      "description": "Data & AI Strategy Advisory - Three Pillars of Expertise"
     },
     "links": [
       {
-        "text": "Services",
+        "text": "Three Pillars",
         "href": "#services"
       },
       {
@@ -391,13 +320,13 @@
     ],
     "copyright": "© 2024 Data & AI Strategy Advisor. All rights reserved.",
     "legal": {
-      "privacy": "Privacy Policy",
+      "privacy": "Privacy",
       "legal": "Legal Notice",
       "cookies": "Cookie Policy"
     }
   },
   "notifications": {
-    "success": "Email client opened! Please send the email to complete your inquiry.",
-          "error": "Sorry, there was an error. Please email directly to roman.erlacher@gmail.com"
+    "success": "Email client opened! Please send the email to complete your request.",
+    "error": "Sorry, there was an error. Please use the contact form."
   }
 } 
