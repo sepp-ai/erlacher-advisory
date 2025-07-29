@@ -5,12 +5,10 @@
     "keywords": "Data & AI strategy, enterprise solutions, data strategy, C-level advisory, strategy consulting, digital transformation"
   },
   "navigation": {
-    "logo": "🧠 Data & AI Strategy",
-    "advisory": "Advisory",
-    "assessment": "Is it Right for You?",
+    "logo": "Roman Erlacher",
+    "expertise": "Expertise",
     "about": "About",
-    "contact": "Contact",
-    "bookCall": "Book Call"
+    "contact": "Contact"
   },
   "hero": {
     "title": {
@@ -19,20 +17,20 @@
     },
     "subtitle": "Global Data & AI Strategy Manager at NovaTaste, strategic advisor for C-level executives, and AI solution builder. Three pillars of expertise: Practitioner, Advisor, and Solution Builder.",
     "cta": {
-      "primary": "Free Consultation Call",
-      "secondary": "Discover Three Pillars"
+      "primary": "Book Appointment",
+      "secondary": "Discover Expertise"
     },
     "card": {
       "title": "Three Pillars of Expertise",
       "description": "Practitioner • Advisor • Solution Builder"
     }
   },
-  "services": {
+  "expertise": {
     "title": "Three Pillars of Expertise",
-    "subtitle": "My unique combination of practical experience, strategic advisory, and AI solution development",
+    "subtitle": "Proven AI strategies based on real successes at Fortune 500 companies",
     "items": [
       {
-        "icon": "🏢",
+        "icon": "",
         "title": "Practitioner - Global Data & AI Strategy Manager",
         "description": "Currently employed full-time at NovaTaste as Global Data & AI Strategy Manager. Advising the C-Suite and reporting directly to the Global CIO. Developing AI use case portfolios with strategic alignment.",
         "outcomes": {
@@ -46,7 +44,7 @@
         }
       },
       {
-        "icon": "👑",
+        "icon": "",
         "title": "Advisor - Strategic C-Level Advisory",
         "description": "Strategic advisory for C-level executives focused on Data & AI transformation. Over 13 years of experience at Fortune 500 companies with proven success.",
         "outcomes": {
@@ -60,7 +58,7 @@
         }
       },
       {
-        "icon": "🚀",
+        "icon": "",
         "title": "Solution Builder - AI Solution Development",
         "description": "Development and management of AI products with millions in EBIT contribution. Experience in multi-agent systems, AI automation, and scalable solutions.",
         "featured": true,
@@ -77,11 +75,11 @@
     ]
   },
   "assessment": {
-    "title": "🎯 Is my advisory right for you?",
+    "title": "Is my advisory right for you?",
     "subtitle": "Identify your challenges and find out if my three pillars of expertise are the right approach for your Data & AI strategy.",
     "challenges": [
       {
-        "icon": "🎯",
+        "icon": "",
         "title": "Connecting technology with business outcomes",
         "situation": {
           "title": "Situation",
@@ -97,7 +95,7 @@
         }
       },
       {
-        "icon": "⏰",
+        "icon": "",
         "title": "Managing time pressure and complexity",
         "situation": {
           "title": "Situation",
@@ -113,7 +111,7 @@
         }
       },
       {
-        "icon": "🔍",
+        "icon": "",
         "title": "Cutting through hype and noise",
         "situation": {
           "title": "Situation",
@@ -129,7 +127,7 @@
         }
       },
       {
-        "icon": "💎",
+        "icon": "",
         "title": "Unlocking value from data",
         "situation": {
           "title": "Situation",
@@ -145,7 +143,7 @@
         }
       },
       {
-        "icon": "🚀",
+        "icon": "",
         "title": "Growing and competing with Data & AI",
         "situation": {
           "title": "Situation",
@@ -184,7 +182,7 @@
     }
   },
   "about": {
-    "title": "👤 About me - Three Pillars of Expertise",
+    "title": "About me - Three Pillars of Expertise",
     "description": "Senior Data & AI Strategy Manager with over 13 years of experience leading global initiatives at Fortune 500 companies. My unique position is based on three pillars: Practitioner (current employment at NovaTaste), strategic Advisor, and Solution Builder.",
     "experience": {
       "title": "Career Highlights",
@@ -260,7 +258,7 @@
     }
   },
   "cta": {
-    "title": "📅 Free 15-Minute Consultation Call",
+    "title": "Free 15-Minute Consultation Call",
     "subtitle": "A brief, no-obligation conversation to explore if my three pillars of expertise are the right approach for your Data & AI journey.",
     "buttons": {
       "primary": "Book Call",
@@ -268,7 +266,7 @@
     }
   },
   "contact": {
-    "title": "📬 Contact",
+    "title": "Contact",
     "subtitle": "For speaking, consulting, or partnership inquiries",
     "info": [
       {
@@ -286,28 +284,21 @@
       },
       {
         "icon": "fas fa-calendar",
-        "title": "Calendly",
-        "link": "Schedule a Meeting",
-        "href": "https://calendly.com/roman-erlacher/discovery-call"
+        "title": "Book Appointment",
+        "link": "Calendly",
+        "href": "https://calendly.com/ausblickabtenau/30min"
       }
-    ],
-    "form": {
-      "name": "Name",
-      "email": "Email",
-      "company": "Company",
-      "message": "Message",
-      "submit": "Send Message"
-    }
+    ]
   },
   "footer": {
     "brand": {
-      "logo": "🧠 Data & AI Strategy",
+      "logo": "Data & AI Strategy",
       "description": "Data & AI Strategy Advisory - Three Pillars of Expertise"
     },
     "links": [
       {
-        "text": "Three Pillars",
-        "href": "#services"
+        "text": "Expertise",
+        "href": "#expertise"
       },
       {
         "text": "About",
