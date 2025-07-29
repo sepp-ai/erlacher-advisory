@@ -11,7 +11,7 @@
   "navigation": {
     "logo": "🧠 AI Strategy",
     "advisory": "Advisory",
-    "assessment": "Is it Right?",
+    "assessment": "Is it Right for You?",
     "about": "About",
     "contact": "Contact",
     "bookCall": "Book Call"
@@ -19,11 +19,11 @@
   "hero": {
     "title": {
       "highlight": "Data & AI Strategy",
-      "subtitle": "Advisory Services"
+      "subtitle": "Advisory"
     },
     "subtitle": "Helping C-level leaders define and execute enterprise AI strategies that deliver measurable business value.",
     "cta": {
-      "primary": "Book Discovery Call",
+      "primary": "Free Consultation Call",
       "secondary": "View Services"
     },
     "card": {
@@ -33,14 +33,14 @@
   },
   "services": {
     "title": "Strategic Advisory",
-    "subtitle": "Tailored AI strategies for leaders across all company sizes",
+    "subtitle": "Tailored AI strategies for leaders of all company sizes",
     "items": [
       {
         "icon": "🎯",
         "title": "AI Strategy Development",
-        "description": "Development of a comprehensive AI strategy aligned with your business objectives and market positioning.",
+        "description": "Development of a comprehensive AI strategy aligned with your business goals and market positioning.",
         "outcomes": {
-          "title": "Outcomes",
+          "title": "Deliverables",
           "items": [
             "Clear AI vision and roadmap",
             "Prioritized use cases with ROI projections",
@@ -54,7 +54,7 @@
         "title": "Use Case Prioritization",
         "description": "Systematic identification and evaluation of AI use cases for maximum business impact.",
         "outcomes": {
-          "title": "Outcomes",
+          "title": "Deliverables",
           "items": [
             "Evaluated use case portfolio",
             "Prioritization matrix",
@@ -68,7 +68,7 @@
         "title": "AI Performance Audit",
         "description": "Independent assessment of your existing AI initiatives and optimization of value creation.",
         "outcomes": {
-          "title": "Outcomes",
+          "title": "Deliverables",
           "items": [
             "Performance assessment",
             "Value leakage identification",
@@ -80,14 +80,14 @@
       {
         "icon": "👑",
         "title": "C-Level Advisory",
-        "description": "Ongoing strategic counsel for executives focused on AI transformation and digital innovation.",
+        "description": "Ongoing strategic advisory for leaders focused on AI transformation and digital innovation.",
         "featured": true,
         "outcomes": {
-          "title": "Outcomes",
+          "title": "Deliverables",
           "items": [
             "Strategy sessions",
             "Steering committee participation",
-            "On-demand counsel",
+            "On-demand advisory",
             "Industry insights"
           ]
         }
@@ -95,67 +95,67 @@
     ]
   },
   "assessment": {
-    "title": "🎯 Is My Advisory Right for You?",
-    "subtitle": "Identify your challenges and discover if we're the right partner for your AI strategy.",
+    "title": "🎯 Is my advisory right for you?",
+    "subtitle": "Identify your challenges and find out if we're the right partner for your AI strategy.",
     "challenges": [
       {
         "icon": "🎯",
-        "title": "Aligning Tech with Business Outcomes",
+        "title": "Connecting technology with business outcomes",
         "situation": {
           "title": "Situation",
-          "text": "You know data and AI can drive value — but the connection to revenue, cost, or differentiation isn't always clear."
+          "text": "You know that data and AI can create value — but the connection to revenue, costs, or differentiation isn't always clear."
         },
         "complication": {
           "title": "Complication",
-          "text": "Without a clear link to business goals, efforts become siloed, unfocused, or purely experimental — resulting in low ROI."
+          "text": "Without clear connection to business goals, efforts become isolated, unfocused, or purely experimental — with low ROI."
         },
         "solution": {
           "title": "Solution",
-          "text": "I bridge the strategy-execution gap by aligning AI initiatives to tangible business outcomes, creating a focused, value-driven roadmap."
+          "text": "I bridge the strategy-implementation gap by connecting AI initiatives with tangible business outcomes and creating a focused, value-driven roadmap."
         }
       },
       {
         "icon": "⏰",
-        "title": "Navigating Time Pressure and Complexity",
+        "title": "Managing time pressure and complexity",
         "situation": {
           "title": "Situation",
-          "text": "You operate under intense time pressure with multiple competing priorities."
+          "text": "You're working under intense time pressure with multiple competing priorities."
         },
         "complication": {
           "title": "Complication",
-          "text": "AI and data decisions are complex, technical, and easy to delay — or get wrong — without the right insight."
+          "text": "AI and data decisions are complex, technical, and easily delayed — or made incorrectly — without the right insights."
         },
         "solution": {
           "title": "Solution",
-          "text": "I provide concise, executive-ready guidance that accelerates smart decision-making while simplifying complex landscapes."
+          "text": "I provide concise, executive-ready advisory that accelerates intelligent decision-making and simplifies complex landscapes."
         }
       },
       {
         "icon": "🔍",
-        "title": "Cutting Through Hype and Noise",
+        "title": "Cutting through hype and noise",
         "situation": {
           "title": "Situation",
           "text": "The market is flooded with AI promises, tools, and platforms."
         },
         "complication": {
           "title": "Complication",
-          "text": "Leaders struggle to discern what's genuinely valuable from what's just buzz — risking paralysis or misinvestment."
+          "text": "Leaders struggle to distinguish what's truly valuable from what's just buzz — risking paralysis or misinvestment."
         },
         "solution": {
           "title": "Solution",
-          "text": "I serve as a trusted filter — vetting trends, technologies, and vendors to focus efforts on what's mature, meaningful, and aligned with business needs."
+          "text": "I serve as a trusted filter — evaluating trends, technologies, and vendors to focus efforts on what's mature, meaningful, and aligned with business requirements."
         }
       },
       {
         "icon": "💎",
-        "title": "Unlocking Value from Data",
+        "title": "Unlocking value from data",
         "situation": {
           "title": "Situation",
-          "text": "Every business collects data — but most aren't fully using it to drive insight or automation."
+          "text": "Every company collects data — but most don't fully leverage it to drive insights or automation."
         },
         "complication": {
           "title": "Complication",
-          "text": "Poor data quality, silos, or unclear ownership often block progress, making AI efforts slow or ineffective."
+          "text": "Poor data quality, silos, or unclear ownership often block progress and make AI efforts slow or ineffective."
         },
         "solution": {
           "title": "Solution",
@@ -164,46 +164,46 @@
       },
       {
         "icon": "🚀",
-        "title": "Competing and Growing with AI",
+        "title": "Growing and competing with AI",
         "situation": {
           "title": "Situation",
-          "text": "You want to use AI to grow revenue, improve margins, or differentiate from competitors."
+          "text": "You want to use AI to increase revenue, improve margins, or differentiate from competitors."
         },
         "complication": {
           "title": "Complication",
-          "text": "You often don't know where to start, or lack internal capability to move beyond pilots."
+          "text": "You often don't know where to start, or lack internal capabilities to move beyond pilot projects."
         },
         "solution": {
           "title": "Solution",
-          "text": "I identify quick wins and scalable strategies that help businesses use AI for meaningful, measurable advantage."
+          "text": "I identify quick wins and scalable strategies that help companies use AI for meaningful, measurable advantage."
         }
       },
       {
         "icon": "🛡️",
-        "title": "Managing Risk and Governance",
+        "title": "Managing risk and governance",
         "situation": {
           "title": "Situation",
           "text": "Data and AI create value — but also expose companies to regulatory, ethical, and reputational risks."
         },
         "complication": {
           "title": "Complication",
-          "text": "Without a strategy for responsible AI use, companies risk non-compliance, biased outcomes, or public backlash."
+          "text": "Without strategy for responsible AI use, companies risk non-compliance, biased outcomes, or public backlash."
         },
         "solution": {
           "title": "Solution",
-          "text": "I bring proven governance frameworks and ethical design principles to ensure AI is deployed safely, responsibly, and in line with emerging regulation."
+          "text": "I bring proven governance frameworks and ethical design principles to ensure AI is deployed safely, responsibly, and in compliance with emerging regulations."
         }
       }
     ],
     "cta": {
       "title": "Do you recognize yourself in these challenges?",
-      "subtitle": "Let's discuss how I can help you in a free 15-minute call.",
-      "button": "Book Discovery Call Now"
+      "subtitle": "Let's discuss in a free 15-minute call how I can help you.",
+      "button": "Book Consultation Call Now"
     }
   },
   "about": {
     "title": "👤 About Me",
-    "description": "Senior expert in Data & AI Strategy with 12+ years of experience leading global initiatives. Trusted by CDOs and CIOs to align technology with business value, de-risk AI investments, and drive strategic transformation.",
+    "description": "Senior Data & AI Strategy expert with over 12 years of experience leading global initiatives. Trusted by CDOs and CIOs to align technology with business value, secure AI investments, and drive strategic transformation.",
     "expertise": [
       "AI Strategy Development",
       "C-Suite Alignment",
@@ -226,10 +226,10 @@
     ]
   },
   "cta": {
-    "title": "📅 Book a 15-Minute Discovery Call",
-    "subtitle": "A quick, no-obligation call to explore if I'm the right partner for your AI journey.",
+    "title": "📅 Free 15-Minute Consultation Call",
+    "subtitle": "A brief, no-obligation call to explore whether I'm the right partner for your AI journey.",
     "buttons": {
-      "primary": "Book a Call",
+      "primary": "Book Call",
       "secondary": "Get in Touch"
     }
   },

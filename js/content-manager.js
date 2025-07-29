@@ -40,16 +40,20 @@ class ContentManager {
             const enResponse = await fetch('content/en.json');
             
             if (!deResponse.ok) {
-                throw new Error(`Failed to load German content: ${deResponse.status}`);
+                throw new Error(`Failed to load German content: ${deResponse.status} - ${deResponse.statusText}`);
             }
             if (!enResponse.ok) {
-                throw new Error(`Failed to load English content: ${enResponse.status}`);
+                throw new Error(`Failed to load English content: ${enResponse.status} - ${enResponse.statusText}`);
             }
             
             const [deContent, enContent] = await Promise.all([
                 deResponse.json(),
                 enResponse.json()
             ]);
+            
+            // Validate content structure
+            this.validateContent(deContent, 'German');
+            this.validateContent(enContent, 'English');
             
             console.log('📄 German content loaded');
             console.log('📄 English content loaded');
@@ -62,8 +66,60 @@ class ContentManager {
         } catch (error) {
             console.error('❌ Failed to load content:', error);
             console.error('❌ This might be due to missing content files or server issues');
+            
+            // Show user-friendly error message
+            this.showContentError(error.message);
             throw error;
         }
+    }
+
+    /**
+     * Validate content structure
+     */
+    validateContent(content, language) {
+        const requiredSections = ['meta', 'navigation', 'hero', 'services', 'assessment', 'about', 'cta', 'contact', 'footer'];
+        const missingSections = requiredSections.filter(section => !content[section]);
+        
+        if (missingSections.length > 0) {
+            throw new Error(`Missing required sections in ${language} content: ${missingSections.join(', ')}`);
+        }
+    }
+
+    /**
+     * Show content error to user
+     */
+    showContentError(message) {
+        // Create error notification
+        const errorDiv = document.createElement('div');
+        errorDiv.style.cssText = `
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #ef4444;
+            color: white;
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            z-index: 10000;
+            max-width: 500px;
+            text-align: center;
+            font-family: inherit;
+        `;
+        errorDiv.innerHTML = `
+            <strong>Content Loading Error</strong><br>
+            ${message}<br>
+            <small>Please refresh the page or contact support.</small>
+        `;
+        
+        document.body.appendChild(errorDiv);
+        
+        // Remove after 10 seconds
+        setTimeout(() => {
+            if (errorDiv.parentNode) {
+                errorDiv.remove();
+            }
+        }, 10000);
     }
 
     /**
@@ -376,8 +432,11 @@ class ContentManager {
         const langButtons = document.querySelectorAll('.lang-btn');
         langButtons.forEach(btn => {
             btn.classList.remove('active');
+            btn.setAttribute('aria-pressed', 'false');
+            
             if (btn.dataset.lang === this.currentLanguage) {
                 btn.classList.add('active');
+                btn.setAttribute('aria-pressed', 'true');
             }
         });
     }

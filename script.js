@@ -1,13 +1,27 @@
 // Initialize content manager
 let contentManager;
 
-// Mobile Navigation Toggle
+// Mobile Navigation Toggle with accessibility
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
 
 hamburger.addEventListener('click', () => {
+    const isExpanded = hamburger.classList.contains('active');
+    
     hamburger.classList.toggle('active');
     navMenu.classList.toggle('active');
+    
+    // Update ARIA attributes
+    hamburger.setAttribute('aria-expanded', !isExpanded);
+    
+    // Focus management
+    if (!isExpanded) {
+        // Menu is opening, focus first menu item
+        const firstMenuItem = navMenu.querySelector('.nav-link');
+        if (firstMenuItem) {
+            setTimeout(() => firstMenuItem.focus(), 100);
+        }
+    }
 });
 
 // Close mobile menu when clicking on a link
@@ -30,8 +44,21 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Navbar background on scroll
-window.addEventListener('scroll', () => {
+// Performance optimization: Debounce scroll events
+function debounce(func, wait) {
+    let timeout;
+    return function executedFunction(...args) {
+        const later = () => {
+            clearTimeout(timeout);
+            func(...args);
+        };
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+    };
+}
+
+// Navbar background on scroll (debounced)
+const updateNavbar = debounce(() => {
     const navbar = document.querySelector('.navbar');
     if (window.scrollY > 50) {
         navbar.style.background = 'rgba(255, 255, 255, 0.98)';
@@ -40,7 +67,9 @@ window.addEventListener('scroll', () => {
         navbar.style.background = 'rgba(255, 255, 255, 0.95)';
         navbar.style.boxShadow = 'none';
     }
-});
+}, 10);
+
+window.addEventListener('scroll', updateNavbar, { passive: true });
 
 // Intersection Observer for animations
 const observerOptions = {
@@ -167,17 +196,32 @@ function showNotification(message, type = 'info') {
     }, 5000);
 }
 
-// Form validation
+// Enhanced form validation with accessibility
 function validateForm(form) {
     const inputs = form.querySelectorAll('input[required], textarea[required]');
     let isValid = true;
     
+    // Clear previous errors
+    form.querySelectorAll('.error-message').forEach(error => {
+        error.style.display = 'none';
+        error.textContent = '';
+    });
+    
     inputs.forEach(input => {
+        const errorElement = document.getElementById(`${input.id}-error`);
+        
         if (!input.value.trim()) {
             input.classList.add('error');
+            if (errorElement) {
+                errorElement.textContent = 'This field is required';
+                errorElement.style.display = 'block';
+            }
             isValid = false;
         } else {
             input.classList.remove('error');
+            if (errorElement) {
+                errorElement.style.display = 'none';
+            }
         }
     });
     
@@ -185,9 +229,20 @@ function validateForm(form) {
     const emailInput = form.querySelector('input[type="email"]');
     if (emailInput && emailInput.value) {
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        const emailError = document.getElementById('email-error');
+        
         if (!emailRegex.test(emailInput.value)) {
             emailInput.classList.add('error');
+            if (emailError) {
+                emailError.textContent = 'Please enter a valid email address';
+                emailError.style.display = 'block';
+            }
             isValid = false;
+        } else {
+            emailInput.classList.remove('error');
+            if (emailError) {
+                emailError.style.display = 'none';
+            }
         }
     }
     
@@ -214,15 +269,17 @@ if (contactForm) {
     });
 }
 
-// Parallax effect for hero section
-window.addEventListener('scroll', () => {
+// Parallax effect for hero section (debounced)
+const updateParallax = debounce(() => {
     const scrolled = window.pageYOffset;
     const hero = document.querySelector('.hero');
     if (hero) {
         const rate = scrolled * -0.5;
         hero.style.transform = `translateY(${rate}px)`;
     }
-});
+}, 16); // ~60fps
+
+window.addEventListener('scroll', updateParallax, { passive: true });
 
 // Service card hover effects
 document.querySelectorAll('.service-card').forEach(card => {
@@ -353,21 +410,6 @@ function debounce(func, wait) {
         timeout = setTimeout(later, wait);
     };
 }
-
-// Apply debouncing to scroll events
-const debouncedScrollHandler = debounce(() => {
-    // Navbar background logic (already implemented above)
-    const navbar = document.querySelector('.navbar');
-    if (window.scrollY > 50) {
-        navbar.style.background = 'rgba(255, 255, 255, 0.98)';
-        navbar.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
-    } else {
-        navbar.style.background = 'rgba(255, 255, 255, 0.95)';
-        navbar.style.boxShadow = 'none';
-    }
-}, 10);
-
-window.addEventListener('scroll', debouncedScrollHandler);
 
 // Initialize tooltips (if needed)
 function initTooltips() {
