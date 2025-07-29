@@ -37,7 +37,7 @@ print_step() {
 
 # Configuration
 BACKUP_BRANCH="backup-$(date +%Y%m%d-%H%M%S)"
-DEPLOYMENT_LOG="deployment-$(date +%Y%m%d-%H%M%S).log"
+DEPLOYMENT_LOG="logs/deployment-$(date +%Y%m%d-%H%M%S).log"
 VALIDATE_ONLY=false
 SKIP_VALIDATION=false
 
@@ -170,7 +170,7 @@ run_validation() {
     if grep -r "erlacher-advisory\.com" . --exclude-dir=.git --exclude=*.md --exclude=*.sh 2>/dev/null; then
         print_success "✓ Proper domain references found"
     else
-        print_warning "! No references to erlacher-advisory.com found"
+        print_warning "! No references to www.erlacher-advisory.com found"
         ((warnings++))
     fi
     
@@ -473,7 +473,7 @@ validate_deployment() {
         print_status "Checking site accessibility..."
         
         for i in {1..5}; do
-            if curl -s -o /dev/null -w "%{http_code}" https://erlacher-advisory.com | grep -q "200\|301\|302"; then
+            if curl -s -o /dev/null -w "%{http_code}" https://www.erlacher-advisory.com | grep -q "200\|301\|302"; then
                 print_success "Site is accessible"
                 log_deployment "Site accessibility confirmed"
                 return 0
@@ -507,7 +507,7 @@ show_deployment_summary() {
     echo "  ✅ Post-deployment validation passed"
     echo ""
     echo "🌐 Your website should be live in a few minutes at:"
-    echo "   https://erlacher-advisory.com"
+    echo "   https://www.erlacher-advisory.com"
     echo ""
     echo "📝 Deployment log saved to: $DEPLOYMENT_LOG"
     echo ""

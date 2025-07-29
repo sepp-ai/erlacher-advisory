@@ -89,8 +89,7 @@ Update these files with your custom domain:
 
 **In `index.html`:**
 ```html
-<meta property="og:url" content="https://yourdomain.com/">
-<meta property="twitter:url" content="https://yourdomain.com/">
+<!-- Note: Social media meta tags have been removed as this site focuses on LinkedIn only -->
 ```
 
 **In `package.json`:**

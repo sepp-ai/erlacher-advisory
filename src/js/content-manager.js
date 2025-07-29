@@ -422,6 +422,14 @@ class ContentManager {
                     link.href = linkData.href;
                 }
             });
+
+            // Update legal links
+            const legalLinks = footer.querySelectorAll('.legal-links a');
+            if (footerContent.legal && legalLinks.length >= 3) {
+                legalLinks[0].textContent = footerContent.legal.privacy;
+                legalLinks[1].textContent = footerContent.legal.legal;
+                legalLinks[2].textContent = footerContent.legal.cookies;
+            }
         }
     }
 
@@ -459,17 +467,7 @@ class ContentManager {
         const metaKeywords = document.querySelector('meta[name="keywords"]');
         if (metaKeywords) metaKeywords.content = content.meta.keywords;
 
-        // Update Open Graph tags
-        const ogTitle = document.querySelector('meta[property="og:title"]');
-        const ogDesc = document.querySelector('meta[property="og:description"]');
-        if (ogTitle) ogTitle.content = content.meta.ogTitle;
-        if (ogDesc) ogDesc.content = content.meta.ogDescription;
 
-        // Update Twitter tags
-        const twitterTitle = document.querySelector('meta[property="twitter:title"]');
-        const twitterDesc = document.querySelector('meta[property="twitter:description"]');
-        if (twitterTitle) twitterTitle.content = content.meta.twitterTitle;
-        if (twitterDesc) twitterDesc.content = content.meta.twitterDescription;
     }
 
     /**

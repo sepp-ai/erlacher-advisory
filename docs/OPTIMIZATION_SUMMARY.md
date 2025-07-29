@@ -10,7 +10,7 @@ This document summarizes all the optimizations performed on the erlacher-advisor
 
 #### Domain References
 - **Problem**: Hardcoded `yourdomain.com` references in HTML and documentation
-- **Solution**: Updated all references to use actual domain `erlacher-advisory.com`
+- **Solution**: Updated all references to use actual domain `www.erlacher-advisory.com`
 - **Files Modified**: `index.html`, `README.md`, `GITHUB_PAGES_SETUP.md`
 - **Impact**: Fixed SEO and social media sharing functionality
 

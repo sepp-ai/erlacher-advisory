@@ -137,7 +137,7 @@ The scripts handle most git configuration automatically, but ensure:
 
 ### Domain Configuration
 The scripts expect:
-- Custom domain: `erlacher-advisory.com`
+- Custom domain: `www.erlacher-advisory.com`
 - GitHub Pages enabled on gh-pages branch
 - CNAME file configured
 
@@ -159,7 +159,7 @@ deployment-20241230-143022.log
 ### Monitoring Deployment
 1. **GitHub Pages**: Check repository settings > Pages
 2. **Actions Tab**: Monitor GitHub Actions for deployment status
-3. **Live Site**: Test https://erlacher-advisory.com
+3. **Live Site**: Test https://www.erlacher-advisory.com
 4. **Log Files**: Review deployment logs for details
 
 ## 🛡️ **Error Handling and Recovery**
