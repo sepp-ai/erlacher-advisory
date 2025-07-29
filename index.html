@@ -9,13 +9,13 @@
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://yourdomain.com/">
+    <meta property="og:url" content="https://erlacher-advisory.com/">
     <meta property="og:title" content="Data & AI Strategy Advisor">
     <meta property="og:description" content="Helping C-level leaders define and execute enterprise AI strategies that deliver measurable business value.">
     
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://yourdomain.com/">
+    <meta property="twitter:url" content="https://erlacher-advisory.com/">
     <meta property="twitter:title" content="Data & AI Strategy Advisor">
     <meta property="twitter:description" content="Helping C-level leaders define and execute enterprise AI strategies that deliver measurable business value.">
     
@@ -26,33 +26,36 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+    <!-- Skip link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
     <!-- Navigation -->
-    <nav class="navbar">
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
         <div class="nav-container">
             <div class="nav-logo">
-                <span class="logo-text">🧠 AI Strategy</span>
+                <span class="logo-text" role="img" aria-label="AI Strategy Logo">🧠 AI Strategy</span>
             </div>
-            <div class="nav-menu">
-                <a href="#services" class="nav-link">Beratung</a>
-                <a href="#assessment" class="nav-link">Ist es das Richtige?</a>
-                <a href="#about" class="nav-link">Über mich</a>
-                <a href="#contact" class="nav-link">Kontakt</a>
-                <a href="https://calendly.com/roman-erlacher/discovery-call" target="_blank" class="nav-link cta-button">Termin buchen</a>
-                <div class="language-switcher">
-                    <button class="lang-btn active" data-lang="de">DE</button>
-                    <button class="lang-btn" data-lang="en">EN</button>
+            <div class="nav-menu" role="menubar">
+                <a href="#services" class="nav-link" role="menuitem" aria-label="Go to services section">Beratung</a>
+                <a href="#assessment" class="nav-link" role="menuitem" aria-label="Go to assessment section">Ist es das Richtige?</a>
+                <a href="#about" class="nav-link" role="menuitem" aria-label="Go to about section">Über mich</a>
+                <a href="#contact" class="nav-link" role="menuitem" aria-label="Go to contact section">Kontakt</a>
+                <a href="https://calendly.com/roman-erlacher/discovery-call" target="_blank" class="nav-link cta-button" role="menuitem" aria-label="Book consultation call (opens in new tab)">Termin buchen</a>
+                <div class="language-switcher" role="group" aria-label="Language selection">
+                    <button class="lang-btn active" data-lang="de" aria-label="Switch to German language" aria-pressed="true">DE</button>
+                    <button class="lang-btn" data-lang="en" aria-label="Switch to English language" aria-pressed="false">EN</button>
                 </div>
             </div>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+            <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="nav-menu">
+                <span class="bar" aria-hidden="true"></span>
+                <span class="bar" aria-hidden="true"></span>
+                <span class="bar" aria-hidden="true"></span>
+            </button>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero">
+    <section class="hero" id="main-content">
         <div class="hero-container">
             <div class="hero-content">
                 <h1 class="hero-title">
@@ -403,24 +406,28 @@
                 </div>
                 
                 <div class="contact-form">
-                    <form id="contactForm">
+                    <form id="contactForm" role="form" aria-label="Contact form">
                         <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" required>
+                            <label for="name" id="name-label">Name</label>
+                            <input type="text" id="name" name="name" required aria-labelledby="name-label" aria-describedby="name-error">
+                            <div id="name-error" class="error-message" aria-live="polite" style="display: none;"></div>
                         </div>
                         <div class="form-group">
-                            <label for="email">E-Mail</label>
-                            <input type="email" id="email" name="email" required>
+                            <label for="email" id="email-label">E-Mail</label>
+                            <input type="email" id="email" name="email" required aria-labelledby="email-label" aria-describedby="email-error">
+                            <div id="email-error" class="error-message" aria-live="polite" style="display: none;"></div>
                         </div>
                         <div class="form-group">
-                            <label for="company">Unternehmen</label>
-                            <input type="text" id="company" name="company">
+                            <label for="company" id="company-label">Unternehmen</label>
+                            <input type="text" id="company" name="company" aria-labelledby="company-label">
                         </div>
                         <div class="form-group">
-                            <label for="message">Nachricht</label>
-                            <textarea id="message" name="message" rows="4" required></textarea>
+                            <label for="message" id="message-label">Nachricht</label>
+                            <textarea id="message" name="message" rows="4" required aria-labelledby="message-label" aria-describedby="message-error"></textarea>
+                            <div id="message-error" class="error-message" aria-live="polite" style="display: none;"></div>
                         </div>
-                        <button type="submit" class="btn btn-primary">Nachricht senden</button>
+                        <button type="submit" class="btn btn-primary" aria-describedby="submit-status">Nachricht senden</button>
+                        <div id="submit-status" class="submit-status" aria-live="polite" style="display: none;"></div>
                     </form>
                 </div>
             </div>
@@ -452,4 +459,5 @@
     <script src="js/content-validator.js?v=1.1"></script>
     <script src="script.js?v=1.1"></script>
 </body>
+</html> 
 </html> 
