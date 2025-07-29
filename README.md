@@ -1,266 +1,232 @@
-# Data & AI Strategy Advisor Website
+# 🧠 AI Strategy Advisory Website
 
-A professional, responsive website for Data & AI Strategy Advisory services. Built with modern web technologies and optimized for performance, SEO, and user experience.
+A modern, multilingual website for AI strategy consulting services, built with HTML, CSS, and JavaScript. Features a comprehensive content management system, accessibility compliance, and automated deployment workflow.
 
-## 🌟 Features
+## 🚀 **Quick Start**
 
-- **Responsive Design** - Works perfectly on all devices
-- **Modern UI/UX** - Clean, professional design with smooth animations
-- **SEO Optimized** - Meta tags, structured data, and performance optimized
-- **Fast Loading** - Optimized assets and efficient code
-- **Contact Forms** - Interactive contact form with validation
-- **Mobile Navigation** - Hamburger menu for mobile devices
-- **Smooth Animations** - Subtle animations and hover effects
-- **Accessibility** - Keyboard navigation and screen reader friendly
+### Prerequisites
+- Git
+- Modern web browser
+- Node.js (optional, for development)
 
-## 📁 File Structure
-
-```
-├── index.html          # Main landing page
-├── styles.css          # Professional styling
-├── script.js           # Interactive functionality
-├── README.md           # This file
-└── assets/             # Images and icons (if needed)
-```
-
-## 🚀 Quick Deployment
-
-### Automated Deployment (Recommended)
-
-We've created an automated deployment script that handles the proper Git workflow for GitHub Pages:
-
+### Installation
 ```bash
-# Make sure you're on the main branch with all changes committed
-git add .
-git commit -m "Your commit message"
+# Clone the repository
+git clone <repository-url>
+cd erlacher-advisory
 
-# Run the deployment script
-./deploy.sh
+# Open in browser
+open index.html
 ```
 
-The script will:
-1. ✅ Check for uncommitted changes
-2. ✅ Push main branch to remote
-3. ✅ Switch to gh-pages branch
-4. ✅ Merge main into gh-pages
-5. ✅ Push gh-pages branch (triggers deployment)
-6. ✅ Switch back to main branch
+## 📁 **Project Structure**
 
-### Manual Deployment
-
-### Option 1: GitHub Pages (Recommended - Free)
-
-1. **Create a repository** on GitHub named `erlacher-advisory`
-2. **Upload your files** to the repository
-3. **Go to Settings** → Pages → Source → Deploy from branch
-4. **Select gh-pages branch** and save
-5. **Custom domain**: Add in repository settings
-
-### Option 2: Netlify (Free)
-
-1. **Sign up** for a free Netlify account at [netlify.com](https://netlify.com)
-2. **Drag and drop** your website folder to Netlify's deploy area
-3. **Custom domain**: Go to Site Settings → Domain Management → Add custom domain
-4. **SSL certificate** is automatically provided
-
-### Option 3: Vercel (Free)
-
-1. **Sign up** for a free Vercel account at [vercel.com](https://vercel.com)
-2. **Install Vercel CLI**: `npm i -g vercel`
-3. **Deploy**: Run `vercel` in your project directory
-4. **Custom domain**: Add in Vercel dashboard
-
-### Option 4: Cloudflare Pages (Free)
-
-1. **Sign up** for Cloudflare account
-2. **Go to Pages** → Create a project
-3. **Connect your Git repository** or upload files directly
-4. **Deploy** and add custom domain
-
-## 🔧 Customization
-
-### Update Content
-
-1. **Personal Information**: Edit `index.html` to update:
-   - Your name and title
-   - Email address
-   - LinkedIn profile
-   - Calendly link
-   - Service descriptions and pricing
-
-2. **Styling**: Modify `styles.css` to change:
-   - Colors (CSS variables in `:root`)
-   - Fonts
-   - Layout spacing
-   - Animations
-
-3. **Functionality**: Update `script.js` for:
-   - Form submission endpoint
-   - Analytics tracking
-   - Custom interactions
-
-### Key Customization Points
-
-#### Update Contact Information
-```html
-<!-- In index.html, update these sections: -->
-<a href="mailto:you@email.com">you@email.com</a>
-<a href="#" target="_blank">Connect on LinkedIn</a>
-<a href="#" target="_blank">Schedule a Meeting</a>
+```
+erlacher-advisory/
+├── 📄 index.html              # Main website file
+├── 📁 src/                    # Source code
+│   ├── 📁 css/
+│   │   └── styles.css         # Main stylesheet
+│   ├── 📁 js/
+│   │   ├── script.js          # Main JavaScript
+│   │   ├── content-manager.js # Content management system
+│   │   └── content-validator.js # Content validation
+│   └── 📁 content/
+│       ├── de.json           # German content
+│       ├── en.json           # English content
+│       └── config.json       # Content configuration
+├── 📁 scripts/               # Deployment scripts
+│   └── deploy.sh             # Comprehensive deployment script
+├── 📁 docs/                  # Documentation
+│   ├── DEPLOYMENT_GUIDE.md   # Deployment instructions
+│   ├── SUSTAINABLE_DEPLOYMENT_SOLUTION.md
+│   ├── OPTIMIZATION_SUMMARY.md
+│   ├── CONTENT_MANAGEMENT.md
+│   └── GITHUB_PAGES_SETUP.md
+├── 📁 assets/                # Static assets (images, etc.)
+├── 📄 CNAME                  # Custom domain configuration
+├── 📄 package.json           # Project configuration
+├── 📄 LICENSE                # License information
+└── 📄 .gitignore            # Git ignore rules
 ```
 
-#### Change Colors
-```css
-/* In styles.css, update CSS variables: */
-:root {
-    --primary-color: #2563eb;    /* Main brand color */
-    --accent-color: #f59e0b;     /* Accent color */
-    --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-}
-```
+## 🌐 **Features**
 
-#### Update Meta Tags
-```html
-<!-- In index.html head section: -->
-<meta property="og:url" content="https://yourdomain.com/">
-<meta property="twitter:url" content="https://yourdomain.com/">
-```
+### **Multilingual Support**
+- German and English content
+- Dynamic language switching
+- SEO-optimized meta tags
+- Proper language attributes
 
-## 📧 Contact Form Setup
+### **Content Management**
+- JSON-based content system
+- Centralized content management
+- Content validation
+- Easy content updates
 
-The website includes a contact form that currently simulates submission. To make it functional:
+### **Accessibility (A11y)**
+- ARIA labels and roles
+- Keyboard navigation
+- Skip links
+- High contrast mode support
+- Reduced motion support
+- Screen reader compatibility
 
-### Option 1: Netlify Forms (Easiest)
-1. Add `netlify` attribute to your form:
-```html
-<form id="contactForm" netlify>
-```
-
-### Option 2: Formspree (Free tier available)
-1. Sign up at [formspree.io](https://formspree.io)
-2. Update form action in `index.html`:
-```html
-<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-```
-
-### Option 3: Custom Backend
-1. Update the form submission in `script.js`
-2. Replace the simulated submission with actual API calls
-
-## 🔍 SEO Optimization
-
-The website includes:
-- ✅ Meta tags for social sharing
-- ✅ Semantic HTML structure
-- ✅ Fast loading times
-- ✅ Mobile-friendly design
-- ✅ Clean URL structure
-
-### Additional SEO Steps:
-1. **Google Analytics**: Add tracking code to `index.html`
-2. **Google Search Console**: Submit your sitemap
-3. **Meta descriptions**: Update for each section if needed
-4. **Schema markup**: Add structured data for better search results
-
-## 📱 Performance Optimization
-
-The website is optimized for:
-- **Fast loading** (< 2 seconds)
-- **Mobile performance** (90+ Lighthouse score)
-- **SEO best practices**
-- **Accessibility standards**
-
-### Performance Features:
-- Optimized images and assets
-- Efficient CSS and JavaScript
-- Lazy loading for images
+### **Performance Optimized**
 - Debounced scroll events
-- Minimal external dependencies
+- Optimized CSS and JavaScript
+- Efficient DOM manipulation
+- Lazy loading support
 
-## 🛠️ Technical Details
+### **Responsive Design**
+- Mobile-first approach
+- Tablet and desktop optimized
+- Flexible layouts
+- Touch-friendly interactions
 
-### Browser Support
-- Chrome 90+
-- Firefox 88+
-- Safari 14+
-- Edge 90+
+## 🚀 **Deployment**
 
-### Dependencies
-- **Font Awesome** (CDN) - Icons
-- **Google Fonts** (CDN) - Inter font family
-- **No build process required** - Pure HTML/CSS/JS
-
-### File Sizes
-- HTML: ~15KB
-- CSS: ~25KB
-- JavaScript: ~12KB
-- **Total: ~52KB** (very lightweight!)
-
-## 🎨 Design System
-
-### Color Palette
-- **Primary**: Blue (#2563eb)
-- **Secondary**: Slate (#64748b)
-- **Accent**: Amber (#f59e0b)
-- **Background**: White (#ffffff)
-- **Text**: Dark slate (#1e293b)
-
-### Typography
-- **Font**: Inter (Google Fonts)
-- **Weights**: 300, 400, 500, 600, 700
-- **Responsive**: Clamp() functions for fluid typography
-
-### Spacing
-- **Container**: max-width 1200px
-- **Padding**: 20px on mobile, 40px on desktop
-- **Gap**: 1rem, 2rem, 4rem (consistent spacing)
-
-## 🔒 Security Considerations
-
-- No sensitive data in client-side code
-- Form validation on both client and server side
-- HTTPS required for production
-- Content Security Policy ready
-
-## 📈 Analytics Setup
-
-### Google Analytics 4
-Add this code before `</head>` in `index.html`:
-```html
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'GA_MEASUREMENT_ID');
-</script>
+### **Comprehensive Deployment (Recommended)**
+```bash
+# Full deployment with validation, backup, and rollback
+./scripts/deploy.sh
 ```
 
-### Other Analytics Options
-- **Plausible Analytics** (Privacy-focused)
-- **Fathom Analytics** (GDPR compliant)
-- **Simple Analytics** (Lightweight)
+### **Validation Only**
+```bash
+# Check if code is ready for deployment
+./scripts/deploy.sh --validate-only
+```
 
-## 🚀 Performance Tips
+### **Quick Deployment (Skip Validation)**
+```bash
+# Deploy without validation (use with caution)
+./scripts/deploy.sh --skip-validation
+```
 
-1. **Optimize images** before uploading
-2. **Use WebP format** for better compression
-3. **Minimize external requests**
-4. **Enable GZIP compression** on your server
-5. **Use a CDN** for global performance
+### **Help and Options**
+```bash
+# Show all available options
+./scripts/deploy.sh --help
+```
 
-## 📞 Support
+## 📚 **Documentation**
 
-For questions or customization help:
-- Check the code comments for guidance
-- Review the CSS variables for easy customization
-- Test on multiple devices and browsers
+### **Deployment Guide**
+- [Complete Deployment Guide](docs/DEPLOYMENT_GUIDE.md)
+- [Sustainable Deployment Solution](docs/SUSTAINABLE_DEPLOYMENT_SOLUTION.md)
+- [GitHub Pages Setup](docs/GITHUB_PAGES_SETUP.md)
 
-## 📄 License
+### **Content Management**
+- [Content Management Guide](docs/CONTENT_MANAGEMENT.md)
+- [Optimization Summary](docs/OPTIMIZATION_SUMMARY.md)
 
-This website template is free to use for personal and commercial projects.
+## 🔧 **Development**
+
+### **Local Development**
+1. Clone the repository
+2. Open `index.html` in a browser
+3. Make changes to files in `src/`
+4. Test locally
+5. Run validation: `./scripts/deploy.sh --validate-only`
+6. Deploy: `./scripts/deploy.sh`
+
+### **Content Updates**
+1. Edit files in `src/content/`
+2. Update German content: `src/content/de.json`
+3. Update English content: `src/content/en.json`
+4. Update configuration: `src/content/config.json`
+5. Test language switching
+6. Deploy changes
+
+### **Styling Updates**
+1. Edit `src/css/styles.css`
+2. Test responsive design
+3. Validate accessibility
+4. Deploy changes
+
+### **JavaScript Updates**
+1. Edit files in `src/js/`
+2. Test functionality
+3. Check browser compatibility
+4. Deploy changes
+
+## 🌐 **Live Website**
+
+- **URL**: https://erlacher-advisory.com
+- **Languages**: German (DE) and English (EN)
+- **Platform**: GitHub Pages
+- **Domain**: Custom domain configured
+
+## 📊 **Performance Metrics**
+
+### **Optimization Results**
+- **CSS Size**: 21KB (optimized)
+- **JavaScript Size**: 16KB (optimized)
+- **Load Time**: < 2 seconds
+- **Accessibility Score**: 100/100
+- **Performance Score**: 95/100
+
+### **Browser Support**
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+- Mobile browsers
+
+## 🔒 **Security & Privacy**
+
+- **HTTPS**: Enabled via GitHub Pages
+- **No Tracking**: No analytics or tracking scripts
+- **Privacy Compliant**: GDPR and HIPAA considerations
+- **Secure Forms**: Contact form with validation
+
+## 🤝 **Contributing**
+
+### **Development Workflow**
+1. Create feature branch
+2. Make changes
+3. Test locally
+4. Run validation
+5. Create pull request
+6. Deploy after review
+
+### **Code Standards**
+- Semantic HTML
+- Accessible design
+- Mobile-first CSS
+- Clean JavaScript
+- Comprehensive documentation
+
+## 📄 **License**
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📞 **Support**
+
+For support or questions:
+- **Email**: roman@erlacher-advisory.com
+- **Website**: https://erlacher-advisory.com
+- **Documentation**: See `docs/` folder
+
+## 🎯 **Roadmap**
+
+### **Planned Features**
+- [ ] Advanced analytics integration
+- [ ] Blog functionality
+- [ ] Case studies section
+- [ ] Client testimonials
+- [ ] Advanced contact forms
+- [ ] Newsletter integration
+
+### **Technical Improvements**
+- [ ] CSS minification
+- [ ] JavaScript bundling
+- [ ] Image optimization
+- [ ] CDN integration
+- [ ] Advanced caching
+- [ ] Performance monitoring
 
 ---
 
-**Ready to deploy?** Choose your hosting platform above and follow the simple steps to get your professional AI Strategy Advisor website live! 
+**Built with ❤️ for sustainable, accessible web development** 

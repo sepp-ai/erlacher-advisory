@@ -124,17 +124,17 @@
 
 ### For Regular Deployments (Recommended)
 ```bash
-./deploy-workflow.sh
+./scripts/deploy.sh
 ```
 
-### For Quick Deployments
+### For Quick Deployments (Skip Validation)
 ```bash
-./deploy-improved.sh
+./scripts/deploy.sh --skip-validation
 ```
 
 ### For Validation Only
 ```bash
-./pre-deploy-check.sh
+./scripts/deploy.sh --validate-only
 ```
 
 ## 📈 **Benefits Achieved**
@@ -193,13 +193,13 @@
 ## 📋 **Deployment Checklist**
 
 ### Before Deployment
-- [ ] Run `./pre-deploy-check.sh` to validate
+- [ ] Run `./scripts/deploy.sh --validate-only` to validate
 - [ ] Ensure all changes are committed
 - [ ] Test changes locally
 - [ ] Review deployment scope
 
 ### During Deployment
-- [ ] Use `./deploy-workflow.sh` for safety
+- [ ] Use `./scripts/deploy.sh` for safety
 - [ ] Monitor deployment progress
 - [ ] Don't interrupt the process
 - [ ] Watch for any error messages
@@ -242,7 +242,7 @@ The sustainable deployment solution provides a robust, reliable, and efficient d
 This solution ensures that future deployments will be smooth, reliable, and efficient, eliminating the manual intervention issues we experienced and providing a professional, sustainable deployment process.
 
 **Next Steps**:
-1. Use `./deploy-workflow.sh` for all future deployments
+1. Use `./scripts/deploy.sh` for all future deployments
 2. Monitor deployment logs for optimization opportunities
 3. Update validation rules as the project evolves
 4. Consider CI/CD integration for even more automation

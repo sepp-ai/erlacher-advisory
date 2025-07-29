@@ -24,86 +24,68 @@ This guide explains the new automated deployment system that solves the manual i
 - ✅ Pre-deployment validation
 - ✅ Fully automated deployment process
 
-## 📁 **New Deployment Scripts**
+## 📁 **Deployment Script**
 
-### 1. `pre-deploy-check.sh` - Pre-deployment Validation
-**Purpose**: Validates the codebase before deployment to catch issues early.
-
-**Checks performed**:
-- ✅ Content file existence and JSON validity
-- ✅ Domain reference validation
-- ✅ TODO/FIXME comment detection
-- ✅ Git status and branch validation
-- ✅ File size optimization checks
-- ✅ Common code issues detection
-- ✅ Basic accessibility validation
-
-**Usage**:
-```bash
-./pre-deploy-check.sh
-```
-
-### 2. `deploy-improved.sh` - Enhanced Deployment Script
-**Purpose**: Handles the actual deployment with improved error handling.
+### `deploy.sh` - Comprehensive Deployment Script
+**Purpose**: Single, comprehensive deployment script that combines validation, deployment, backup, and rollback.
 
 **Features**:
-- ✅ Automatic uncommitted changes handling
-- ✅ Branch management and switching
-- ✅ Remote synchronization
-- ✅ Automated merge conflict resolution
-- ✅ Force push handling for diverged branches
-- ✅ Deployment validation
+- ✅ **Pre-deployment validation**: Content files, domain references, code quality, git status
+- ✅ **Automatic uncommitted changes handling**: Commits changes automatically
+- ✅ **Branch management**: Ensures correct branch positioning
+- ✅ **Remote synchronization**: Handles remote/local divergence
+- ✅ **Automated merge conflict resolution**: No manual editor interactions
+- ✅ **Backup creation**: Creates timestamped backup branches
+- ✅ **Rollback protection**: Automatic rollback on failure
+- ✅ **Post-deployment validation**: Confirms successful deployment
+- ✅ **Comprehensive logging**: Detailed audit trail
+- ✅ **Error recovery**: Multiple retry mechanisms and fallbacks
 
-**Usage**:
+**Usage Options**:
 ```bash
-./deploy-improved.sh
-```
+# Full deployment with validation (recommended)
+./scripts/deploy.sh
 
-### 3. `deploy-workflow.sh` - Comprehensive Workflow
-**Purpose**: Complete deployment workflow with backup and rollback.
+# Validation only (don't deploy)
+./scripts/deploy.sh --validate-only
 
-**Features**:
-- ✅ Pre-deployment validation
-- ✅ Automatic backup creation
-- ✅ Deployment with rollback protection
-- ✅ Post-deployment validation
-- ✅ Comprehensive logging
-- ✅ Error recovery mechanisms
+# Deploy without validation (use with caution)
+./scripts/deploy.sh --skip-validation
 
-**Usage**:
-```bash
-./deploy-workflow.sh
+# Show help and options
+./scripts/deploy.sh --help
 ```
 
 ## 🚀 **Recommended Deployment Process**
 
-### For Regular Deployments
-Use the comprehensive workflow script for the safest deployment:
+### For Regular Deployments (Recommended)
+Use the comprehensive deployment script for the safest deployment:
 
 ```bash
-./deploy-workflow.sh
+./scripts/deploy.sh
 ```
 
 This script will:
-1. ✅ Run pre-deployment checks
-2. ✅ Create a backup branch
-3. ✅ Deploy with rollback protection
-4. ✅ Validate the deployment
-5. ✅ Clean up backup branches
-6. ✅ Provide detailed logging
-
-### For Quick Deployments
-If you're confident in your changes and want a faster deployment:
-
-```bash
-./deploy-improved.sh
-```
+1. ✅ Run pre-deployment validation
+2. ✅ Handle uncommitted changes
+3. ✅ Create a backup branch
+4. ✅ Deploy with rollback protection
+5. ✅ Validate the deployment
+6. ✅ Clean up backup branches
+7. ✅ Provide detailed logging
 
 ### For Validation Only
 To check if your code is ready for deployment:
 
 ```bash
-./pre-deploy-check.sh
+./scripts/deploy.sh --validate-only
+```
+
+### For Quick Deployments (Use with Caution)
+If you're confident in your changes and want to skip validation:
+
+```bash
+./scripts/deploy.sh --skip-validation
 ```
 
 ## 📋 **Deployment Workflow Steps**
@@ -142,11 +124,9 @@ To check if your code is ready for deployment:
 ## 🔧 **Configuration**
 
 ### Script Permissions
-Ensure all scripts are executable:
+Ensure the deployment script is executable:
 ```bash
-chmod +x pre-deploy-check.sh
-chmod +x deploy-improved.sh
-chmod +x deploy-workflow.sh
+chmod +x scripts/deploy.sh
 ```
 
 ### Git Configuration
@@ -258,11 +238,11 @@ git push origin gh-pages --force
 ### Before Deployment
 1. **Test locally**: Ensure your changes work locally
 2. **Review changes**: Check what will be deployed
-3. **Run validation**: Use `./pre-deploy-check.sh`
+3. **Run validation**: Use `./scripts/deploy.sh --validate-only`
 4. **Commit changes**: Ensure all changes are committed
 
 ### During Deployment
-1. **Use workflow script**: `./deploy-workflow.sh` for safety
+1. **Use deployment script**: `./scripts/deploy.sh` for safety
 2. **Monitor logs**: Watch the deployment progress
 3. **Don't interrupt**: Let the process complete
 
@@ -309,7 +289,7 @@ git push origin gh-pages --force
 ### New Deployment Process
 ```bash
 # New automated process (recommended)
-./deploy-workflow.sh
+./scripts/deploy.sh
 ```
 
 ### Benefits of Migration
@@ -321,7 +301,7 @@ git push origin gh-pages --force
 
 ## 🎉 **Conclusion**
 
-The new automated deployment system provides a robust, reliable, and efficient deployment process that eliminates the manual intervention issues we previously encountered. By using `./deploy-workflow.sh` for deployments, you can ensure smooth, consistent deployments with comprehensive error handling and recovery mechanisms.
+The new automated deployment system provides a robust, reliable, and efficient deployment process that eliminates the manual intervention issues we previously encountered. By using `./scripts/deploy.sh` for deployments, you can ensure smooth, consistent deployments with comprehensive error handling and recovery mechanisms.
 
 **Key Benefits**:
 - 🚀 **Automated**: No manual intervention required
