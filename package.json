@@ -19,9 +19,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/romanerlacher/erlacher-advisory.git"
+    "url": "https://github.com/sepp-ai/erlacher-advisory.git"
   },
-  "homepage": "https://romanerlacher.github.io/erlacher-advisory",
+  "homepage": "https://sepp-ai.github.io/erlacher-advisory",
   "devDependencies": {},
   "dependencies": {}
 } 

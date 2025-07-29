@@ -40,7 +40,7 @@ git add .
 git commit -m "Initial website upload"
 
 # Add remote repository
-git remote add origin https://github.com/romanerlacher/erlacher-advisory.git
+git remote add origin https://github.com/sepp-ai/erlacher-advisory.git
 
 # Push to GitHub
 git branch -M main
@@ -60,7 +60,7 @@ git push -u origin main
 
 - GitHub Actions will automatically build and deploy your site
 - Check the **"Actions"** tab to see deployment progress
-- Your site will be available at: `https://romanerlacher.github.io/erlacher-advisory`
+- Your site will be available at: `https://sepp-ai.github.io/erlacher-advisory`
 
 ## 🔧 Custom Domain Setup (Optional)
 
@@ -115,9 +115,9 @@ Before deploying, update these files with your actual information:
 {
   "author": "Roman Erlacher",
   "repository": {
-    "url": "https://github.com/romanerlacher/erlacher-advisory.git"
+    "url": "https://github.com/sepp-ai/erlacher-advisory.git"
   },
-  "homepage": "https://romanerlacher.github.io/erlacher-advisory"
+  "homepage": "https://sepp-ai.github.io/erlacher-advisory"
 }
 ```
 
@@ -207,7 +207,7 @@ Add this to `index.html` before `</head>`:
 ## 🎉 Success!
 
 Your website will be live at:
-- **GitHub Pages URL**: `https://romanerlacher.github.io/erlacher-advisory`
+- **GitHub Pages URL**: `https://sepp-ai.github.io/erlacher-advisory`
 - **Custom Domain** (if configured): `https://yourdomain.com`
 
 The site will automatically update whenever you push changes to the `main` branch!
