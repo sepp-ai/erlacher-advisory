@@ -422,6 +422,14 @@ class ContentManager {
                     link.href = linkData.href;
                 }
             });
+
+            // Update legal links
+            const legalLinks = footer.querySelectorAll('.legal-links a');
+            if (footerContent.legal && legalLinks.length >= 3) {
+                legalLinks[0].textContent = footerContent.legal.privacy;
+                legalLinks[1].textContent = footerContent.legal.legal;
+                legalLinks[2].textContent = footerContent.legal.cookies;
+            }
         }
     }
 

@@ -279,7 +279,12 @@
         "href": "#contact"
       }
     ],
-    "copyright": "© 2024 Data & AI Strategy Advisor. All rights reserved."
+    "copyright": "© 2024 Data & AI Strategy Advisor. All rights reserved.",
+    "legal": {
+      "privacy": "Datenschutz",
+      "legal": "Impressum",
+      "cookies": "Cookie-Richtlinie"
+    }
   },
   "notifications": {
     "success": "E-Mail-Client geöffnet! Bitte senden Sie die E-Mail, um Ihre Anfrage abzuschließen.",

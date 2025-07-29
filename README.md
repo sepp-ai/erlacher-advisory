@@ -1,6 +1,6 @@
 # 🧠 AI Strategy Advisory Website
 
-A modern, multilingual website for AI strategy consulting services, built with HTML, CSS, and JavaScript. Features a comprehensive content management system, accessibility compliance, and automated deployment workflow.
+A modern, multilingual website for AI strategy consulting services, built with HTML, CSS, and JavaScript. Features a comprehensive content management system, accessibility compliance, automated deployment workflow, and full legal compliance for EU/Austrian requirements.
 
 ## 🚀 **Quick Start**
 
@@ -38,16 +38,15 @@ erlacher-advisory/
 ├── 📁 scripts/               # Deployment scripts
 │   └── deploy.sh             # Comprehensive deployment script
 ├── 📁 docs/                  # Documentation
-│   ├── DEPLOYMENT_GUIDE.md   # Deployment instructions
-│   ├── SUSTAINABLE_DEPLOYMENT_SOLUTION.md
-│   ├── OPTIMIZATION_SUMMARY.md
-│   ├── CONTENT_MANAGEMENT.md
-│   └── GITHUB_PAGES_SETUP.md
+├── 📁 logs/                  # Deployment and error logs
 ├── 📁 assets/                # Static assets (images, etc.)
 ├── 📄 CNAME                  # Custom domain configuration
 ├── 📄 package.json           # Project configuration
 ├── 📄 LICENSE                # License information
-└── 📄 .gitignore            # Git ignore rules
+├── 📄 .gitignore            # Git ignore rules
+├── 📄 privacy-policy.html    # Privacy policy (GDPR compliant)
+├── 📄 legal-notice.html      # Legal notice (Austrian requirements)
+└── 📄 cookie-policy.html     # Cookie policy
 ```
 
 ## 🌐 **Features**
@@ -83,6 +82,14 @@ erlacher-advisory/
 - Tablet and desktop optimized
 - Flexible layouts
 - Touch-friendly interactions
+
+### **Legal Compliance**
+- GDPR compliant privacy policy
+- Austrian legal notice (Impressum)
+- Cookie policy
+- Data protection by design
+- No tracking or analytics
+- Secure contact forms
 
 ## 🚀 **Deployment**
 
@@ -176,10 +183,24 @@ erlacher-advisory/
 
 ## 🔒 **Security & Privacy**
 
+### **Data Protection**
 - **HTTPS**: Enabled via GitHub Pages
 - **No Tracking**: No analytics or tracking scripts
-- **Privacy Compliant**: GDPR and HIPAA considerations
+- **Privacy Compliant**: Full GDPR compliance
+- **Austrian Law**: Compliant with Austrian legal requirements
 - **Secure Forms**: Contact form with validation
+- **Data Minimization**: Only necessary data collected
+
+### **Legal Documents**
+- [Privacy Policy](privacy-policy.html) - GDPR compliant
+- [Legal Notice](legal-notice.html) - Austrian requirements
+- [Cookie Policy](cookie-policy.html) - Cookie compliance
+
+### **Data Processing**
+- **Contact Form**: Data processed only for communication
+- **No Storage**: No persistent data storage
+- **No Cookies**: No tracking cookies used
+- **Transparency**: Clear information about data processing
 
 ## 🤝 **Contributing**
 
@@ -197,6 +218,7 @@ erlacher-advisory/
 - Mobile-first CSS
 - Clean JavaScript
 - Comprehensive documentation
+- Legal compliance
 
 ## 📄 **License**
 
@@ -212,12 +234,12 @@ For support or questions:
 ## 🎯 **Roadmap**
 
 ### **Planned Features**
-- [ ] Advanced analytics integration
+- [ ] Advanced analytics integration (GDPR compliant)
 - [ ] Blog functionality
 - [ ] Case studies section
 - [ ] Client testimonials
 - [ ] Advanced contact forms
-- [ ] Newsletter integration
+- [ ] Newsletter integration (with consent)
 
 ### **Technical Improvements**
 - [ ] CSS minification
@@ -229,4 +251,4 @@ For support or questions:
 
 ---
 
-**Built with ❤️ for sustainable, accessible web development** 
+**Built with ❤️ for sustainable, accessible, and legally compliant web development** 

@@ -839,6 +839,22 @@ p {
     color: var(--text-light);
 }
 
+.legal-links {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.legal-links a {
+    color: var(--text-light);
+    text-decoration: none;
+    margin: 0 0.5rem;
+    transition: color 0.3s ease;
+}
+
+.legal-links a:hover {
+    color: var(--primary-color);
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav-menu {

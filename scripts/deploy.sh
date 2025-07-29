@@ -37,7 +37,7 @@ print_step() {
 
 # Configuration
 BACKUP_BRANCH="backup-$(date +%Y%m%d-%H%M%S)"
-DEPLOYMENT_LOG="deployment-$(date +%Y%m%d-%H%M%S).log"
+DEPLOYMENT_LOG="logs/deployment-$(date +%Y%m%d-%H%M%S).log"
 VALIDATE_ONLY=false
 SKIP_VALIDATION=false
 
