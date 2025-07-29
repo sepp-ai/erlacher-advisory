@@ -5,12 +5,10 @@
     "keywords": "Data & AI Strategie, Enterprise Lösungen, Datenstrategie, C-Level Beratung, Strategie-Consulting, digitale Transformation"
   },
   "navigation": {
-    "logo": "🧠 Data & AI Strategie",
-    "advisory": "Beratung",
-    "assessment": "Ist es das Richtige?",
+    "logo": "Roman Erlacher",
+    "expertise": "Expertise",
     "about": "Über mich",
-    "contact": "Kontakt",
-    "bookCall": "Termin buchen"
+    "contact": "Kontakt"
   },
   "hero": {
     "title": {
@@ -19,20 +17,20 @@
     },
     "subtitle": "Global Data & AI Strategy Manager bei NovaTaste, strategischer Berater für C-Level Führungskräfte und Entwickler von AI-Lösungen. Drei Säulen der Expertise: Praktiker, Advisor und Solution Builder.",
     "cta": {
-      "primary": "Kostenloses Beratungsgespräch",
-      "secondary": "Drei Säulen entdecken"
+      "primary": "Termin buchen",
+      "secondary": "Expertise entdecken"
     },
     "card": {
       "title": "Drei Säulen der Expertise",
       "description": "Praktiker • Advisor • Solution Builder"
     }
   },
-  "services": {
+  "expertise": {
     "title": "Drei Säulen der Expertise",
-    "subtitle": "Meine einzigartige Kombination aus praktischer Erfahrung, strategischer Beratung und AI-Lösungsentwicklung",
+    "subtitle": "Bewährte KI-Strategien basierend auf echten Erfolgen bei Fortune 500 Unternehmen",
     "items": [
       {
-        "icon": "🏢",
+        "icon": "",
         "title": "Praktiker - Global Data & AI Strategy Manager",
         "description": "Aktuell in Festanstellung bei NovaTaste als Global Data & AI Strategy Manager. Beratung der C-Suite und direkte Berichterstattung an den Global CIO. Entwicklung von AI Use Case Portfolios mit strategischer Ausrichtung.",
         "outcomes": {
@@ -46,7 +44,7 @@
         }
       },
       {
-        "icon": "👑",
+        "icon": "",
         "title": "Advisor - Strategische C-Level Beratung",
         "description": "Strategische Beratung für C-Level Führungskräfte mit Fokus auf Data & AI Transformation. Über 13 Jahre Erfahrung bei Fortune 500 Unternehmen mit nachgewiesenen Erfolgen.",
         "outcomes": {
@@ -60,7 +58,7 @@
         }
       },
       {
-        "icon": "🚀",
+        "icon": "",
         "title": "Solution Builder - AI-Lösungsentwicklung",
         "description": "Entwicklung und Management von AI-Produkten mit Millionen-Euro EBIT-Beitrag. Erfahrung in Multi-Agent-Systemen, AI-Automatisierung und skalierbaren Lösungen.",
         "featured": true,
@@ -77,11 +75,11 @@
     ]
   },
   "assessment": {
-    "title": "🎯 Ist meine Beratung das Richtige für Sie?",
+    "title": "Ist meine Beratung das Richtige für Sie?",
     "subtitle": "Identifizieren Sie Ihre Herausforderungen und finden Sie heraus, ob meine drei Säulen der Expertise der richtige Ansatz für Ihre Data & AI Strategie sind.",
     "challenges": [
       {
-        "icon": "🎯",
+        "icon": "",
         "title": "Technologie mit Geschäftsergebnissen verbinden",
         "situation": {
           "title": "Situation",
@@ -97,7 +95,7 @@
         }
       },
       {
-        "icon": "⏰",
+        "icon": "",
         "title": "Zeitdruck und Komplexität bewältigen",
         "situation": {
           "title": "Situation",
@@ -113,7 +111,7 @@
         }
       },
       {
-        "icon": "🔍",
+        "icon": "",
         "title": "Hype und Lärm durchschauen",
         "situation": {
           "title": "Situation",
@@ -129,7 +127,7 @@
         }
       },
       {
-        "icon": "💎",
+        "icon": "",
         "title": "Wert aus Daten freisetzen",
         "situation": {
           "title": "Situation",
@@ -145,7 +143,7 @@
         }
       },
       {
-        "icon": "🚀",
+        "icon": "",
         "title": "Mit Data & AI wachsen und konkurrieren",
         "situation": {
           "title": "Situation",
@@ -184,7 +182,7 @@
     }
   },
   "about": {
-    "title": "👤 Über mich - Drei Säulen der Expertise",
+    "title": "Über mich - Drei Säulen der Expertise",
     "description": "Senior Data & AI Strategy Manager mit über 13 Jahren Erfahrung in der Leitung globaler Initiativen bei Fortune 500 Unternehmen. Meine einzigartige Position basiert auf drei Säulen: Praktiker (aktuelle Festanstellung bei NovaTaste), strategischer Advisor und Solution Builder.",
     "experience": {
       "title": "Karriere-Highlights",
@@ -260,7 +258,7 @@
     }
   },
   "cta": {
-    "title": "📅 Kostenloses 15-Minuten Beratungsgespräch",
+    "title": "Kostenloses 15-Minuten Beratungsgespräch",
     "subtitle": "Ein kurzes, unverbindliches Gespräch, um zu erkunden, ob meine drei Säulen der Expertise der richtige Ansatz für Ihre Data & AI Reise sind.",
     "buttons": {
       "primary": "Termin buchen",
@@ -268,7 +266,7 @@
     }
   },
   "contact": {
-    "title": "📬 Kontakt",
+    "title": "Kontakt",
     "subtitle": "Für Vorträge, Beratung oder Partnerschaftsanfragen",
     "info": [
       {
@@ -286,28 +284,21 @@
       },
       {
         "icon": "fas fa-calendar",
-        "title": "Calendly",
-        "link": "Schedule a Meeting",
-        "href": "https://calendly.com/roman-erlacher/discovery-call"
+        "title": "Termin buchen",
+        "link": "Calendly",
+        "href": "https://calendly.com/ausblickabtenau/30min"
       }
-    ],
-    "form": {
-      "name": "Name",
-      "email": "E-Mail",
-      "company": "Unternehmen",
-      "message": "Nachricht",
-      "submit": "Nachricht senden"
-    }
+    ]
   },
   "footer": {
     "brand": {
-      "logo": "🧠 Data & AI Strategie",
+      "logo": "Data & AI Strategie",
       "description": "Data & AI Strategie Beratung - Drei Säulen der Expertise"
     },
     "links": [
       {
-        "text": "Drei Säulen",
-        "href": "#services"
+        "text": "Expertise",
+        "href": "#expertise"
       },
       {
         "text": "Über mich",

@@ -154,11 +154,10 @@ class ContentManager {
         // Update hero section
         this.updateHero(content.hero);
         
-        // Update services section
-        this.updateServices(content.services);
+        // Update expertise section
+        this.updateExpertise(content.expertise);
         
-        // Update assessment section
-        this.updateAssessment(content.assessment);
+
         
         // Update about section
         this.updateAbout(content.about);
@@ -185,11 +184,9 @@ class ContentManager {
         const navLinks = document.querySelectorAll('.nav-link');
         navLinks.forEach(link => {
             const href = link.getAttribute('href');
-            if (href === '#services') link.textContent = navContent.advisory;
-            else if (href === '#assessment') link.textContent = navContent.assessment;
+            if (href === '#expertise') link.textContent = navContent.expertise;
             else if (href === '#about') link.textContent = navContent.about;
             else if (href === '#contact') link.textContent = navContent.contact;
-            else if (link.classList.contains('cta-button')) link.textContent = navContent.bookCall;
         });
     }
 
@@ -226,38 +223,38 @@ class ContentManager {
     }
 
     /**
-     * Update services section content
+     * Update expertise section content
      */
-    updateServices(servicesContent) {
+    updateExpertise(expertiseContent) {
         // Section header
-        const sectionHeader = document.querySelector('#services .section-header');
+        const sectionHeader = document.querySelector('#expertise .section-header');
         if (sectionHeader) {
             const title = sectionHeader.querySelector('h2');
             const subtitle = sectionHeader.querySelector('p');
-            if (title) title.textContent = servicesContent.title;
-            if (subtitle) subtitle.textContent = servicesContent.subtitle;
+            if (title) title.textContent = expertiseContent.title;
+            if (subtitle) subtitle.textContent = expertiseContent.subtitle;
         }
 
-        // Service cards
-        const serviceCards = document.querySelectorAll('.service-card');
-        serviceCards.forEach((card, index) => {
-            const service = servicesContent.items[index];
-            if (!service) return;
+        // Expertise cards
+        const expertiseCards = document.querySelectorAll('.expertise-card');
+        expertiseCards.forEach((card, index) => {
+            const expertise = expertiseContent.items[index];
+            if (!expertise) return;
 
-            const icon = card.querySelector('.service-icon');
+            const icon = card.querySelector('.expertise-icon');
             const title = card.querySelector('h3');
             const description = card.querySelector('p');
-            const outcomesTitle = card.querySelector('.service-outcomes h4');
+            const outcomesTitle = card.querySelector('.expertise-outcomes h4');
             const outcomesList = card.querySelectorAll('.outcomes-list li');
 
-            if (icon) icon.textContent = service.icon;
-            if (title) title.textContent = service.title;
-            if (description) description.textContent = service.description;
-            if (outcomesTitle) outcomesTitle.textContent = service.outcomes.title;
+            if (icon) icon.textContent = expertise.icon;
+            if (title) title.textContent = expertise.title;
+            if (description) description.textContent = expertise.description;
+            if (outcomesTitle) outcomesTitle.textContent = expertise.outcomes.title;
             
             outcomesList.forEach((item, itemIndex) => {
-                if (service.outcomes.items[itemIndex]) {
-                    item.textContent = service.outcomes.items[itemIndex];
+                if (expertise.outcomes.items[itemIndex]) {
+                    item.textContent = expertise.outcomes.items[itemIndex];
                 }
             });
         });
@@ -394,19 +391,7 @@ class ContentManager {
             }
         });
 
-        // Form labels
-        const formLabels = contactContent.form;
-        const nameLabel = document.querySelector('label[for="name"]');
-        const emailLabel = document.querySelector('label[for="email"]');
-        const companyLabel = document.querySelector('label[for="company"]');
-        const messageLabel = document.querySelector('label[for="message"]');
-        const submitButton = document.querySelector('#contactForm button[type="submit"]');
 
-        if (nameLabel) nameLabel.textContent = formLabels.name;
-        if (emailLabel) emailLabel.textContent = formLabels.email;
-        if (companyLabel) companyLabel.textContent = formLabels.company;
-        if (messageLabel) messageLabel.textContent = formLabels.message;
-        if (submitButton) submitButton.textContent = formLabels.submit;
     }
 
     /**

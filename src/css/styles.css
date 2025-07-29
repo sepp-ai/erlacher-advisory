@@ -339,15 +339,41 @@ p {
     align-items: center;
 }
 
-.hero-card {
+.expertise-pillars {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 400px;
+}
+
+.pillar {
     background: var(--bg-card);
-    padding: 2rem;
-    border-radius: var(--border-radius-xl);
-    box-shadow: var(--shadow-xl);
-    text-align: center;
+    padding: 1.5rem;
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-md);
     border: 1px solid var(--border-color);
-    animation: float 6s ease-in-out infinite;
-    max-width: 300px;
+    transition: var(--transition);
+    text-align: left;
+}
+
+.pillar:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--accent-color);
+}
+
+.pillar h3 {
+    color: var(--accent-color);
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.pillar p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    margin: 0;
+    line-height: 1.5;
 }
 
 @keyframes float {
@@ -379,20 +405,20 @@ p {
     margin: 0 auto;
 }
 
-/* Services Section - Enhanced */
-.services {
+/* Expertise Section - Enhanced */
+.expertise {
     padding: 80px 0;
     background: var(--bg-secondary);
 }
 
-.services-grid {
+.expertise-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2rem;
     margin-top: 3rem;
 }
 
-.service-card {
+.expertise-card {
     background: var(--bg-card);
     padding: 2.5rem;
     border-radius: var(--border-radius-xl);
@@ -403,7 +429,7 @@ p {
     overflow: hidden;
 }
 
-.service-card::before {
+.expertise-card::before {
     content: '';
     position: absolute;
     top: 0;
@@ -415,37 +441,37 @@ p {
     transition: var(--transition);
 }
 
-.service-card:hover {
+.expertise-card:hover {
     transform: translateY(-8px);
     box-shadow: var(--shadow-2xl);
 }
 
-.service-card:hover::before {
+.expertise-card:hover::before {
     transform: scaleX(1);
 }
 
-.service-card.featured {
+.expertise-card.featured {
     border: 2px solid var(--accent-color);
     box-shadow: var(--shadow-xl), var(--shadow-gold);
 }
 
-.service-card.featured::before {
+.expertise-card.featured::before {
     background: var(--gradient-secondary);
 }
 
-.service-icon {
+.expertise-icon {
     font-size: 3rem;
     margin-bottom: 1.5rem;
     display: block;
 }
 
-.service-card h3 {
+.expertise-card h3 {
     color: var(--text-primary);
     margin-bottom: 1rem;
     font-weight: 700;
 }
 
-.service-card p {
+.expertise-card p {
     color: var(--text-secondary);
     margin-bottom: 2rem;
     line-height: 1.7;
@@ -472,14 +498,14 @@ p {
     font-size: 1.1rem;
 }
 
-.service-outcomes {
+.expertise-outcomes {
     background: var(--bg-secondary);
     padding: 1.5rem;
     border-radius: var(--border-radius);
     border-left: 4px solid var(--accent-color);
 }
 
-.service-outcomes h4 {
+.expertise-outcomes h4 {
     color: var(--text-primary);
     margin-bottom: 1rem;
     font-weight: 600;
@@ -507,12 +533,12 @@ p {
     font-weight: bold;
 }
 
-.service-card.featured .service-outcomes {
+.expertise-card.featured .expertise-outcomes {
     background: linear-gradient(135deg, rgba(245, 158, 11, 0.1) 0%, rgba(251, 191, 36, 0.05) 100%);
     border-left-color: var(--accent-color);
 }
 
-.service-card.featured .service-outcomes h4 {
+.expertise-card.featured .expertise-outcomes h4 {
     color: var(--text-primary);
 }
 
@@ -759,15 +785,15 @@ p {
 }
 
 .contact-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
+    display: flex;
+    justify-content: center;
 }
 
 .contact-info {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    max-width: 600px;
 }
 
 .contact-item {
@@ -953,12 +979,21 @@ p {
         text-align: center;
         gap: 2rem;
     }
+    
+    .expertise-pillars {
+        max-width: 100%;
+        gap: 1rem;
+    }
+    
+    .pillar {
+        padding: 1rem;
+    }
 
-    .service-outcomes {
+    .expertise-outcomes {
         margin-top: 1.5rem;
     }
 
-    .service-outcomes h4 {
+    .expertise-outcomes h4 {
         font-size: 1rem;
     }
 
@@ -1039,15 +1074,15 @@ p {
         padding: 100px 0 60px;
     }
 
-    .services-grid {
+    .expertise-grid {
         grid-template-columns: 1fr;
     }
 
-    .service-card {
+    .expertise-card {
         padding: 2rem;
     }
 
-    .service-card.featured {
+    .expertise-card.featured {
         padding: 2rem;
     }
 }
