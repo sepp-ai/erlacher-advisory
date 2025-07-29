@@ -20,7 +20,7 @@
       "expressions": [
         "navigation",
         "hero_content",
-        "services",
+        "expertise",
         "assessment",
         "about",
         "contact_form",
@@ -56,7 +56,8 @@
       "meta",
       "navigation",
       "hero",
-      "services",
+      "expertise",
+      "companies",
       "assessment",
       "about",
       "cta",
@@ -66,13 +67,14 @@
     ],
     "requiredFields": {
       "meta": ["title", "description"],
-      "navigation": ["logo", "advisory", "assessment", "about", "contact", "bookCall"],
+      "navigation": ["logo", "expertise", "about", "contact"],
       "hero": ["title", "subtitle", "cta"],
-      "services": ["title", "subtitle", "items"],
+      "expertise": ["title", "subtitle", "items"],
+      "companies": ["title", "subtitle", "items"],
       "assessment": ["title", "subtitle", "challenges", "cta"],
       "about": ["title", "description", "expertise", "stats"],
       "cta": ["title", "subtitle", "buttons"],
-      "contact": ["title", "subtitle", "info", "form"],
+      "contact": ["title", "subtitle", "info"],
       "footer": ["brand", "links", "copyright"],
       "notifications": ["success", "error"]
     }

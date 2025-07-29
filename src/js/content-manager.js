@@ -77,7 +77,7 @@ class ContentManager {
      * Validate content structure
      */
     validateContent(content, language) {
-        const requiredSections = ['meta', 'navigation', 'hero', 'services', 'assessment', 'about', 'cta', 'contact', 'footer'];
+        const requiredSections = ['meta', 'navigation', 'hero', 'expertise', 'companies', 'assessment', 'about', 'cta', 'contact', 'footer'];
         const missingSections = requiredSections.filter(section => !content[section]);
         
         if (missingSections.length > 0) {
@@ -157,7 +157,11 @@ class ContentManager {
         // Update expertise section
         this.updateExpertise(content.expertise);
         
-
+        // Update companies section
+        this.updateCompanies(content.companies);
+        
+        // Update assessment section
+        this.updateAssessment(content.assessment);
         
         // Update about section
         this.updateAbout(content.about);
@@ -258,6 +262,38 @@ class ContentManager {
                 }
             });
         });
+    }
+
+    /**
+     * Update companies section content
+     */
+    updateCompanies(companiesContent) {
+        // Section header
+        const sectionHeader = document.querySelector('#companies .section-header');
+        if (sectionHeader) {
+            const title = sectionHeader.querySelector('h2');
+            const subtitle = sectionHeader.querySelector('p');
+            if (title) title.textContent = companiesContent.title;
+            if (subtitle) subtitle.textContent = companiesContent.subtitle;
+        }
+
+        // Companies grid
+        const companiesGrid = document.querySelector('.companies-grid');
+        if (companiesGrid && companiesContent.items) {
+            companiesGrid.innerHTML = companiesContent.items.map(item => `
+                <div class="company-card">
+                    <div class="company-logo">
+                        <img src="${item.logo}" alt="${item.name} logo" onerror="this.style.display='none'">
+                    </div>
+                    <div class="company-info">
+                        <h3>${item.name}</h3>
+                        <h4>${item.role}</h4>
+                        <p class="company-period">${item.period}</p>
+                        <p class="company-description">${item.description}</p>
+                    </div>
+                </div>
+            `).join('');
+        }
     }
 
     /**
