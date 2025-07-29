@@ -27,7 +27,7 @@
   },
   "expertise": {
     "title": "Drei Säulen der Expertise",
-    "subtitle": "Bewährte KI-Strategien basierend auf echten Erfolgen bei Fortune 500 Unternehmen",
+    "subtitle": "Bewährte KI-Strategien basierend auf echten Erfolgen in der Praxis",
     "items": [
       {
         "icon": "",
@@ -46,7 +46,7 @@
       {
         "icon": "",
         "title": "Advisor - Strategische C-Level Beratung",
-        "description": "Strategische Beratung für C-Level Führungskräfte mit Fokus auf Data & AI Transformation. Über 13 Jahre Erfahrung bei Fortune 500 Unternehmen mit nachgewiesenen Erfolgen.",
+        "description": "Strategische Beratung für C-Level Führungskräfte mit Fokus auf Data & AI Transformation. Über 13 Jahre Erfahrung mit nachgewiesenen Erfolgen.",
         "outcomes": {
           "title": "Beratungsleistungen",
           "items": [
@@ -181,9 +181,50 @@
       "button": "Jetzt Beratungsgespräch buchen"
     }
   },
+  "companies": {
+    "title": "Unternehmen, für die ich gearbeitet habe",
+    "subtitle": "Meine berufliche Laufbahn in verschiedenen Branchen und Positionen",
+    "items": [
+      {
+        "name": "NovaTaste",
+        "logo": "assets/logos/novataste-logo.png",
+        "role": "Global Data & AI Strategy Manager",
+        "period": "Okt 2024 - Heute",
+        "description": "Senior Leader berät die C-Suite zu Data & AI, berichtet an den Global CIO"
+      },
+      {
+        "name": "HOFER Österreich",
+        "logo": "assets/logos/hofer-logo.png",
+        "role": "AI Product Manager",
+        "period": "Apr 2023 - Sep 2024",
+        "description": "Management des größten globalen AI-Produkts für Promotion-Optimierung"
+      },
+      {
+        "name": "ALDI SÜD HOLDING",
+        "logo": "assets/logos/aldi-holding-logo.png",
+        "role": "Head of Data Science CoE",
+        "period": "Mär 2021 - Apr 2022",
+        "description": "Aufbau eines Data Science CoE von Grund auf"
+      },
+      {
+        "name": "Porsche Holding",
+        "logo": "assets/logos/porsche-holding-logo.png",
+        "role": "Treasury Analyst",
+        "period": "Feb 2016 - Nov 2019",
+        "description": "Management des Zinsrisikoportfolios von Europas größtem Automobilhandelsunternehmen"
+      },
+      {
+        "name": "Raiffeisenverband Salzburg",
+        "logo": "assets/logos/raiffeisen-salzburg-logo.png",
+        "role": "Risk Manager",
+        "period": "Sep 2015 - Jan 2016",
+        "description": "Risikomanagement im Bankensektor"
+      }
+    ]
+  },
   "about": {
     "title": "Über mich - Drei Säulen der Expertise",
-    "description": "Senior Data & AI Strategy Manager mit über 13 Jahren Erfahrung in der Leitung globaler Initiativen bei Fortune 500 Unternehmen. Meine einzigartige Position basiert auf drei Säulen: Praktiker (aktuelle Festanstellung bei NovaTaste), strategischer Advisor und Solution Builder.",
+    "description": "Senior Data & AI Strategy Manager mit über 13 Jahren Erfahrung in der Leitung globaler Initiativen. Meine einzigartige Position basiert auf drei Säulen: Praktiker, strategischer Advisor und Solution Builder.",
     "experience": {
       "title": "Karriere-Highlights",
       "items": [
