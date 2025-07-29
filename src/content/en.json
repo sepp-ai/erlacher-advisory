@@ -17,74 +17,88 @@
       "highlight": "Data & AI Strategy",
       "subtitle": "Advisory"
     },
-    "subtitle": "Helping C-level leaders define and execute enterprise AI strategies that deliver measurable business value.",
+    "subtitle": "Global Data & AI Strategy Manager with proven success at Fortune 500 companies. Developing AI strategies that generate millions in EBIT contribution.",
     "cta": {
       "primary": "Free Consultation Call",
       "secondary": "View Services"
     },
     "card": {
       "title": "Enterprise AI Strategy",
-      "description": "Transform your business with AI"
+      "description": "Proven success at NovaTaste, HOFER & ALDI SÜD"
     }
   },
   "services": {
     "title": "Strategic Advisory",
-    "subtitle": "Tailored AI strategies for leaders of all company sizes",
+    "subtitle": "Proven AI strategies based on real successes at Fortune 500 companies",
     "items": [
       {
         "icon": "🎯",
-        "title": "AI Strategy Development",
-        "description": "Development of a comprehensive AI strategy aligned with your business goals and market positioning.",
+        "title": "AI Strategy & Portfolio Management",
+        "description": "Development of global Data & AI strategies with measurable EBIT impact, based on experience at NovaTaste and ALDI SÜD.",
         "outcomes": {
           "title": "Deliverables",
           "items": [
-            "Clear AI vision and roadmap",
-            "Prioritized use cases with ROI projections",
-            "Governance and operating model",
-            "Board approval presentation"
+            "Global AI strategy with C-suite alignment",
+            "Prioritized AI use case portfolio",
+            "Business cases with ROI projections",
+            "Data governance framework"
           ]
         }
       },
       {
         "icon": "📊",
-        "title": "Use Case Prioritization",
-        "description": "Systematic identification and evaluation of AI use cases for maximum business impact.",
+        "title": "AI Product & Use Case Development",
+        "description": "Development and management of AI products with millions in EBIT contribution, based on HOFER promotion optimization experience.",
         "outcomes": {
           "title": "Deliverables",
           "items": [
-            "Evaluated use case portfolio",
-            "Prioritization matrix",
-            "Implementation roadmap",
-            "Business cases for top priorities"
+            "AI product roadmap & strategy",
+            "Cross-functional team setup",
+            "Customer-facing AI applications",
+            "Performance monitoring & optimization"
           ]
         }
       },
       {
-        "icon": "🔍",
-        "title": "AI Performance Audit",
-        "description": "Independent assessment of your existing AI initiatives and optimization of value creation.",
+        "icon": "🏢",
+        "title": "Data Science CoE Building",
+        "description": "Building Data Science Centers of Excellence from scratch, including team recruiting and community building.",
         "outcomes": {
           "title": "Deliverables",
           "items": [
-            "Performance assessment",
-            "Value leakage identification",
-            "Optimization recommendations",
-            "Governance improvements"
+            "Data Science CoE strategy",
+            "Team structure & governance",
+            "Global community building",
+            "Use case portfolio development"
+          ]
+        }
+      },
+      {
+        "icon": "🤖",
+        "title": "Multi AI Agent Systems",
+        "description": "Development and implementation of multi-agent systems with crewAI for complex automation tasks.",
+        "outcomes": {
+          "title": "Deliverables",
+          "items": [
+            "Multi-agent system architecture",
+            "AI automation workflows",
+            "Advanced use case implementation",
+            "Performance optimization"
           ]
         }
       },
       {
         "icon": "👑",
-        "title": "C-Level Advisory",
-        "description": "Ongoing strategic advisory for leaders focused on AI transformation and digital innovation.",
+        "title": "C-Suite Advisory & Transformation",
+        "description": "Strategic advisory for leaders focused on Data & AI transformation and change management.",
         "featured": true,
         "outcomes": {
           "title": "Deliverables",
           "items": [
-            "Strategy sessions",
-            "Steering committee participation",
-            "On-demand advisory",
-            "Industry insights"
+            "Executive AI strategy sessions",
+            "Change management roadmap",
+            "Stakeholder engagement plan",
+            "Transformation governance"
           ]
         }
       }
@@ -199,27 +213,123 @@
   },
   "about": {
     "title": "👤 About Me",
-    "description": "Senior Data & AI Strategy expert with over 12 years of experience leading global initiatives. Trusted by CDOs and CIOs to align technology with business value, secure AI investments, and drive strategic transformation.",
+    "description": "Senior Data & AI Strategy Manager with over 13 years of experience leading global initiatives at Fortune 500 companies. Currently advising the C-suite as Global Data & AI Strategy Manager at NovaTaste, reporting directly to the Global CIO. Certified by DeepLearning.AI, UC Berkeley, Harvard Business School, and Duke University. My expertise includes developing AI strategies that generate millions in EBIT contribution.",
+    "experience": {
+      "title": "Career Highlights",
+      "items": [
+        {
+          "role": "Global Data & AI Strategy Manager",
+          "company": "NovaTaste",
+          "period": "2024 - Present",
+          "achievement": "Advising C-suite on global Data & AI strategy, developing AI use case portfolios with strategic alignment"
+        },
+        {
+          "role": "AI Product Manager",
+          "company": "HOFER Austria",
+          "period": "2023 - 2024",
+          "achievement": "Managed largest global AI product for promotion optimization with millions in EBIT contribution"
+        },
+        {
+          "role": "AI Portfolio Manager",
+          "company": "ALDI SÜD (ALDI DX)",
+          "period": "2022 - 2023",
+          "achievement": "Built global Data & Analytics department, led team of 5 Data Scientists"
+        },
+        {
+          "role": "Head of Data Science CoE",
+          "company": "ALDI SÜD HOLDING",
+          "period": "2021 - 2022",
+          "achievement": "Built Data Science Center of Excellence from scratch, led 100+ expert community"
+        }
+      ]
+    },
     "expertise": [
-      "AI Strategy Development",
-      "C-Suite Alignment",
-      "Digital Transformation",
-      "Risk Management"
+      "AI Strategy Development & Portfolio Management",
+      "C-Suite Advisory & Stakeholder Management",
+      "Data Governance & Ethical AI",
+      "Multi AI Agent Systems & Automation",
+      "Cross-Functional Team Leadership",
+      "Design Thinking & Product Innovation"
     ],
     "stats": [
       {
-        "number": "12+",
+        "number": "13+",
         "label": "Years Experience"
       },
       {
-        "number": "50+",
-        "label": "Enterprise Clients"
+        "number": "100+",
+        "label": "Data Science Experts Led"
       },
       {
-        "number": "€100M+",
-        "label": "Value Delivered"
+        "number": "€Millions+",
+        "label": "EBIT Contribution through AI"
       }
-    ]
+    ],
+    "certifications": {
+      "title": "Certifications & Education",
+      "items": [
+        {
+          "name": "Practical Multi AI Agents and Advanced Use Cases with crewAI",
+          "issuer": "DeepLearning.AI",
+          "date": "Feb 2025",
+          "category": "AI & Automation"
+        },
+        {
+          "name": "Data Strategy: Leveraging Data as a Competitive Advantage",
+          "issuer": "UC Berkeley Haas School of Business",
+          "date": "Oct 2024",
+          "category": "Data Strategy"
+        },
+        {
+          "name": "Multi AI Agent Systems with crewAI",
+          "issuer": "DeepLearning.AI",
+          "date": "Jun 2024",
+          "category": "AI & Automation"
+        },
+        {
+          "name": "Design Thinking and Innovation",
+          "issuer": "Harvard Business School Online",
+          "date": "May 2024",
+          "category": "Innovation"
+        },
+        {
+          "name": "AI Product Management",
+          "issuer": "Duke University",
+          "date": "Apr 2024",
+          "category": "AI Product Management"
+        },
+        {
+          "name": "Agile Leadership",
+          "issuer": "University of Colorado",
+          "date": "Jan 2024",
+          "category": "Leadership"
+        },
+        {
+          "name": "Customer Analytics",
+          "issuer": "University of Pennsylvania",
+          "date": "Nov 2023",
+          "category": "Analytics"
+        },
+        {
+          "name": "Retail Fundamentals",
+          "issuer": "Dartmouth College",
+          "date": "Sep 2023",
+          "category": "Retail"
+        },
+        {
+          "name": "Product Owner",
+          "issuer": "borisgloger",
+          "date": "Aug 2023",
+          "category": "Product Management"
+        },
+        {
+          "name": "Certified Corporate Treasurer VDT",
+          "issuer": "Frankfurt School of Finance & Management",
+          "date": "Jun 2019",
+          "category": "Finance"
+        }
+      ]
+    }
   },
   "cta": {
     "title": "📅 Free 15-Minute Consultation Call",
@@ -236,8 +346,8 @@
       {
         "icon": "fas fa-envelope",
         "title": "Email",
-        "link": "roman@erlacher-advisory.com",
-        "href": "mailto:roman@erlacher-advisory.com"
+            "link": "roman.erlacher@gmail.com",
+    "href": "mailto:roman.erlacher@gmail.com"
       },
       {
         "icon": "fab fa-linkedin",
@@ -288,6 +398,6 @@
   },
   "notifications": {
     "success": "Email client opened! Please send the email to complete your inquiry.",
-    "error": "Sorry, there was an error. Please email directly to roman@erlacher-advisory.com"
+          "error": "Sorry, there was an error. Please email directly to roman.erlacher@gmail.com"
   }
 } 

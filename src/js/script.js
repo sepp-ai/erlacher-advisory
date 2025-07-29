@@ -116,7 +116,7 @@ if (contactForm) {
             // Create mailto link with form data
             const subject = encodeURIComponent('AI Strategy Advisory Inquiry');
             const body = encodeURIComponent(`Name: ${data.name}\nEmail: ${data.email}\nCompany: ${data.company}\n\nMessage:\n${data.message}`);
-            const mailtoLink = `mailto:roman@erlacher-advisory.com?subject=${subject}&body=${body}`;
+            const mailtoLink = `mailto:roman.erlacher@gmail.com?subject=${subject}&body=${body}`;
             
             // Open email client
             window.open(mailtoLink);
@@ -128,7 +128,7 @@ if (contactForm) {
             
         } catch (error) {
             // Show error message using content manager
-            const errorMessage = contentManager ? contentManager.getNotificationMessage('error') : 'Sorry, there was an error. Please email directly to roman@erlacher-advisory.com';
+            const errorMessage = contentManager ? contentManager.getNotificationMessage('error') : 'Sorry, there was an error. Please email directly to roman.erlacher@gmail.com';
             showNotification(errorMessage, 'error');
         } finally {
             // Reset button state
