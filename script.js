@@ -236,6 +236,45 @@ document.querySelectorAll('.service-card').forEach(card => {
     });
 });
 
+// Challenge card hover effects
+document.querySelectorAll('.challenge-card').forEach(card => {
+    card.addEventListener('mouseenter', () => {
+        card.style.transform = 'translateY(-4px)';
+        card.style.boxShadow = '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)';
+    });
+    
+    card.addEventListener('mouseleave', () => {
+        card.style.transform = 'translateY(0)';
+        card.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)';
+    });
+});
+
+// SCS framework reveal animation
+const scsObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            const scsElements = entry.target.querySelectorAll('.situation, .complication, .solution');
+            scsElements.forEach((element, index) => {
+                setTimeout(() => {
+                    element.style.opacity = '1';
+                    element.style.transform = 'translateX(0)';
+                }, index * 200);
+            });
+            scsObserver.unobserve(entry.target);
+        }
+    });
+}, { threshold: 0.3 });
+
+document.querySelectorAll('.scs-framework').forEach(framework => {
+    const elements = framework.querySelectorAll('.situation, .complication, .solution');
+    elements.forEach(element => {
+        element.style.opacity = '0';
+        element.style.transform = 'translateX(-20px)';
+        element.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+    });
+    scsObserver.observe(framework);
+});
+
 // Stats counter animation
 function animateCounter(element, target, duration = 2000) {
     let start = 0;
