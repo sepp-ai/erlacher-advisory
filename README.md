@@ -153,7 +153,7 @@ erlacher-advisory/
 
 ## 🌐 **Live Website**
 
-- **URL**: https://erlacher-advisory.com
+- **URL**: https://www.erlacher-advisory.com
 - **Languages**: German (DE) and English (EN)
 - **Platform**: GitHub Pages
 - **Domain**: Custom domain configured
@@ -206,7 +206,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For support or questions:
 - **Email**: roman@erlacher-advisory.com
-- **Website**: https://erlacher-advisory.com
+- **Website**: https://www.erlacher-advisory.com
 - **Documentation**: See `docs/` folder
 
 ## 🎯 **Roadmap**
