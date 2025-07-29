@@ -14,7 +14,7 @@ class ContentValidator {
      */
     async loadConfig() {
         try {
-            const response = await fetch('content/config.json');
+            const response = await fetch('src/content/config.json');
             this.config = await response.json();
         } catch (error) {
             console.error('Failed to load content configuration:', error);

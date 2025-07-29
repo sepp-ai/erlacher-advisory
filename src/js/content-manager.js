@@ -36,8 +36,8 @@ class ContentManager {
             console.log('📂 Loading content files...');
             
             // Check if files exist first
-            const deResponse = await fetch('content/de.json');
-            const enResponse = await fetch('content/en.json');
+            const deResponse = await fetch('src/content/de.json');
+            const enResponse = await fetch('src/content/en.json');
             
             if (!deResponse.ok) {
                 throw new Error(`Failed to load German content: ${deResponse.status} - ${deResponse.statusText}`);
