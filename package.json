@@ -1,0 +1,27 @@
+{
+  "name": "ai-strategy-advisor-website",
+  "version": "1.0.0",
+  "description": "Professional website for Data & AI Strategy Advisory services",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000",
+    "serve": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "ai-strategy",
+    "consulting",
+    "enterprise",
+    "data-strategy",
+    "professional-website"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/ai-strategy-advisor-website.git"
+  },
+  "homepage": "https://yourusername.github.io/ai-strategy-advisor-website",
+  "devDependencies": {},
+  "dependencies": {}
+} 
