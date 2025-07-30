@@ -61,7 +61,8 @@
             <div class="hero-visual">
                 <div class="profile-photo-placeholder">
                     <div class="photo-frame">
-                        <div class="photo-placeholder">
+                        <img src="assets/images/profile-photo.jpg" alt="Roman Erlacher" class="profile-photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="photo-placeholder" style="display: none;">
                             <i class="fas fa-user"></i>
                             <span>Profilfoto</span>
                         </div>
@@ -203,7 +204,7 @@
                 </div>
                 <div class="footer-links">
                     <a href="#expertise">Expertise</a>
-                    <a href="#about">Über mich</a>
+                    <a href="#companies">Karriere</a>
                     <a href="#contact">Kontakt</a>
                 </div>
             </div>
@@ -235,19 +236,24 @@
             
             if (openCalendlyBtn && calendlyInline) {
                 openCalendlyBtn.addEventListener('click', function() {
-                    if (calendlyInline.style.display === 'none') {
+                    if (calendlyInline.style.display === 'none' || calendlyInline.style.display === '') {
                         // Show calendly widget
                         calendlyInline.style.display = 'block';
                         const originalText = openCalendlyBtn.getAttribute('data-original-text') || 'Termin buchen';
                         openCalendlyBtn.textContent = 'Kalender ausblenden';
                         
                         // Initialize Calendly widget
-                        Calendly.initInlineWidget({
-                            url: 'https://calendly.com/roman-erlacher/discovery-call',
-                            parentElement: calendlyInline,
-                            prefill: {},
-                            utm: {}
-                        });
+                        if (typeof Calendly !== 'undefined') {
+                            Calendly.initInlineWidget({
+                                url: 'https://calendly.com/roman-erlacher/discovery-call',
+                                parentElement: calendlyInline,
+                                prefill: {},
+                                utm: {}
+                            });
+                        } else {
+                            // Fallback if Calendly not loaded
+                            calendlyInline.innerHTML = '<iframe src="https://calendly.com/roman-erlacher/discovery-call" width="100%" height="700" frameborder="0"></iframe>';
+                        }
                         
                         // Smooth scroll to calendly widget
                         calendlyInline.scrollIntoView({ behavior: 'smooth' });
