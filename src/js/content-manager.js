@@ -163,6 +163,9 @@ class ContentManager {
         // Update assessment section
         this.updateAssessment(content.assessment);
         
+        // Update CTA section
+        this.updateCTA(content.cta);
+        
         // Update about section
         this.updateAbout(content.about);
         
@@ -189,7 +192,7 @@ class ContentManager {
         navLinks.forEach(link => {
             const href = link.getAttribute('href');
             if (href === '#expertise') link.textContent = navContent.expertise;
-            else if (href === '#about') link.textContent = navContent.about;
+            else if (href === '#companies') link.textContent = navContent.companies;
             else if (href === '#contact') link.textContent = navContent.contact;
         });
     }
@@ -249,11 +252,17 @@ class ContentManager {
             const title = card.querySelector('h3');
             const description = card.querySelector('p');
             const highlight = card.querySelector('.expertise-highlight');
+            const taglinesList = card.querySelector('.expertise-taglines');
 
             if (icon) icon.textContent = expertise.icon;
             if (title) title.textContent = expertise.title;
             if (description) description.textContent = expertise.description;
             if (highlight) highlight.textContent = expertise.highlight;
+            if (taglinesList && expertise.taglines) {
+                taglinesList.innerHTML = expertise.taglines.map(tagline => `
+                    <li>${tagline}</li>
+                `).join('');
+            }
         });
     }
 
@@ -287,8 +296,14 @@ class ContentManager {
                                 </div>
                                 <div class="company-info">
                                     <h4>${company.name}</h4>
-                                    <p class="company-role">${company.role}</p>
-                                    <p class="company-period">${company.period}</p>
+                                    <div class="roles-list">
+                                        ${company.roles.map(role => `
+                                            <div class="role-item">
+                                                <p class="company-role">${role.title}</p>
+                                                <p class="company-period">${role.period}</p>
+                                            </div>
+                                        `).join('')}
+                                    </div>
                                 </div>
                             </div>
                         `).join('')}
@@ -385,13 +400,18 @@ class ContentManager {
         const ctaSection = document.querySelector('#book .cta-content');
         if (ctaSection) {
             const title = ctaSection.querySelector('h2');
-            const subtitle = ctaSection.querySelector('p');
-            const buttons = ctaSection.querySelectorAll('.btn');
+            const description = ctaSection.querySelector('p');
+            const primaryButton = ctaSection.querySelector('#open-calendly');
+            const secondaryButton = ctaSection.querySelector('.btn-outline');
             
             if (title) title.textContent = ctaContent.title;
-            if (subtitle) subtitle.textContent = ctaContent.subtitle;
-            if (buttons[0]) buttons[0].textContent = ctaContent.buttons.primary;
-            if (buttons[1]) buttons[1].textContent = ctaContent.buttons.secondary;
+            if (description) description.textContent = ctaContent.description;
+            if (primaryButton) {
+                primaryButton.textContent = ctaContent.primaryButton;
+                // Store original text for toggle functionality
+                primaryButton.setAttribute('data-original-text', ctaContent.primaryButton);
+            }
+            if (secondaryButton) secondaryButton.textContent = ctaContent.secondaryButton;
         }
     }
 

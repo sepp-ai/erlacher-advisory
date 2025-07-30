@@ -7,7 +7,7 @@
   "navigation": {
     "logo": "Roman Erlacher",
     "expertise": "Expertise",
-    "about": "About",
+    "companies": "Career",
     "contact": "Contact"
   },
   "hero": {
@@ -33,19 +33,34 @@
         "icon": "🎯",
         "title": "Practitioner",
         "description": "Current full-time employment as Global Data & AI Strategy Manager",
-        "highlight": "NovaTaste"
+        "highlight": "NovaTaste",
+        "taglines": [
+          "Global Data & AI Strategy Manager at NovaTaste",
+          "C-Suite advisory and direct reporting to Global CIO",
+          "Development of AI use case portfolios with strategic alignment"
+        ]
       },
       {
         "icon": "💡",
         "title": "Advisor",
         "description": "Strategic C-level advisory for Data & AI transformation",
-        "highlight": "13+ years experience"
+        "highlight": "13+ years experience",
+        "taglines": [
+          "Strategic advisory for C-level executives",
+          "Change Management & Transformation Roadmap",
+          "ROI Optimization & Value Realization"
+        ]
       },
       {
         "icon": "🚀",
         "title": "Solution Builder",
         "description": "Development of AI products with millions in impact",
-        "highlight": "Multi-Agent Systems"
+        "highlight": "Multi-Agent Systems",
+        "taglines": [
+          "Management of AI products with millions in EBIT contribution",
+          "Multi-Agent Systems & AI Automation",
+          "Scalable AI Solutions & Performance Monitoring"
+        ]
       }
     ]
   },
@@ -167,8 +182,12 @@
           {
             "name": "NovaTaste",
             "logo": "assets/logos/logo-novataste.jpeg",
-            "role": "Global Data & AI Strategy Manager",
-            "period": "Oct 2024 - Present"
+            "roles": [
+              {
+                "title": "Global Data & AI Strategy Manager",
+                "period": "Oct 2024 - Present"
+              }
+            ]
           }
         ]
       },
@@ -179,8 +198,16 @@
           {
             "name": "ALDI SÜD",
             "logo": "assets/logos/logo-aldi-sued.jpeg",
-            "role": "AI Product Manager",
-            "period": "Apr 2023 - Sep 2024"
+            "roles": [
+              {
+                "title": "AI Product Manager",
+                "period": "Apr 2023 - Sep 2024"
+              },
+              {
+                "title": "AI Portfolio Manager",
+                "period": "May 2022 - Mar 2023"
+              }
+            ]
           }
         ]
       },
@@ -191,8 +218,20 @@
           {
             "name": "ALDI SÜD HOLDING",
             "logo": "assets/logos/logo-aldi.jpeg",
-            "role": "Head of Data Science CoE",
-            "period": "Mar 2021 - Apr 2022"
+            "roles": [
+              {
+                "title": "Head of Data Science CoE",
+                "period": "Mar 2021 - Apr 2022"
+              },
+              {
+                "title": "Data Science Consultant",
+                "period": "Oct 2020 - Feb 2021"
+              },
+              {
+                "title": "Business Intelligence Consultant",
+                "period": "Dec 2019 - Sep 2020"
+              }
+            ]
           }
         ]
       },
@@ -203,14 +242,26 @@
           {
             "name": "Porsche Holding",
             "logo": "assets/logos/logo-porsche.jpeg",
-            "role": "Treasury Analyst",
-            "period": "Feb 2016 - Nov 2019"
+            "roles": [
+              {
+                "title": "Treasury Analyst",
+                "period": "Feb 2016 - Nov 2019"
+              }
+            ]
           },
           {
             "name": "Raiffeisenverband Salzburg",
             "logo": "assets/logos/logo-raiffeisen.jpeg",
-            "role": "Risk Manager",
-            "period": "Sep 2015 - Jan 2016"
+            "roles": [
+              {
+                "title": "Risk Manager",
+                "period": "Sep 2015 - Jan 2016"
+              },
+              {
+                "title": "Trader (FX/MM/DCM)",
+                "period": "Oct 2010 - Aug 2014"
+              }
+            ]
           }
         ]
       }
