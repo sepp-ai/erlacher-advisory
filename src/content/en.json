@@ -18,7 +18,6 @@
     },
     "subtitle": "C-level executives trust me to develop Data & AI strategies that generate millions in EBIT contribution. My unique combination of practical experience as a Global Data & AI Strategy Manager and strategic advisory bridges the gap between vision and execution.",
     "cta": {
-      "primary": "Book Appointment",
       "secondary": "Discover Expertise"
     },
     "card": {
@@ -348,7 +347,6 @@
     "title": "Free 15-Minute Consultation Call",
     "subtitle": "A brief, no-obligation conversation to explore if my three pillars of expertise are the right approach for your Data & AI journey.",
     "buttons": {
-      "primary": "Book Call",
       "secondary": "Get in Touch"
     }
   },

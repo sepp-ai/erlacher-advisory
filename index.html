@@ -29,7 +29,6 @@
                 <a href="#expertise" class="nav-link" role="menuitem" data-content="navigation.expertise">Expertise</a>
                 <a href="#companies" class="nav-link" role="menuitem" data-content="navigation.companies">Karriere</a>
                 <a href="#contact" class="nav-link" role="menuitem" data-content="navigation.contact">Kontakt</a>
-                <a href="#book" class="nav-link cta-button" role="menuitem" data-content="navigation.cta">Termin buchen</a>
                 <div class="language-switcher" role="group" aria-label="Language selection">
                     <button class="lang-btn active" data-lang="de" aria-label="Switch to German language" aria-pressed="true">DE</button>
                     <button class="lang-btn" data-lang="en" aria-label="Switch to English language" aria-pressed="false">EN</button>
@@ -55,7 +54,6 @@
                     Global Data & AI Strategy Manager mit nachgewiesenen Erfolgen bei Fortune 500 Unternehmen. Entwicklung von KI-Strategien, die Millionen von Euro EBIT-Beitrag generieren.
                 </p>
                 <div class="hero-cta">
-                    <a href="https://calendly.com/roman-erlacher/discovery-call" target="_blank" class="btn btn-primary" data-content="hero.cta.primary">Termin buchen</a>
                     <a href="#expertise" class="btn btn-outline" data-content="hero.cta.secondary">Expertise entdecken</a>
                 </div>
             </div>
@@ -133,12 +131,10 @@
                 <h2 data-content="cta.title">Kostenloses 15-Minuten Beratungsgespräch</h2>
                 <p data-content="cta.description">Ein kurzes, unverbindliches Gespräch, um zu erkunden, ob ich der richtige Partner für Ihre KI-Reise bin.</p>
                 <div class="cta-buttons">
-                    <button id="open-calendly" class="btn btn-primary" data-content="cta.primaryButton">Termin buchen</button>
                     <a href="#contact" class="btn btn-outline" data-content="cta.secondaryButton">Kontakt aufnehmen</a>
                 </div>
                 
-                <!-- Calendly inline widget -->
-                <div id="calendly-inline" style="min-width:320px;height:700px;margin-top: 2rem;display: none;"></div>
+
             </div>
         </div>
     </section>
@@ -171,7 +167,7 @@
                         <i class="fas fa-calendar"></i>
                         <div>
                             <h4>Termin buchen</h4>
-                            <button id="contact-calendly" class="contact-calendly-btn">Calendly öffnen</button>
+                            <p>Nutzen Sie das Calendly-Widget unten rechts</p>
                         </div>
                     </div>
                 </div>
@@ -207,7 +203,8 @@
     </footer>
 
     <!-- Calendly widget script -->
-    <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
     
     <!-- Load content management system -->
     <script src="src/js/content-manager.js?v=1.1"></script>
@@ -216,80 +213,16 @@
     <script src="src/js/script.js?v=1.1"></script>
     
     <!-- Calendly integration -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const openCalendlyBtn = document.getElementById('open-calendly');
-            const calendlyInline = document.getElementById('calendly-inline');
-            const contactCalendlyBtn = document.getElementById('contact-calendly');
-            
-            // Function to open Calendly popup
-            function openCalendlyPopup() {
-                if (typeof Calendly !== 'undefined') {
-                    Calendly.initPopupWidget({
-                        url: 'https://calendly.com/roman-erlacher/discovery-call'
-                    });
-                } else {
-                    // Fallback
-                    window.open('https://calendly.com/roman-erlacher/discovery-call', '_blank');
-                }
-            }
-            
-            // CTA Section Calendly
-            if (openCalendlyBtn && calendlyInline) {
-                openCalendlyBtn.addEventListener('click', function() {
-                    if (calendlyInline.style.display === 'none' || calendlyInline.style.display === '') {
-                        // Show calendly widget
-                        calendlyInline.style.display = 'block';
-                        const originalText = openCalendlyBtn.getAttribute('data-original-text') || 'Termin buchen';
-                        openCalendlyBtn.textContent = 'Kalender ausblenden';
-                        
-                        // Initialize Calendly widget
-                        if (typeof Calendly !== 'undefined') {
-                            Calendly.initInlineWidget({
-                                url: 'https://calendly.com/roman-erlacher/discovery-call',
-                                parentElement: calendlyInline,
-                                prefill: {},
-                                utm: {}
-                            });
-                        } else {
-                            // Fallback if Calendly not loaded
-                            calendlyInline.innerHTML = '<iframe src="https://calendly.com/roman-erlacher/discovery-call" width="100%" height="700" frameborder="0"></iframe>';
-                        }
-                        
-                        // Smooth scroll to calendly widget
-                        calendlyInline.scrollIntoView({ behavior: 'smooth' });
-                    } else {
-                        // Hide calendly widget
-                        calendlyInline.style.display = 'none';
-                        const originalText = openCalendlyBtn.getAttribute('data-original-text') || 'Termin buchen';
-                        openCalendlyBtn.textContent = originalText;
-                    }
-                });
-            }
-            
-            // Contact Section Calendly
-            if (contactCalendlyBtn) {
-                contactCalendlyBtn.addEventListener('click', openCalendlyPopup);
-            }
-            
-            // Navigation CTA button
-            const navCtaBtn = document.querySelector('.nav-link.cta-button');
-            if (navCtaBtn) {
-                navCtaBtn.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    openCalendlyPopup();
-                });
-            }
-            
-            // Hero CTA button
-            const heroCtaBtn = document.querySelector('.hero-cta .btn-primary');
-            if (heroCtaBtn) {
-                heroCtaBtn.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    openCalendlyPopup();
-                });
-            }
-        });
+    <script type="text/javascript">
+        window.onload = function() { 
+            Calendly.initBadgeWidget({ 
+                url: 'https://calendly.com/roman-erlacher/discovery-call', 
+                text: 'Termin buchen', 
+                color: '#f59e0b', 
+                textColor: '#ffffff',
+                branding: false
+            }); 
+        }
     </script>
 </body>
 </html> 
