@@ -54,7 +54,6 @@
                     Global Data & AI Strategy Manager mit nachgewiesenen Erfolgen bei Fortune 500 Unternehmen. Entwicklung von KI-Strategien, die Millionen von Euro EBIT-Beitrag generieren.
                 </p>
                 <div class="hero-cta">
-                    <a href="#expertise" class="btn btn-outline" data-content="hero.cta.secondary">Expertise entdecken</a>
                 </div>
             </div>
             <div class="hero-visual">
@@ -131,7 +130,6 @@
                 <h2 data-content="cta.title">Kostenloses 15-Minuten Beratungsgespräch</h2>
                 <p data-content="cta.description">Ein kurzes, unverbindliches Gespräch, um zu erkunden, ob ich der richtige Partner für Ihre KI-Reise bin.</p>
                 <div class="cta-buttons">
-                    <a href="#contact" class="btn btn-outline" data-content="cta.secondaryButton">Kontakt aufnehmen</a>
                 </div>
                 
 
@@ -163,13 +161,7 @@
                             <a href="https://www.linkedin.com/in/romanerlacher/" target="_blank">Connect on LinkedIn</a>
                         </div>
                     </div>
-                    <div class="contact-item">
-                        <i class="fas fa-calendar"></i>
-                        <div>
-                            <h4>Termin buchen</h4>
-                            <p>Nutzen Sie das Calendly-Widget unten rechts</p>
-                        </div>
-                    </div>
+
                 </div>
                 
 
@@ -215,13 +207,59 @@
     <!-- Calendly integration -->
     <script type="text/javascript">
         window.onload = function() { 
-            Calendly.initBadgeWidget({ 
-                url: 'https://calendly.com/roman-erlacher/discovery-call', 
-                text: 'Termin buchen', 
-                color: '#f59e0b', 
-                textColor: '#ffffff',
-                branding: false
-            }); 
+            // Wait for Calendly to be available
+            function initCalendly() {
+                if (typeof Calendly !== 'undefined') {
+                    try {
+                        Calendly.initBadgeWidget({ 
+                            url: 'https://calendly.com/roman-erlacher/discovery-call', 
+                            text: 'Termin buchen', 
+                            color: '#f59e0b', 
+                            textColor: '#ffffff',
+                            branding: false,
+                            hideEventTypeDetails: false,
+                            hideLandingPageDetails: false
+                        });
+                        console.log('Calendly badge widget initialized successfully');
+                    } catch (error) {
+                        console.error('Error initializing Calendly badge widget:', error);
+                        // Fallback: create a simple button
+                        createFallbackButton();
+                    }
+                } else {
+                    // Retry after a short delay
+                    setTimeout(initCalendly, 500);
+                }
+            }
+            
+            // Fallback button if Calendly fails
+            function createFallbackButton() {
+                const fallbackButton = document.createElement('div');
+                fallbackButton.innerHTML = `
+                    <a href="https://calendly.com/roman-erlacher/discovery-call" 
+                       target="_blank" 
+                       style="
+                           position: fixed;
+                           bottom: 20px;
+                           right: 20px;
+                           background: #f59e0b;
+                           color: white;
+                           padding: 12px 20px;
+                           border-radius: 8px;
+                           text-decoration: none;
+                           font-weight: 600;
+                           box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+                           z-index: 1000;
+                           transform: scale(1.2);
+                       ">
+                        Termin buchen
+                    </a>
+                `;
+                document.body.appendChild(fallbackButton);
+            }
+            
+            // Start initialization
+            initCalendly();
         }
     </script>
 </body>
