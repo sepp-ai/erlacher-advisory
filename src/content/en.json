@@ -187,35 +187,35 @@
     "items": [
       {
         "name": "NovaTaste",
-        "logo": "assets/logos/novataste-logo.png",
+        "logo": "assets/logos/logo-novataste.jpeg",
         "role": "Global Data & AI Strategy Manager",
         "period": "Oct 2024 - Present",
         "description": "Senior leader advising the C-suite on Data & AI, reporting to the Global CIO"
       },
       {
         "name": "HOFER Austria",
-        "logo": "assets/logos/hofer-logo.png",
+        "logo": "assets/logos/logo-hofer.jpeg",
         "role": "AI Product Manager",
         "period": "Apr 2023 - Sep 2024",
         "description": "Managed the largest global AI product for promotion optimization"
       },
       {
         "name": "ALDI SÜD HOLDING",
-        "logo": "assets/logos/aldi-holding-logo.png",
+        "logo": "assets/logos/logo-aldi.jpeg",
         "role": "Head of Data Science CoE",
         "period": "Mar 2021 - Apr 2022",
         "description": "Built a Data Science CoE from scratch including strategy and governance"
       },
       {
         "name": "Porsche Holding",
-        "logo": "assets/logos/porsche-holding-logo.png",
+        "logo": "assets/logos/logo-porsche.jpeg",
         "role": "Treasury Analyst",
         "period": "Feb 2016 - Nov 2019",
         "description": "Managed the interest rate risk portfolio of Europe's largest automobile trading company"
       },
       {
         "name": "Raiffeisenverband Salzburg",
-        "logo": "assets/logos/raiffeisen-salzburg-logo.png",
+        "logo": "assets/logos/logo-raiffeisen.jpeg",
         "role": "Risk Manager",
         "period": "Sep 2015 - Jan 2016",
         "description": "Risk management in the banking sector"
