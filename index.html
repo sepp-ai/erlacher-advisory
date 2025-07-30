@@ -23,12 +23,13 @@
     <nav class="navbar" role="navigation" aria-label="Main navigation">
         <div class="nav-container">
             <div class="nav-logo">
-                <span class="logo-text" role="img" aria-label="Roman Erlacher">Roman Erlacher</span>
+                <span class="logo-text" role="img" aria-label="Roman Erlacher" data-content="navigation.logo">Roman Erlacher</span>
             </div>
             <div class="nav-menu" role="menubar">
-                <a href="#expertise" class="nav-link" role="menuitem">Expertise</a>
-                <a href="#companies" class="nav-link" role="menuitem">Karriere</a>
-                <a href="#contact" class="nav-link" role="menuitem">Kontakt</a>
+                <a href="#expertise" class="nav-link" role="menuitem" data-content="navigation.expertise">Expertise</a>
+                <a href="#companies" class="nav-link" role="menuitem" data-content="navigation.companies">Karriere</a>
+                <a href="#contact" class="nav-link" role="menuitem" data-content="navigation.contact">Kontakt</a>
+                <a href="#book" class="nav-link cta-button" role="menuitem" data-content="navigation.cta">Termin buchen</a>
                 <div class="language-switcher" role="group" aria-label="Language selection">
                     <button class="lang-btn active" data-lang="de" aria-label="Switch to German language" aria-pressed="true">DE</button>
                     <button class="lang-btn" data-lang="en" aria-label="Switch to English language" aria-pressed="false">EN</button>
@@ -47,22 +48,22 @@
         <div class="hero-container">
             <div class="hero-content">
                 <h1 class="hero-title">
-                    <span class="highlight">Data & AI Strategie</span><br>
-                    <span>für C-Level Führungskräfte</span>
+                    <span class="highlight" data-content="hero.title.highlight">Data & AI Strategie</span><br>
+                    <span data-content="hero.title.subtitle">für C-Level Führungskräfte</span>
                 </h1>
-                <p class="hero-subtitle">
+                <p class="hero-subtitle" data-content="hero.subtitle">
                     Global Data & AI Strategy Manager mit nachgewiesenen Erfolgen bei Fortune 500 Unternehmen. Entwicklung von KI-Strategien, die Millionen von Euro EBIT-Beitrag generieren.
                 </p>
                 <div class="hero-cta">
-                    <a href="https://calendly.com/ausblickabtenau/30min" target="_blank" class="btn btn-primary">Termin buchen</a>
-                    <a href="#expertise" class="btn btn-outline">Expertise entdecken</a>
+                    <a href="https://calendly.com/ausblickabtenau/30min" target="_blank" class="btn btn-primary" data-content="hero.cta.primary">Termin buchen</a>
+                    <a href="#expertise" class="btn btn-outline" data-content="hero.cta.secondary">Expertise entdecken</a>
                 </div>
             </div>
             <div class="hero-visual">
                 <div class="profile-photo-placeholder">
                     <div class="photo-frame">
-                        <img src="assets/images/profile-photo.jpg" alt="Roman Erlacher" class="profile-photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                        <div class="photo-placeholder" style="display: none;">
+                        <img src="assets/images/profile-pic.jpeg" alt="Roman Erlacher" class="profile-photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="photo-placeholder" style="display: none;" id="photo-placeholder">
                             <i class="fas fa-user"></i>
                             <span>Profilfoto</span>
                         </div>
@@ -76,48 +77,34 @@
     <section id="expertise" class="expertise">
         <div class="container">
             <div class="section-header">
-                <h2>Drei Säulen der Expertise</h2>
-                <p>Bewährte KI-Strategien basierend auf echten Erfolgen bei Fortune 500 Unternehmen</p>
+                <h2 data-content="expertise.title">Drei Säulen der Expertise</h2>
+                <p data-content="expertise.subtitle">Bewährte KI-Strategien basierend auf echten Erfolgen bei Fortune 500 Unternehmen</p>
             </div>
             
             <div class="expertise-grid">
-                <!-- Expertise 1: Praktiker -->
-                <div class="expertise-card">
-                    <div class="expertise-icon">🎯</div>
-                    <h3>Praktiker</h3>
-                    <p>Aktuelle Festanstellung als Global Data & AI Strategy Manager</p>
-                    <div class="expertise-highlight">NovaTaste</div>
-                    <ul class="expertise-taglines">
-                        <li>Global Data & AI Strategy Manager bei NovaTaste</li>
-                        <li>C-Suite Beratung und direkte Berichterstattung an Global CIO</li>
-                        <li>Entwicklung von AI Use Case Portfolios mit strategischer Ausrichtung</li>
-                    </ul>
+                <!-- Expertise cards will be populated by JavaScript -->
+                <div class="expertise-card" data-expertise="0">
+                    <div class="expertise-icon" data-content="expertise.items.0.icon">🎯</div>
+                    <h3 data-content="expertise.items.0.title">Praktiker</h3>
+                    <p data-content="expertise.items.0.description">Aktuelle Festanstellung als Global Data & AI Strategy Manager</p>
+                    <div class="expertise-highlight" data-content="expertise.items.0.highlight">NovaTaste</div>
+                    <ul class="expertise-taglines" data-content="expertise.items.0.taglines"></ul>
                 </div>
 
-                <!-- Expertise 2: Advisor -->
-                <div class="expertise-card">
-                    <div class="expertise-icon">💡</div>
-                    <h3>Advisor</h3>
-                    <p>Strategische C-Level Beratung für Data & AI Transformation</p>
-                    <div class="expertise-highlight">13+ Jahre Erfahrung</div>
-                    <ul class="expertise-taglines">
-                        <li>Strategische Beratung für C-Level Führungskräfte</li>
-                        <li>Change Management & Transformation Roadmap</li>
-                        <li>ROI-Optimierung & Value Realization</li>
-                    </ul>
+                <div class="expertise-card" data-expertise="1">
+                    <div class="expertise-icon" data-content="expertise.items.1.icon">💡</div>
+                    <h3 data-content="expertise.items.1.title">Advisor</h3>
+                    <p data-content="expertise.items.1.description">Strategische C-Level Beratung für Data & AI Transformation</p>
+                    <div class="expertise-highlight" data-content="expertise.items.1.highlight">13+ Jahre Erfahrung</div>
+                    <ul class="expertise-taglines" data-content="expertise.items.1.taglines"></ul>
                 </div>
 
-                <!-- Expertise 3: Solution Builder -->
-                <div class="expertise-card featured">
-                    <div class="expertise-icon">🚀</div>
-                    <h3>Solution Builder</h3>
-                    <p>Entwicklung von AI-Produkten mit Millionen-Euro Impact</p>
-                    <div class="expertise-highlight">Multi-Agent Systems</div>
-                    <ul class="expertise-taglines">
-                        <li>Management von AI-Produkten mit Millionen-Euro EBIT-Beitrag</li>
-                        <li>Multi-Agent Systems & AI-Automatisierung</li>
-                        <li>Skalierbare AI-Lösungen & Performance Monitoring</li>
-                    </ul>
+                <div class="expertise-card featured" data-expertise="2">
+                    <div class="expertise-icon" data-content="expertise.items.2.icon">🚀</div>
+                    <h3 data-content="expertise.items.2.title">Solution Builder</h3>
+                    <p data-content="expertise.items.2.description">Entwicklung von AI-Produkten mit Millionen-Euro Impact</p>
+                    <div class="expertise-highlight" data-content="expertise.items.2.highlight">Multi-Agent Systems</div>
+                    <ul class="expertise-taglines" data-content="expertise.items.2.taglines"></ul>
                 </div>
             </div>
         </div>
@@ -127,8 +114,8 @@
     <section id="companies" class="companies">
         <div class="container">
             <div class="section-header">
-                <h2>Unternehmen, für die ich gearbeitet habe</h2>
-                <p>Meine berufliche Laufbahn in verschiedenen Branchen und Positionen</p>
+                <h2 data-content="companies.title">Unternehmen, für die ich gearbeitet habe</h2>
+                <p data-content="companies.subtitle">Meine berufliche Laufbahn in verschiedenen Branchen und Positionen</p>
             </div>
             
             <div class="companies-grid">
@@ -143,11 +130,11 @@
     <section id="book" class="cta-section">
         <div class="container">
             <div class="cta-content">
-                <h2>Kostenloses 15-Minuten Beratungsgespräch</h2>
-                <p>Ein kurzes, unverbindliches Gespräch, um zu erkunden, ob ich der richtige Partner für Ihre KI-Reise bin.</p>
+                <h2 data-content="cta.title">Kostenloses 15-Minuten Beratungsgespräch</h2>
+                <p data-content="cta.description">Ein kurzes, unverbindliches Gespräch, um zu erkunden, ob ich der richtige Partner für Ihre KI-Reise bin.</p>
                 <div class="cta-buttons">
-                    <button id="open-calendly" class="btn btn-primary">Termin buchen</button>
-                    <a href="#contact" class="btn btn-outline">Kontakt aufnehmen</a>
+                    <button id="open-calendly" class="btn btn-primary" data-content="cta.primaryButton">Termin buchen</button>
+                    <a href="#contact" class="btn btn-outline" data-content="cta.secondaryButton">Kontakt aufnehmen</a>
                 </div>
                 
                 <!-- Calendly inline widget -->
@@ -160,8 +147,8 @@
     <section id="contact" class="contact">
         <div class="container">
             <div class="section-header">
-                <h2>Kontakt</h2>
-                <p>Für Vorträge, Beratung oder Partnerschaftsanfragen</p>
+                <h2 data-content="contact.title">Kontakt</h2>
+                <p data-content="contact.subtitle">Für Vorträge, Beratung oder Partnerschaftsanfragen</p>
             </div>
             
             <div class="contact-content">
@@ -184,7 +171,7 @@
                         <i class="fas fa-calendar"></i>
                         <div>
                             <h4>Termin buchen</h4>
-                            <a href="https://calendly.com/ausblickabtenau/30min" target="_blank">Calendly</a>
+                            <button id="contact-calendly" class="contact-calendly-btn">Calendly öffnen</button>
                         </div>
                     </div>
                 </div>
@@ -199,13 +186,13 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
-                    <span class="logo-text">AI Strategy</span>
-                    <p>Enterprise KI Strategie Beratung</p>
+                    <span class="logo-text" data-content="footer.brand.logo">AI Strategy</span>
+                    <p data-content="footer.brand.description">Enterprise KI Strategie Beratung</p>
                 </div>
                 <div class="footer-links">
-                    <a href="#expertise">Expertise</a>
-                    <a href="#companies">Karriere</a>
-                    <a href="#contact">Kontakt</a>
+                    <a href="#expertise" data-content="footer.links.0.text">Expertise</a>
+                    <a href="#companies" data-content="footer.links.1.text">Karriere</a>
+                    <a href="#contact" data-content="footer.links.2.text">Kontakt</a>
                 </div>
             </div>
             <div class="footer-bottom">
@@ -233,7 +220,9 @@
         document.addEventListener('DOMContentLoaded', function() {
             const openCalendlyBtn = document.getElementById('open-calendly');
             const calendlyInline = document.getElementById('calendly-inline');
+            const contactCalendlyBtn = document.getElementById('contact-calendly');
             
+            // CTA Section Calendly
             if (openCalendlyBtn && calendlyInline) {
                 openCalendlyBtn.addEventListener('click', function() {
                     if (calendlyInline.style.display === 'none' || calendlyInline.style.display === '') {
@@ -262,6 +251,20 @@
                         calendlyInline.style.display = 'none';
                         const originalText = openCalendlyBtn.getAttribute('data-original-text') || 'Termin buchen';
                         openCalendlyBtn.textContent = originalText;
+                    }
+                });
+            }
+            
+            // Contact Section Calendly
+            if (contactCalendlyBtn) {
+                contactCalendlyBtn.addEventListener('click', function() {
+                    if (typeof Calendly !== 'undefined') {
+                        Calendly.initPopupWidget({
+                            url: 'https://calendly.com/roman-erlacher/discovery-call'
+                        });
+                    } else {
+                        // Fallback
+                        window.open('https://calendly.com/roman-erlacher/discovery-call', '_blank');
                     }
                 });
             }

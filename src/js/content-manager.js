@@ -148,35 +148,36 @@ class ContentManager {
 
         const content = this.content[this.currentLanguage];
         
-        // Update navigation
-        this.updateNavigation(content.navigation);
+        // Update all content using data-content attributes
+        this.updateAllContent(content);
         
-        // Update hero section
-        this.updateHero(content.hero);
+        // Update meta tags
+        this.updateMetaTags();
+    }
+
+    updateAllContent(content) {
+        // Find all elements with data-content attributes
+        const contentElements = document.querySelectorAll('[data-content]');
         
-        // Update expertise section
-        this.updateExpertise(content.expertise);
-        
-        // Update companies section
-        this.updateCompanies(content.companies);
-        
-        // Update assessment section
-        this.updateAssessment(content.assessment);
-        
-        // Update CTA section
-        this.updateCTA(content.cta);
-        
-        // Update about section
-        this.updateAbout(content.about);
-        
-        // Update CTA section
-        this.updateCTA(content.cta);
-        
-        // Update contact section
-        this.updateContact(content.contact);
-        
-        // Update footer
-        this.updateFooter(content.footer);
+        contentElements.forEach(element => {
+            const contentPath = element.getAttribute('data-content');
+            const value = this.getNestedValue(content, contentPath);
+            
+            if (value !== undefined) {
+                if (element.tagName === 'UL' && Array.isArray(value)) {
+                    // Handle taglines arrays
+                    element.innerHTML = value.map(tagline => `<li>${tagline}</li>`).join('');
+                } else {
+                    element.textContent = value;
+                }
+            }
+        });
+    }
+
+    getNestedValue(obj, path) {
+        return path.split('.').reduce((current, key) => {
+            return current && current[key] !== undefined ? current[key] : undefined;
+        }, obj);
     }
 
     /**
