@@ -248,19 +248,12 @@ class ContentManager {
             const icon = card.querySelector('.expertise-icon');
             const title = card.querySelector('h3');
             const description = card.querySelector('p');
-            const outcomesTitle = card.querySelector('.expertise-outcomes h4');
-            const outcomesList = card.querySelectorAll('.outcomes-list li');
+            const highlight = card.querySelector('.expertise-highlight');
 
             if (icon) icon.textContent = expertise.icon;
             if (title) title.textContent = expertise.title;
             if (description) description.textContent = expertise.description;
-            if (outcomesTitle) outcomesTitle.textContent = expertise.outcomes.title;
-            
-            outcomesList.forEach((item, itemIndex) => {
-                if (expertise.outcomes.items[itemIndex]) {
-                    item.textContent = expertise.outcomes.items[itemIndex];
-                }
-            });
+            if (highlight) highlight.textContent = expertise.highlight;
         });
     }
 
@@ -279,17 +272,26 @@ class ContentManager {
 
         // Companies grid
         const companiesGrid = document.querySelector('.companies-grid');
-        if (companiesGrid && companiesContent.items) {
-            companiesGrid.innerHTML = companiesContent.items.map(item => `
-                <div class="company-card">
-                    <div class="company-logo">
-                        <img src="${item.logo}" alt="${item.name} logo" onerror="this.style.display='none'">
+        if (companiesGrid && companiesContent.categories) {
+            companiesGrid.innerHTML = companiesContent.categories.map(category => `
+                <div class="career-category">
+                    <div class="category-header">
+                        <h3>${category.title}</h3>
+                        <p>${category.description}</p>
                     </div>
-                    <div class="company-info">
-                        <h3>${item.name}</h3>
-                        <h4>${item.role}</h4>
-                        <p class="company-period">${item.period}</p>
-                        <p class="company-description">${item.description}</p>
+                    <div class="companies-list">
+                        ${category.companies.map(company => `
+                            <div class="company-item">
+                                <div class="company-logo">
+                                    <img src="${company.logo}" alt="${company.name} logo" onerror="this.style.display='none'">
+                                </div>
+                                <div class="company-info">
+                                    <h4>${company.name}</h4>
+                                    <p class="company-role">${company.role}</p>
+                                    <p class="company-period">${company.period}</p>
+                                </div>
+                            </div>
+                        `).join('')}
                     </div>
                 </div>
             `).join('');

@@ -27,50 +27,25 @@
   },
   "expertise": {
     "title": "Three Pillars of Expertise",
-    "subtitle": "Proven AI strategies based on real successes in practice",
+    "subtitle": "My unique approach combines practical experience with strategic advisory",
     "items": [
       {
-        "icon": "",
-        "title": "Practitioner - Global Data & AI Strategy Manager",
-        "description": "Currently employed full-time at NovaTaste as Global Data & AI Strategy Manager. Advising the C-Suite and reporting directly to the Global CIO. Developing AI use case portfolios with strategic alignment.",
-        "outcomes": {
-          "title": "Current Role",
-          "items": [
-            "Global Data & AI Strategy Manager at NovaTaste",
-            "C-Suite Advisory and Stakeholder Management",
-            "AI Use Case Portfolio Development",
-            "Strategic Alignment and Governance"
-          ]
-        }
+        "icon": "🎯",
+        "title": "Practitioner",
+        "description": "Current full-time employment as Global Data & AI Strategy Manager",
+        "highlight": "NovaTaste"
       },
       {
-        "icon": "",
-        "title": "Advisor - Strategic C-Level Advisory",
-        "description": "Strategic advisory for C-level executives focused on Data & AI transformation. Over 13 years of experience with proven success.",
-        "outcomes": {
-          "title": "Advisory Services",
-          "items": [
-            "C-Suite Data & AI Strategy Sessions",
-            "Change Management & Transformation Roadmap",
-            "Stakeholder Engagement & Governance",
-            "ROI Optimization & Value Realization"
-          ]
-        }
+        "icon": "💡",
+        "title": "Advisor",
+        "description": "Strategic C-level advisory for Data & AI transformation",
+        "highlight": "13+ years experience"
       },
       {
-        "icon": "",
-        "title": "Solution Builder - AI Solution Development",
-        "description": "Development and management of AI products with millions in EBIT contribution. Experience in multi-agent systems, AI automation, and scalable solutions.",
-        "featured": true,
-        "outcomes": {
-          "title": "Solution Development",
-          "items": [
-            "AI Product Development & Management",
-            "Multi-Agent Systems & Automation",
-            "Scalable AI Solutions",
-            "Performance Monitoring & Optimization"
-          ]
-        }
+        "icon": "🚀",
+        "title": "Solution Builder",
+        "description": "Development of AI products with millions in impact",
+        "highlight": "Multi-Agent Systems"
       }
     ]
   },
@@ -182,43 +157,62 @@
     }
   },
   "companies": {
-    "title": "Companies I've Worked For",
-    "subtitle": "My professional journey across different industries and positions",
-    "items": [
+    "title": "My Career by Roles",
+    "subtitle": "From Finance to Data Science to AI Strategy - my development across different industries",
+    "categories": [
       {
-        "name": "NovaTaste",
-        "logo": "assets/logos/logo-novataste.jpeg",
-        "role": "Global Data & AI Strategy Manager",
-        "period": "Oct 2024 - Present",
-        "description": "Senior leader advising the C-suite on Data & AI, reporting to the Global CIO"
+        "title": "AI Strategy & Leadership",
+        "description": "Strategic leadership and advisory in Data & AI",
+        "companies": [
+          {
+            "name": "NovaTaste",
+            "logo": "assets/logos/logo-novataste.jpeg",
+            "role": "Global Data & AI Strategy Manager",
+            "period": "Oct 2024 - Present"
+          }
+        ]
       },
       {
-        "name": "HOFER Austria",
-        "logo": "assets/logos/logo-hofer.jpeg",
-        "role": "AI Product Manager",
-        "period": "Apr 2023 - Sep 2024",
-        "description": "Managed the largest global AI product for promotion optimization"
+        "title": "AI Product Management",
+        "description": "Development and management of AI products with measurable business impact",
+        "companies": [
+          {
+            "name": "ALDI SÜD",
+            "logo": "assets/logos/logo-aldi-sued.jpeg",
+            "role": "AI Product Manager",
+            "period": "Apr 2023 - Sep 2024"
+          }
+        ]
       },
       {
-        "name": "ALDI SÜD HOLDING",
-        "logo": "assets/logos/logo-aldi.jpeg",
-        "role": "Head of Data Science CoE",
-        "period": "Mar 2021 - Apr 2022",
-        "description": "Built a Data Science CoE from scratch including strategy and governance"
+        "title": "Data Science Leadership",
+        "description": "Building and leading Data Science teams and Centers of Excellence",
+        "companies": [
+          {
+            "name": "ALDI SÜD HOLDING",
+            "logo": "assets/logos/logo-aldi.jpeg",
+            "role": "Head of Data Science CoE",
+            "period": "Mar 2021 - Apr 2022"
+          }
+        ]
       },
       {
-        "name": "Porsche Holding",
-        "logo": "assets/logos/logo-porsche.jpeg",
-        "role": "Treasury Analyst",
-        "period": "Feb 2016 - Nov 2019",
-        "description": "Managed the interest rate risk portfolio of Europe's largest automobile trading company"
-      },
-      {
-        "name": "Raiffeisenverband Salzburg",
-        "logo": "assets/logos/logo-raiffeisen.jpeg",
-        "role": "Risk Manager",
-        "period": "Sep 2015 - Jan 2016",
-        "description": "Risk management in the banking sector"
+        "title": "Finance & Risk Management",
+        "description": "Experience in treasury and risk management",
+        "companies": [
+          {
+            "name": "Porsche Holding",
+            "logo": "assets/logos/logo-porsche.jpeg",
+            "role": "Treasury Analyst",
+            "period": "Feb 2016 - Nov 2019"
+          },
+          {
+            "name": "Raiffeisenverband Salzburg",
+            "logo": "assets/logos/logo-raiffeisen.jpeg",
+            "role": "Risk Manager",
+            "period": "Sep 2015 - Jan 2016"
+          }
+        ]
       }
     ]
   },
