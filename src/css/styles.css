@@ -552,6 +552,13 @@ p {
     opacity: 0.9;
 }
 
+.profile-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 .service-features {
     list-style: none;
     margin-bottom: 2rem;
@@ -987,6 +994,8 @@ p {
     font-weight: 700;
     text-shadow: none;
     box-shadow: var(--shadow-xl);
+    padding: 18px 36px;
+    font-size: 1.1rem;
 }
 
 .cta-section .btn-primary:hover {
@@ -1002,6 +1011,8 @@ p {
     border: 2px solid var(--text-white);
     font-weight: 600;
     text-shadow: none;
+    padding: 18px 36px;
+    font-size: 1.1rem;
 }
 
 .cta-section .btn-outline:hover {

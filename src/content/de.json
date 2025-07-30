@@ -35,9 +35,9 @@
         "description": "Aktuelle Festanstellung als Global Data & AI Strategy Manager",
         "highlight": "NovaTaste",
         "taglines": [
-          "Global Data & AI Strategy Manager bei NovaTaste",
-          "C-Suite Beratung und direkte Berichterstattung an Global CIO",
-          "Entwicklung von AI Use Case Portfolios mit strategischer Ausrichtung"
+          "Global Data & AI Strategy Manager",
+          "C-Suite Beratung",
+          "AI Use Case Portfolio"
         ]
       },
       {
@@ -46,9 +46,9 @@
         "description": "Strategische C-Level Beratung für Data & AI Transformation",
         "highlight": "13+ Jahre Erfahrung",
         "taglines": [
-          "Strategische Beratung für C-Level Führungskräfte",
-          "Change Management & Transformation Roadmap",
-          "ROI-Optimierung & Value Realization"
+          "C-Level Beratung",
+          "Change Management",
+          "ROI-Optimierung"
         ]
       },
       {
@@ -57,9 +57,9 @@
         "description": "Entwicklung von AI-Produkten mit Millionen-Euro Impact",
         "highlight": "Multi-Agent Systems",
         "taglines": [
-          "Management von AI-Produkten mit Millionen-Euro EBIT-Beitrag",
-          "Multi-Agent Systems & AI-Automatisierung",
-          "Skalierbare AI-Lösungen & Performance Monitoring"
+          "AI-Produkt Management",
+          "Multi-Agent Systems",
+          "Skalierbare AI-Lösungen"
         ]
       }
     ]
@@ -177,7 +177,7 @@
     "categories": [
       {
         "title": "AI Strategy & Leadership",
-        "description": "Strategische Führung und Beratung im Data & AI Bereich",
+        "description": "Strategische Führung und C-Level Beratung",
         "companies": [
           {
             "name": "NovaTaste",
@@ -193,7 +193,7 @@
       },
       {
         "title": "AI Product Management",
-        "description": "Entwicklung und Management von AI-Produkten mit messbarem Business Impact",
+        "description": "AI-Produktentwicklung mit Millionen-Euro Impact",
         "companies": [
           {
             "name": "ALDI SÜD",
@@ -213,7 +213,7 @@
       },
       {
         "title": "Data Science Leadership",
-        "description": "Aufbau und Leitung von Data Science Teams und Centers of Excellence",
+        "description": "Aufbau und Leitung von Data Science Teams",
         "companies": [
           {
             "name": "ALDI SÜD HOLDING",
