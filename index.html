@@ -55,7 +55,7 @@
                     Global Data & AI Strategy Manager mit nachgewiesenen Erfolgen bei Fortune 500 Unternehmen. Entwicklung von KI-Strategien, die Millionen von Euro EBIT-Beitrag generieren.
                 </p>
                 <div class="hero-cta">
-                    <a href="https://calendly.com/ausblickabtenau/30min" target="_blank" class="btn btn-primary" data-content="hero.cta.primary">Termin buchen</a>
+                    <a href="https://calendly.com/roman-erlacher/discovery-call" target="_blank" class="btn btn-primary" data-content="hero.cta.primary">Termin buchen</a>
                     <a href="#expertise" class="btn btn-outline" data-content="hero.cta.secondary">Expertise entdecken</a>
                 </div>
             </div>
@@ -114,8 +114,8 @@
     <section id="companies" class="companies">
         <div class="container">
             <div class="section-header">
-                <h2 data-content="companies.title">Unternehmen, für die ich gearbeitet habe</h2>
-                <p data-content="companies.subtitle">Meine berufliche Laufbahn in verschiedenen Branchen und Positionen</p>
+                <h2 data-content="companies.title">Meine Karriere nach Rollen</h2>
+                <p data-content="companies.subtitle">Von Finance über Data Science zu AI Strategy - meine Entwicklung in verschiedenen Branchen</p>
             </div>
             
             <div class="companies-grid">
@@ -222,6 +222,18 @@
             const calendlyInline = document.getElementById('calendly-inline');
             const contactCalendlyBtn = document.getElementById('contact-calendly');
             
+            // Function to open Calendly popup
+            function openCalendlyPopup() {
+                if (typeof Calendly !== 'undefined') {
+                    Calendly.initPopupWidget({
+                        url: 'https://calendly.com/roman-erlacher/discovery-call'
+                    });
+                } else {
+                    // Fallback
+                    window.open('https://calendly.com/roman-erlacher/discovery-call', '_blank');
+                }
+            }
+            
             // CTA Section Calendly
             if (openCalendlyBtn && calendlyInline) {
                 openCalendlyBtn.addEventListener('click', function() {
@@ -257,15 +269,24 @@
             
             // Contact Section Calendly
             if (contactCalendlyBtn) {
-                contactCalendlyBtn.addEventListener('click', function() {
-                    if (typeof Calendly !== 'undefined') {
-                        Calendly.initPopupWidget({
-                            url: 'https://calendly.com/roman-erlacher/discovery-call'
-                        });
-                    } else {
-                        // Fallback
-                        window.open('https://calendly.com/roman-erlacher/discovery-call', '_blank');
-                    }
+                contactCalendlyBtn.addEventListener('click', openCalendlyPopup);
+            }
+            
+            // Navigation CTA button
+            const navCtaBtn = document.querySelector('.nav-link.cta-button');
+            if (navCtaBtn) {
+                navCtaBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    openCalendlyPopup();
+                });
+            }
+            
+            // Hero CTA button
+            const heroCtaBtn = document.querySelector('.hero-cta .btn-primary');
+            if (heroCtaBtn) {
+                heroCtaBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    openCalendlyPopup();
                 });
             }
         });

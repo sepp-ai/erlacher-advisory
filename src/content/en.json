@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Data & AI Strategy Advisor - Enterprise Solutions",
-    "description": "Helping C-level leaders define and execute Data & AI strategies that deliver measurable business value. Expert strategy advisory, use case prioritization, and value realization.",
+    "title": "Data & AI Strategy Advisory - Enterprise Solutions",
+    "description": "C-level executives trust me to develop Data & AI strategies that generate millions in EBIT contribution. My unique combination of practical experience and strategic advisory bridges the gap between vision and execution.",
     "keywords": "Data & AI strategy, enterprise solutions, data strategy, C-level advisory, strategy consulting, digital transformation"
   },
   "navigation": {
@@ -16,7 +16,7 @@
       "highlight": "Data & AI Strategy",
       "subtitle": "Advisory"
     },
-    "subtitle": "Global Data & AI Strategy Manager at NovaTaste, strategic advisor for C-level executives, and AI solution builder. Three pillars of expertise: Practitioner, Advisor, and Solution Builder.",
+    "subtitle": "C-level executives trust me to develop Data & AI strategies that generate millions in EBIT contribution. My unique combination of practical experience as a Global Data & AI Strategy Manager and strategic advisory bridges the gap between vision and execution.",
     "cta": {
       "primary": "Book Appointment",
       "secondary": "Discover Expertise"
@@ -28,7 +28,7 @@
   },
   "expertise": {
     "title": "Three Pillars of Expertise",
-    "subtitle": "My unique approach combines practical experience with strategic advisory",
+    "subtitle": "My unique approach bridges the gap between strategy and execution",
     "items": [
       {
         "icon": "🎯",
@@ -36,9 +36,9 @@
         "description": "Current full-time employment as Global Data & AI Strategy Manager",
         "highlight": "NovaTaste",
         "taglines": [
-          "Global Data & AI Strategy Manager at NovaTaste",
-          "C-Suite advisory and direct reporting to Global CIO",
-          "Development of AI use case portfolios with strategic alignment"
+          "C-Suite Advisory",
+          "AI Use Case Portfolio",
+          "Strategic Alignment"
         ]
       },
       {
@@ -47,9 +47,9 @@
         "description": "Strategic C-level advisory for Data & AI transformation",
         "highlight": "13+ years experience",
         "taglines": [
-          "Strategic advisory for C-level executives",
-          "Change Management & Transformation Roadmap",
-          "ROI Optimization & Value Realization"
+          "Change Management",
+          "ROI Optimization",
+          "Transformation Roadmap"
         ]
       },
       {
@@ -58,9 +58,9 @@
         "description": "Development of AI products with millions in impact",
         "highlight": "Multi-Agent Systems",
         "taglines": [
-          "Management of AI products with millions in EBIT contribution",
-          "Multi-Agent Systems & AI Automation",
-          "Scalable AI Solutions & Performance Monitoring"
+          "AI Product Management",
+          "Scalable Solutions",
+          "Performance Monitoring"
         ]
       }
     ]
@@ -373,13 +373,13 @@
         "icon": "fas fa-calendar",
         "title": "Book Appointment",
         "link": "Calendly",
-        "href": "https://calendly.com/ausblickabtenau/30min"
+        "href": "https://calendly.com/roman-erlacher/discovery-call"
       }
     ]
   },
   "footer": {
     "brand": {
-      "logo": "Data & AI Strategy",
+      "logo": "Data & AI Strategy Advisory",
       "description": "Data & AI Strategy Advisory - Three Pillars of Expertise"
     },
     "links": [

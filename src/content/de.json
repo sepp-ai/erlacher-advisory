@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "Data & AI Strategie Berater - Enterprise Lösungen",
-    "description": "Unterstützung von C-Level Führungskräften bei der Definition und Umsetzung von Data & AI Strategien, die messbaren Geschäftswert liefern. Experten-Strategieberatung, Use Case-Priorisierung und Wertrealisierung.",
-    "keywords": "Data & AI Strategie, Enterprise Lösungen, Datenstrategie, C-Level Beratung, Strategie-Consulting, digitale Transformation"
+    "title": "Data & AI Strategy Advisory - Enterprise Solutions",
+    "description": "C-Level Führungskräfte vertrauen mir bei der Entwicklung von Data & AI Strategien, die Millionen von Euro EBIT-Beitrag generieren. Meine einzigartige Kombination aus praktischer Erfahrung und strategischer Beratung überbrückt die Kluft zwischen Vision und Umsetzung.",
+    "keywords": "Data & AI Strategy, Enterprise Solutions, Data Strategy, C-Level Advisory, Strategy Consulting, Digital Transformation"
   },
   "navigation": {
     "logo": "Roman Erlacher",
@@ -13,10 +13,10 @@
   },
   "hero": {
     "title": {
-      "highlight": "Data & AI Strategie",
-      "subtitle": "Beratung"
+      "highlight": "Data & AI Strategy",
+      "subtitle": "Advisory"
     },
-    "subtitle": "Global Data & AI Strategy Manager bei NovaTaste, strategischer Berater für C-Level Führungskräfte und Entwickler von AI-Lösungen. Drei Säulen der Expertise: Praktiker, Advisor und Solution Builder.",
+    "subtitle": "C-Level Führungskräfte vertrauen mir bei der Entwicklung von Data & AI Strategien, die Millionen von Euro EBIT-Beitrag generieren. Meine einzigartige Kombination aus praktischer Erfahrung als Global Data & AI Strategy Manager und strategischer Beratung überbrückt die Kluft zwischen Vision und Umsetzung.",
     "cta": {
       "primary": "Termin buchen",
       "secondary": "Expertise entdecken"
@@ -28,7 +28,7 @@
   },
   "expertise": {
     "title": "Drei Säulen der Expertise",
-    "subtitle": "Mein einzigartiger Ansatz kombiniert praktische Erfahrung mit strategischer Beratung",
+    "subtitle": "Mein einzigartiger Ansatz überbrückt die Kluft zwischen Strategie und Umsetzung",
     "items": [
       {
         "icon": "🎯",
@@ -36,9 +36,9 @@
         "description": "Aktuelle Festanstellung als Global Data & AI Strategy Manager",
         "highlight": "NovaTaste",
         "taglines": [
-          "Global Data & AI Strategy Manager",
           "C-Suite Beratung",
-          "AI Use Case Portfolio"
+          "AI Use Case Portfolio",
+          "Strategische Ausrichtung"
         ]
       },
       {
@@ -47,9 +47,9 @@
         "description": "Strategische C-Level Beratung für Data & AI Transformation",
         "highlight": "13+ Jahre Erfahrung",
         "taglines": [
-          "C-Level Beratung",
           "Change Management",
-          "ROI-Optimierung"
+          "ROI-Optimierung",
+          "Transformation Roadmap"
         ]
       },
       {
@@ -59,8 +59,8 @@
         "highlight": "Multi-Agent Systems",
         "taglines": [
           "AI-Produkt Management",
-          "Multi-Agent Systems",
-          "Skalierbare AI-Lösungen"
+          "Skalierbare Lösungen",
+          "Performance Monitoring"
         ]
       }
     ]
@@ -373,14 +373,14 @@
         "icon": "fas fa-calendar",
         "title": "Termin buchen",
         "link": "Calendly",
-        "href": "https://calendly.com/ausblickabtenau/30min"
+        "href": "https://calendly.com/roman-erlacher/discovery-call"
       }
     ]
   },
   "footer": {
     "brand": {
-      "logo": "Data & AI Strategie",
-      "description": "Data & AI Strategie Beratung - Drei Säulen der Expertise"
+      "logo": "Data & AI Strategy Advisory",
+      "description": "Data & AI Strategy Advisory - Drei Säulen der Expertise"
     },
     "links": [
       {

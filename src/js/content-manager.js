@@ -151,6 +151,9 @@ class ContentManager {
         // Update all content using data-content attributes
         this.updateAllContent(content);
         
+        // Update specific sections that need special handling
+        this.updateCompanies(content.companies);
+        
         // Update meta tags
         this.updateMetaTags();
     }
