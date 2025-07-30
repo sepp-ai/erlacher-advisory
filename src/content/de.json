@@ -18,7 +18,6 @@
     },
     "subtitle": "C-Level Führungskräfte vertrauen mir bei der Entwicklung von Data & AI Strategien, die Millionen von Euro EBIT-Beitrag generieren. Meine einzigartige Kombination aus praktischer Erfahrung als Global Data & AI Strategy Manager und strategischer Beratung überbrückt die Kluft zwischen Vision und Umsetzung.",
     "cta": {
-      "secondary": "Expertise entdecken"
     },
     "card": {
       "title": "Drei Säulen der Expertise",
@@ -345,10 +344,7 @@
   },
   "cta": {
     "title": "Kostenloses 15-Minuten Beratungsgespräch",
-    "subtitle": "Ein kurzes, unverbindliches Gespräch, um zu erkunden, ob meine drei Säulen der Expertise der richtige Ansatz für Ihre Data & AI Reise sind.",
-    "buttons": {
-      "secondary": "Kontakt aufnehmen"
-    }
+    "subtitle": "Ein kurzes, unverbindliches Gespräch, um zu erkunden, ob meine drei Säulen der Expertise der richtige Ansatz für Ihre Data & AI Reise sind."
   },
   "contact": {
     "title": "Kontakt",
@@ -366,12 +362,6 @@
         "title": "LinkedIn",
         "link": "Connect on LinkedIn",
         "href": "https://www.linkedin.com/in/romanerlacher/"
-      },
-      {
-        "icon": "fas fa-calendar",
-        "title": "Termin buchen",
-        "link": "Calendly",
-        "href": "https://calendly.com/roman-erlacher/discovery-call"
       }
     ]
   },

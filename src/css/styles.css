@@ -1115,6 +1115,20 @@ p {
     color: var(--accent-color);
 }
 
+/* Calendly Badge Styling */
+.calendly-badge {
+    transform: scale(1.2) !important;
+    bottom: 20px !important;
+    right: 20px !important;
+}
+
+.calendly-badge .calendly-badge-content {
+    font-size: 16px !important;
+    padding: 12px 20px !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+}
+
 
 
 .contact-form {

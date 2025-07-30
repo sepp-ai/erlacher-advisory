@@ -18,7 +18,6 @@
     },
     "subtitle": "C-level executives trust me to develop Data & AI strategies that generate millions in EBIT contribution. My unique combination of practical experience as a Global Data & AI Strategy Manager and strategic advisory bridges the gap between vision and execution.",
     "cta": {
-      "secondary": "Discover Expertise"
     },
     "card": {
       "title": "Three Pillars of Expertise",
@@ -345,10 +344,7 @@
   },
   "cta": {
     "title": "Free 15-Minute Consultation Call",
-    "subtitle": "A brief, no-obligation conversation to explore if my three pillars of expertise are the right approach for your Data & AI journey.",
-    "buttons": {
-      "secondary": "Get in Touch"
-    }
+    "subtitle": "A brief, no-obligation conversation to explore if my three pillars of expertise are the right approach for your Data & AI journey."
   },
   "contact": {
     "title": "Contact",
@@ -366,12 +362,6 @@
         "title": "LinkedIn",
         "link": "Connect on LinkedIn",
         "href": "https://www.linkedin.com/in/romanerlacher/"
-      },
-      {
-        "icon": "fas fa-calendar",
-        "title": "Book Appointment",
-        "link": "Calendly",
-        "href": "https://calendly.com/roman-erlacher/discovery-call"
       }
     ]
   },
