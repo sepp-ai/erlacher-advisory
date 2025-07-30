@@ -27,7 +27,7 @@
             </div>
             <div class="nav-menu" role="menubar">
                 <a href="#expertise" class="nav-link" role="menuitem">Expertise</a>
-                <a href="#about" class="nav-link" role="menuitem">Über mich</a>
+                <a href="#companies" class="nav-link" role="menuitem">Karriere</a>
                 <a href="#contact" class="nav-link" role="menuitem">Kontakt</a>
                 <div class="language-switcher" role="group" aria-label="Language selection">
                     <button class="lang-btn active" data-lang="de" aria-label="Switch to German language" aria-pressed="true">DE</button>
@@ -59,18 +59,12 @@
                 </div>
             </div>
             <div class="hero-visual">
-                <div class="expertise-pillars">
-                    <div class="pillar">
-                        <h3>Praktiker</h3>
-                        <p>Global Data & AI Strategy Manager bei NovaTaste</p>
-                    </div>
-                    <div class="pillar">
-                        <h3>Advisor</h3>
-                        <p>Strategische C-Level Beratung</p>
-                    </div>
-                    <div class="pillar">
-                        <h3>Solution Builder</h3>
-                        <p>AI-Lösungsentwicklung mit Millionen-Euro Impact</p>
+                <div class="profile-photo-placeholder">
+                    <div class="photo-frame">
+                        <div class="photo-placeholder">
+                            <i class="fas fa-user"></i>
+                            <span>Profilfoto</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -92,6 +86,11 @@
                     <h3>Praktiker</h3>
                     <p>Aktuelle Festanstellung als Global Data & AI Strategy Manager</p>
                     <div class="expertise-highlight">NovaTaste</div>
+                    <ul class="expertise-taglines">
+                        <li>Global Data & AI Strategy Manager bei NovaTaste</li>
+                        <li>C-Suite Beratung und direkte Berichterstattung an Global CIO</li>
+                        <li>Entwicklung von AI Use Case Portfolios mit strategischer Ausrichtung</li>
+                    </ul>
                 </div>
 
                 <!-- Expertise 2: Advisor -->
@@ -100,6 +99,11 @@
                     <h3>Advisor</h3>
                     <p>Strategische C-Level Beratung für Data & AI Transformation</p>
                     <div class="expertise-highlight">13+ Jahre Erfahrung</div>
+                    <ul class="expertise-taglines">
+                        <li>Strategische Beratung für C-Level Führungskräfte</li>
+                        <li>Change Management & Transformation Roadmap</li>
+                        <li>ROI-Optimierung & Value Realization</li>
+                    </ul>
                 </div>
 
                 <!-- Expertise 3: Solution Builder -->
@@ -108,6 +112,11 @@
                     <h3>Solution Builder</h3>
                     <p>Entwicklung von AI-Produkten mit Millionen-Euro Impact</p>
                     <div class="expertise-highlight">Multi-Agent Systems</div>
+                    <ul class="expertise-taglines">
+                        <li>Management von AI-Produkten mit Millionen-Euro EBIT-Beitrag</li>
+                        <li>Multi-Agent Systems & AI-Automatisierung</li>
+                        <li>Skalierbare AI-Lösungen & Performance Monitoring</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -127,53 +136,7 @@
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2>Über mich</h2>
-                    <p class="about-description">
-                        Senior Experte für Data & AI Strategie mit über 12 Jahren Erfahrung in der Leitung globaler Initiativen. Vertraut von CDOs und CIOs, um Technologie mit Geschäftswert in Einklang zu bringen, KI-Investitionen abzusichern und strategische Transformation voranzutreiben.
-                    </p>
-                    <div class="expertise-grid">
-                        <div class="expertise-item">
-                            <i class="fas fa-chart-line"></i>
-                            <span>KI Strategie Entwicklung</span>
-                        </div>
-                        <div class="expertise-item">
-                            <i class="fas fa-users"></i>
-                            <span>C-Suite Ausrichtung</span>
-                        </div>
-                        <div class="expertise-item">
-                            <i class="fas fa-rocket"></i>
-                            <span>Digitale Transformation</span>
-                        </div>
-                        <div class="expertise-item">
-                            <i class="fas fa-shield-alt"></i>
-                            <span>Risikomanagement</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-visual">
-                    <div class="stats-card">
-                        <div class="stat">
-                            <span class="stat-number">12+</span>
-                            <span class="stat-label">Jahre Erfahrung</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-number">50+</span>
-                            <span class="stat-label">Unternehmenskunden</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-number">€100M+</span>
-                            <span class="stat-label">Gelieferter Wert</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
     <!-- CTA Section -->
     <section id="book" class="cta-section">
@@ -182,9 +145,12 @@
                 <h2>Kostenloses 15-Minuten Beratungsgespräch</h2>
                 <p>Ein kurzes, unverbindliches Gespräch, um zu erkunden, ob ich der richtige Partner für Ihre KI-Reise bin.</p>
                 <div class="cta-buttons">
-                    <a href="https://calendly.com/roman-erlacher/discovery-call" target="_blank" class="btn btn-primary">Termin buchen</a>
+                    <button id="open-calendly" class="btn btn-primary">Termin buchen</button>
                     <a href="#contact" class="btn btn-outline">Kontakt aufnehmen</a>
                 </div>
+                
+                <!-- Calendly inline widget -->
+                <div id="calendly-inline" style="min-width:320px;height:700px;margin-top: 2rem;display: none;"></div>
             </div>
         </div>
     </section>
@@ -252,11 +218,49 @@
         </div>
     </footer>
 
+    <!-- Calendly widget script -->
+    <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+    
     <!-- Load content management system -->
     <script src="src/js/content-manager.js?v=1.1"></script>
     <script src="src/js/content-validator.js?v=1.1"></script>
     <script src="src/js/email-protection.js?v=1.1"></script>
     <script src="src/js/script.js?v=1.1"></script>
+    
+    <!-- Calendly integration -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const openCalendlyBtn = document.getElementById('open-calendly');
+            const calendlyInline = document.getElementById('calendly-inline');
+            
+            if (openCalendlyBtn && calendlyInline) {
+                openCalendlyBtn.addEventListener('click', function() {
+                    if (calendlyInline.style.display === 'none') {
+                        // Show calendly widget
+                        calendlyInline.style.display = 'block';
+                        const originalText = openCalendlyBtn.getAttribute('data-original-text') || 'Termin buchen';
+                        openCalendlyBtn.textContent = 'Kalender ausblenden';
+                        
+                        // Initialize Calendly widget
+                        Calendly.initInlineWidget({
+                            url: 'https://calendly.com/roman-erlacher/discovery-call',
+                            parentElement: calendlyInline,
+                            prefill: {},
+                            utm: {}
+                        });
+                        
+                        // Smooth scroll to calendly widget
+                        calendlyInline.scrollIntoView({ behavior: 'smooth' });
+                    } else {
+                        // Hide calendly widget
+                        calendlyInline.style.display = 'none';
+                        const originalText = openCalendlyBtn.getAttribute('data-original-text') || 'Termin buchen';
+                        openCalendlyBtn.textContent = originalText;
+                    }
+                });
+            }
+        });
+    </script>
 </body>
 </html> 
 </html> 
