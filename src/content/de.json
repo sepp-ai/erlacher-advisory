@@ -27,50 +27,25 @@
   },
   "expertise": {
     "title": "Drei Säulen der Expertise",
-    "subtitle": "Bewährte KI-Strategien basierend auf echten Erfolgen in der Praxis",
+    "subtitle": "Mein einzigartiger Ansatz kombiniert praktische Erfahrung mit strategischer Beratung",
     "items": [
       {
-        "icon": "",
-        "title": "Praktiker - Global Data & AI Strategy Manager",
-        "description": "Aktuell in Festanstellung bei NovaTaste als Global Data & AI Strategy Manager. Beratung der C-Suite und direkte Berichterstattung an den Global CIO. Entwicklung von AI Use Case Portfolios mit strategischer Ausrichtung.",
-        "outcomes": {
-          "title": "Aktuelle Rolle",
-          "items": [
-            "Global Data & AI Strategy Manager bei NovaTaste",
-            "C-Suite Beratung und Stakeholder Management",
-            "AI Use Case Portfolio Entwicklung",
-            "Strategische Ausrichtung und Governance"
-          ]
-        }
+        "icon": "🎯",
+        "title": "Praktiker",
+        "description": "Aktuelle Festanstellung als Global Data & AI Strategy Manager",
+        "highlight": "NovaTaste"
       },
       {
-        "icon": "",
-        "title": "Advisor - Strategische C-Level Beratung",
-        "description": "Strategische Beratung für C-Level Führungskräfte mit Fokus auf Data & AI Transformation. Über 13 Jahre Erfahrung mit nachgewiesenen Erfolgen.",
-        "outcomes": {
-          "title": "Beratungsleistungen",
-          "items": [
-            "C-Suite Data & AI Strategy Sessions",
-            "Change Management & Transformation Roadmap",
-            "Stakeholder Engagement & Governance",
-            "ROI-Optimierung & Value Realization"
-          ]
-        }
+        "icon": "💡",
+        "title": "Advisor",
+        "description": "Strategische C-Level Beratung für Data & AI Transformation",
+        "highlight": "13+ Jahre Erfahrung"
       },
       {
-        "icon": "",
-        "title": "Solution Builder - AI-Lösungsentwicklung",
-        "description": "Entwicklung und Management von AI-Produkten mit Millionen-Euro EBIT-Beitrag. Erfahrung in Multi-Agent-Systemen, AI-Automatisierung und skalierbaren Lösungen.",
-        "featured": true,
-        "outcomes": {
-          "title": "Lösungsentwicklung",
-          "items": [
-            "AI Product Development & Management",
-            "Multi-Agent Systems & Automation",
-            "Scalable AI Solutions",
-            "Performance Monitoring & Optimization"
-          ]
-        }
+        "icon": "🚀",
+        "title": "Solution Builder",
+        "description": "Entwicklung von AI-Produkten mit Millionen-Euro Impact",
+        "highlight": "Multi-Agent Systems"
       }
     ]
   },
@@ -182,43 +157,62 @@
     }
   },
   "companies": {
-    "title": "Unternehmen, für die ich gearbeitet habe",
-    "subtitle": "Meine berufliche Laufbahn in verschiedenen Branchen und Positionen",
-    "items": [
+    "title": "Meine Karriere nach Rollen",
+    "subtitle": "Von Finance über Data Science zu AI Strategy - meine Entwicklung in verschiedenen Branchen",
+    "categories": [
       {
-        "name": "NovaTaste",
-        "logo": "assets/logos/logo-novataste.jpeg",
-        "role": "Global Data & AI Strategy Manager",
-        "period": "Okt 2024 - Heute",
-        "description": "Senior Leader berät die C-Suite zu Data & AI, berichtet an den Global CIO"
+        "title": "AI Strategy & Leadership",
+        "description": "Strategische Führung und Beratung im Data & AI Bereich",
+        "companies": [
+          {
+            "name": "NovaTaste",
+            "logo": "assets/logos/logo-novataste.jpeg",
+            "role": "Global Data & AI Strategy Manager",
+            "period": "Okt 2024 - Heute"
+          }
+        ]
       },
       {
-        "name": "HOFER Österreich",
-        "logo": "assets/logos/logo-hofer.jpeg",
-        "role": "AI Product Manager",
-        "period": "Apr 2023 - Sep 2024",
-        "description": "Management des größten globalen AI-Produkts für Promotion-Optimierung"
+        "title": "AI Product Management",
+        "description": "Entwicklung und Management von AI-Produkten mit messbarem Business Impact",
+        "companies": [
+          {
+            "name": "ALDI SÜD",
+            "logo": "assets/logos/logo-aldi-sued.jpeg",
+            "role": "AI Product Manager",
+            "period": "Apr 2023 - Sep 2024"
+          }
+        ]
       },
       {
-        "name": "ALDI SÜD HOLDING",
-        "logo": "assets/logos/logo-aldi.jpeg",
-        "role": "Head of Data Science CoE",
-        "period": "Mär 2021 - Apr 2022",
-        "description": "Aufbau eines Data Science CoE von Grund auf"
+        "title": "Data Science Leadership",
+        "description": "Aufbau und Leitung von Data Science Teams und Centers of Excellence",
+        "companies": [
+          {
+            "name": "ALDI SÜD HOLDING",
+            "logo": "assets/logos/logo-aldi.jpeg",
+            "role": "Head of Data Science CoE",
+            "period": "Mär 2021 - Apr 2022"
+          }
+        ]
       },
       {
-        "name": "Porsche Holding",
-        "logo": "assets/logos/logo-porsche.jpeg",
-        "role": "Treasury Analyst",
-        "period": "Feb 2016 - Nov 2019",
-        "description": "Management des Zinsrisikoportfolios von Europas größtem Automobilhandelsunternehmen"
-      },
-      {
-        "name": "Raiffeisenverband Salzburg",
-        "logo": "assets/logos/logo-raiffeisen.jpeg",
-        "role": "Risk Manager",
-        "period": "Sep 2015 - Jan 2016",
-        "description": "Risikomanagement im Bankensektor"
+        "title": "Finance & Risk Management",
+        "description": "Erfahrung in Treasury und Risikomanagement",
+        "companies": [
+          {
+            "name": "Porsche Holding",
+            "logo": "assets/logos/logo-porsche.jpeg",
+            "role": "Treasury Analyst",
+            "period": "Feb 2016 - Nov 2019"
+          },
+          {
+            "name": "Raiffeisenverband Salzburg",
+            "logo": "assets/logos/logo-raiffeisen.jpeg",
+            "role": "Risk Manager",
+            "period": "Sep 2015 - Jan 2016"
+          }
+        ]
       }
     ]
   },
